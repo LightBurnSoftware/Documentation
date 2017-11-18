@@ -58,18 +58,19 @@ To paste an object from the clipboard click on the "Paste" icon in the edit menu
 To delete an object select it and click on the "Delete" icon in the edit menu.This will remove the object from the current file.
 ### Convert to path
 This converts a "shape" object, like a rectangle, ellipse, or text, into lines and curves that can be edited. The original shape information is lost, so you won't be able to change text with the text tool after using this.
-### Close path
+### Close path 
+Click on the "Close path" icon (or click Alt + C)
 
 ### Auto join selected shapes
 Looks at the start and end points of all the selected curves, and if any of them are close enough, connects them together into a single shape.
-Useful when importing DXF files, which don't contain connectivity information.
+Useful when importing DXF files, which don't contain connectivity information. Click on the "Auto join selected shapes" icon ( or click Alt + J)
 ### Settings
 
 ### Debug drawing
 This is mostly an internal tool for LightBurn developers that shows the bounds of shapes being drawn.
 ### Convert to cut
 Also an internal tool for LightBurn developers - It converts the selected shapes into the cuts that would be sent to the laser, and makes a new shape from the result.
-This is not how you produce gcode / cuts for your machine, it's just a debugging tool.
+This is not how you produce gcode / cuts for your machine, it's just a debugging tool. Click on the "Convert to cut" icon (or click Ctrl + Shift + C)
 ## Tools Menu
 
 ## Arrange Menu
