@@ -1,13 +1,13 @@
 
 
-#Menu Commands
+# Menu Commands
 
-##File Menu
+## File Menu
 
-##Edit Menu
+## Edit Menu
 
-##Tools Menu
+## Tools Menu
 
-##Arrange Menu
+## Arrange Menu
 
-##Help Menu
+## Help Menu
