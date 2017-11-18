@@ -1,4 +1,5 @@
 # Device Wizard
+[Return Home](README.md)
 ## Adding a new device (Laser)
 If you've never used LightBurn before, you'll need to tell it a couple things about your hardware to get going.
 
