@@ -1,3 +1,4 @@
+![lb](https://user-images.githubusercontent.com/3101946/32983626-92456d22-cc65-11e7-82b6-3da264417ed9.jpg)
 # Documentation
 Documentation for LightBurn laser software
 
