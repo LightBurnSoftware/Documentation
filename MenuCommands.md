@@ -50,23 +50,26 @@ To cut an object from the current file select it and click on the "Cut" icon in 
 ### Copy
 To copy an object select it and click on the "Copy" icon in the edit menu (or click ctrl - C) This will put the object on the clipboard, but leaves the original object alone.
 ### Duplicate
-To duplicate an object select it and click on the "Duplicate" icon in the edit menu (or click ctrl - D) This will copy and paste a duplicate into the current file.
+To duplicate an object select it and click on the "Duplicate" icon in the edit menu (or click ctrl - D) This is an "in-place" copy and paste operation all in one, and bypasses the clipboard.
+That means if you already have something on the clipboard, it'll still be there after using Duplicate, and the duplicate is placed directly on top of the original.
 ### Paste
 To paste an object from the clipboard click on the "Paste" icon in the edit menu (or click ctrl - V) This will take the object from the clipboard and place it in the current file.
 ### Delete
 To delete an object select it and click on the "Delete" icon in the edit menu.This will remove the object from the current file.
 ### Convert to path
-
+This converts a "shape" object, like a rectangle, ellipse, or text, into lines and curves that can be edited. The original shape information is lost, so you won't be able to change text with the text tool after using this.
 ### Close path
 
 ### Auto join selected shapes
-
+Looks at the start and end points of all the selected curves, and if any of them are close enough, connects them together into a single shape.
+Useful when importing DXF files, which don't contain connectivity information.
 ### Settings
 
 ### Debug drawing
-
+This is mostly an internal tool for LightBurn developers that shows the bounds of shapes being drawn.
 ### Convert to cut
-
+Also an internal tool for LightBurn developers - It converts the selected shapes into the cuts that would be sent to the laser, and makes a new shape from the result.
+This is not how you produce gcode / cuts for your machine, it's just a debugging tool.
 ## Tools Menu
 
 ## Arrange Menu
