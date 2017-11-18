@@ -29,3 +29,9 @@ If you've never used LightBurn before, you'll need to tell it a couple things ab
 7. Click *Finish* to save your laser setup
 
 ![Device Wizard Finish](/img/DeviceWizardFinish.PNG)
+
+If your laser is connected to the computer, LightBurn will try to establish communication.  For some systems this will home the laser, for others it will simply show "Ready" in the status box at the top of the laser tab, or the bottom status bar, depending on your system.
+
+If you are adding multiple devices, repeat the steps above for each machine. When you are done, you can set the default connection by clicking on the name in the device list and clicking the *Make Default* button. 
+
+You may also edit or remove devices by clicking the device and choosing the appropriate button.
