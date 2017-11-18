@@ -65,6 +65,7 @@ Click on the "Close path" icon (or click Alt + C)
 Looks at the start and end points of all the selected curves, and if any of them are close enough, connects them together into a single shape.
 Useful when importing DXF files, which don't contain connectivity information. Click on the "Auto join selected shapes" icon ( or click Alt + J)
 ### Settings
+Clicking on the "Settings" icon will open a [Dialog box](Settings.md) where you can enter information about your laser and default application settings.
 
 ### Debug drawing
 This is mostly an internal tool for LightBurn developers that shows the bounds of shapes being drawn.
