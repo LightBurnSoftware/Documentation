@@ -13,7 +13,7 @@ Cohesion Mini or Remix
 Smoothieboard
 Gerbil
 GRBL
-(New controllers added regularly, if your controller is not listed, please
+New controllers added regularly, if your controller is not listed, please
 contact the developers at developer@lightburn.com)
 
 
