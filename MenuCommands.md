@@ -39,6 +39,34 @@ menu or press “ctrl – Q” Any work not saved will be lost.
 
 ## Edit Menu
 
+### Undo
+To undo the last editing action done on the current file, click on the "Undo" icon in the edit menu (or click ctrl + Z)
+### Redo
+To Redo the last editing action done on the current file, click on the "Redo" icon in the edit menu (or click  Shift + ctrl + Z)
+### Select all
+To select all objects in the current file click on the "Select all" icon in the edit menu (or click ctrl - A)
+### Cut
+To cut an object from the current file select it and click on the "Cut" icon in the edit menu (or click ctrl - X) This will put the object on the clipboard, removing it from the current file.
+### Copy
+To copy an object select it and click on the "Copy" icon in the edit menu (or click ctrl - C) This will put the object on the clipboard, but leaves the original object alone.
+### Duplicate
+To duplicate an object select it and click on the "Duplicate" icon in the edit menu (or click ctrl - D) This will copy and paste a duplicate into the current file.
+### Paste
+To paste an object from the clipboard click on the "Paste" icon in the edit menu (or click ctrl - V) This will take the object from the clipboard and place it in the current file.
+### Delete
+To delete an object select it and click on the "Delete" icon in the edit menu.This will remove the object from the current file.
+### Convert to path
+
+### Close path
+
+### Auto join selected shapes
+
+### Settings
+
+### Debug drawing
+
+### Convert to cut
+
 ## Tools Menu
 
 ## Arrange Menu
