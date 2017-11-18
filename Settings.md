@@ -1,2 +1,2 @@
 
-![Settings Dialog Box](/img/Settings.jpg)
+![Settings Dialog Box](/img/settings.jpg)
