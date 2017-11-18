@@ -18,6 +18,7 @@ distribution of the LightBurn software.
 
 
 ## Table of Contents
+* [Prerequisites](PreReq.md)
 * [Read Me](README.md)
   * [General Usage Notes](#generalUsage)
 * [About LightBurn](AboutLightBurn.md)
