@@ -1,7 +1,10 @@
 # Installation
-
+[Return Home](README.md)
 ## Download 
-Download the latest release version that matches your computer. Windows 64-bit, Windows 32-bit or Mac OSX
+Download the latest release version that matches your computer. 
+* Windows 64-bit
+* Windows 32-bit
+* Mac OSX
 
 ## Install
 ![LightBurn Setup](/img/Setup-1.png)
