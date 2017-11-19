@@ -1,5 +1,6 @@
+[Return to main page](README.md)
 # Hot Keys and Gestures
-[Return Home](README.md)
+
 ## Mouse
 * **Selection:** Left click, or band-box
   * Shift + click adds to the current selection
