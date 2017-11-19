@@ -1,5 +1,6 @@
 # G-Code
-[Return Home](README.md)
+
+[Return to main poage](README.md)
 
 ## Generating G-Code
 G-Code generation is real time and requires no action on your part to generate. 
