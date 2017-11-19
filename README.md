@@ -23,6 +23,7 @@ distribution of the LightBurn software.
 * [Read Me](README.md)
   * [General Usage Notes](#generalUsage)
 * [About LightBurn](AboutLightBurn.md)
+* [Installation](Installation.md)
 * [Device Setup](DeviceWizard.md)
 * [Menu Commands](MenuCommands.md)
 * [Working with Vectors](WorkingWithVectors.md)
