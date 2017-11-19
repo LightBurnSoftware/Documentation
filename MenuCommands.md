@@ -1,6 +1,8 @@
 
 <a name="MenuCommands"></a>
 # Menu Commands
+### [Return to main page](Readme.md)
+----------------------------------
 
 ### [File Menu](#FileMenu)
 ### [Edit Menu](#EditMenu)
