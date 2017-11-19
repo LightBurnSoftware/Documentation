@@ -1,7 +1,8 @@
 
 <a name="MenuCommands"></a>
 # Menu Commands
-### [Return to main page](README.md)
+[Return to main page](README.md)
+
 ----------------------------------
 
 ### [File Menu](#FileMenu)
@@ -15,7 +16,7 @@
 
 <a name="FileMenu"></a>
 ## File Menu 
-### [Return to top](#MenuCommands)
+[Return to top](#MenuCommands)
 
 ### New
 Adding a new file
@@ -49,7 +50,7 @@ svg, ai, pdf, jpg, bmp, dxf, dwg
 To exit the LightBurn software, click on the “Exit" in the File
 menu or press “ctrl – Q” Any work not saved will be lost.
 
-### [Return to top](#MenuCommands)
+[Return to top](#MenuCommands)
 ----------------------------------
 <a name="EditMenu"></a>
 ## Edit Menu
@@ -85,15 +86,20 @@ This is mostly an internal tool for LightBurn developers that shows the bounds o
 ### Convert to cut
 Also an internal tool for LightBurn developers - It converts the selected shapes into the cuts that would be sent to the laser, and makes a new shape from the result.
 This is not how you produce gcode / cuts for your machine, it's just a debugging tool. Click on "Convert to cut" in the Edit menu or press "Ctrl + Shift + C"
-### [Return to top](#MenuCommands)
+
+[Return to top](#MenuCommands)
+
 ----------------------------------
 <a name="ToolsMenu"></a>
 ## Tools Menu
-### [Return to top](#MenuCommands)
+
+[Return to top](#MenuCommands)
+
 ----------------------------------
 <a name="ArrangeMenu"></a>
 ## Arrange Menu
-### [Return to top](#MenuCommands)
+[Return to top](#MenuCommands)
+
 ----------------------------------
 <a name="HelpMenu"></a>
 ## Help Menu
