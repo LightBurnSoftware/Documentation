@@ -1,5 +1,6 @@
-# Installation
 [Return to main page](README.md)
+# Installation
+
 ## Download 
 Download the latest release version that matches your computer. 
 * Windows 64-bit
