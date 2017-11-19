@@ -1,5 +1,5 @@
 # Installation
-[Return Home](README.md)
+[Return to main page](README.md)
 ## Download 
 Download the latest release version that matches your computer. 
 * Windows 64-bit
