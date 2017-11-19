@@ -1,7 +1,7 @@
 [Return to main page](README.md)
 
 
-# G-Code
+# G-Code (Excludes Rudia)
 
 
 ## Generating G-Code
