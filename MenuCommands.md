@@ -51,6 +51,7 @@ To exit the LightBurn software, click on the “Exit" in the File
 menu or press “ctrl – Q” Any work not saved will be lost.
 
 [Return to top](#MenuCommands)
+
 ----------------------------------
 <a name="EditMenu"></a>
 ## Edit Menu
