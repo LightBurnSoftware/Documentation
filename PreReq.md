@@ -23,11 +23,13 @@ aside from a small watermark on the output, assuming I can get that
 to be non- invasive. The trial version will work with all the hardware
 that LightBurn supports.
 
-Once the trial expires, you will need to purchase a version for your hardware: The normal version for GCode based machines, or the Pro version for Ruida DSP controllers. The pro version will include additional	hardware DSPs as those come online, and will include the Gcode back ends as well. Pricing is $30 and $80 respectively.
+Once the trial expires, you will need to purchase a version for your hardware: The normal version for GCode based machines, or the Pro version for Ruida DSP controllers. The pro version will include additional hardware DSPs as those come online, and will include the Gcode back ends as well. Pricing is $30 and $80 respectively.
 		
 -----------------------------------------------------------
-GRBL or Smoothie: $30 one-time purchase fee
-Ruida or other DSP: $80 one-time purchase fee
+
+### GRBL or Smoothie: $30 one-time purchase fee
+### Ruida or other DSP: $80 one-time purchase fee
+
 -----------------------------------------------------------
 Both include all published updates and bug fixes for a year. After that first
 year, the software will keep working as is, but won't be eligible for further
