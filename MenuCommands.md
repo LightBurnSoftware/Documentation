@@ -22,7 +22,7 @@ or press “ctrl – I” LightBurn supports importing the following file types:
 svg, ai, pdf, jpg, bmp, dxf, dwg
 
 ### Save
-To save a project click on “Save” or press "ctrl – S" Type the name
+To save a project click on “Save” in the File menu or press "ctrl – S" Type the name
 you want the file saved as in the dialog box that opens up. To save a file
 with changes, but still keep the original file intact, click on the “Save As”
 icon in the File menu
@@ -40,7 +40,7 @@ menu or press “ctrl – Q” Any work not saved will be lost.
 ## Edit Menu
 
 ### Undo
-To undo the last editing action done on the current file, click on "Undo" icon in the Edit menu or press "ctrl + Z"
+To undo the last editing action done on the current file, click on "Undo" in the Edit menu or press "ctrl + Z"
 ### Redo
 To Redo the last editing action done on the current file, click on "Redo" in the Edit menu or press "shift + ctrl + Z"
 ### Select all
