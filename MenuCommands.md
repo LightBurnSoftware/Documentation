@@ -1,5 +1,5 @@
 
-
+<a name="MenuCommands"></a>
 # Menu Commands
 
 ### [File Menu](#FileMenu)
@@ -12,7 +12,8 @@
 ----------------------------------------------
 
 <a name="FileMenu"></a>
-## File Menu
+## File Menu 
+### [Return to top](#MenuCommands)
 
 ### New
 Adding a new file
