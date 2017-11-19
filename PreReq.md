@@ -14,7 +14,7 @@ Smoothieboard
 Gerbil
 GRBL
 New controllers added regularly, if your controller is not listed, please
-contact the developers at developer@lightburn.com)
+contact the developers at developer@lightburn.com
 
 
 ## Licensing
@@ -31,6 +31,7 @@ Once the trial expires, you will need to purchase a version for your hardware: T
 ### Ruida or other DSP: $80 one-time purchase fee
 
 -----------------------------------------------------------
+
 Both include all published updates and bug fixes for a year. After that first
 year, the software will keep working as is, but won't be eligible for further
 updates. If you want additional updates beyond the first year, a small
@@ -41,3 +42,9 @@ You can install the product on up to two machines at a time, so people with
 Mac/PC setups, or a PC in the house and one in the shop will
 be covered. Licenses can be transferred between machines if you get a new
 PC.
+
+--------------------------------------------------------------------------
+
+Contact LightBurn Software to discuss multi-seat or institutional pricing.
+
+----------------------------------------------------------------------------
