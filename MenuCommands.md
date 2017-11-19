@@ -9,7 +9,7 @@
 ### [Help Menu](#HelpMenu)
 
 
-
+----------------------------------------------
 
 <a name="FileMenu"></a>
 ## File Menu
