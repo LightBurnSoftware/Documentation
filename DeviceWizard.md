@@ -1,5 +1,7 @@
 [Return to main page](README.md)
-# Device Wizard
+# Device Setup
+
+If you've never run LightBurn, the first thing you need to do is set up your machine layout (work area size and zero / origin) in the settings, and then add your device type in the devices box.  If you have more than one type of laser / device, you can add more than one and choose a default.  At present, the layout and page size aren't associated with the device, but this will be changed to that in the future.
 
 ## Adding a new device (Laser)
 If you've never used LightBurn before, you'll need to tell it a couple things about your hardware to get going.

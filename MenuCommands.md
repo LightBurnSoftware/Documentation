@@ -1,7 +1,14 @@
-
+[Return to main page](README.md)
 <a name="MenuCommands"></a>
 # Menu Commands
-[Return to main page](README.md)
+
+If you don't know what a button / option does, hover the mouse over it. Tool-tips are often added to help in explaining them better.
+
+If a button doesn't seem to do anything or ever enable, it's probably a feature that's not written or connected yet.  There are a few of those - there is only one developer working on the coding at the moment.
+
+The toolbars and windows can all be dragged around if you don't like the layout.  Whatever you end up with is saved when you quit.
+
+
 
 ----------------------------------
 

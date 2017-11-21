@@ -1,6 +1,8 @@
 [Return to main page](README.md)
 # Hot Keys and Gestures
 
+Most feature hot-keys can be found next to the action in the menus.  I've tried to put everything in menus and toolbars to make it easier to use, but also to make the hotkeys for things visible.
+
 ## Mouse
 * **Selection:** Left click, or band-box
   * Shift + click adds to the current selection
