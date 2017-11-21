@@ -12,4 +12,4 @@ These files can be added either by clicking the Import button ![Import Button](/
 
 
 ## Importing Files with Layers and Colors
-TO-DO: add blurb about layer handling while importing vector 
+TO-DO: add details about layer and color handling. Currently on hold pending further development
