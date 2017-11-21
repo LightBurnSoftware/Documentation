@@ -37,12 +37,3 @@ distribution of the LightBurn software.
 * Laser Operation
   * [Machine Instructions](MachineInstructions.md)
   * [Cut, Scan, Scan+Cut, Image](Operations.md)
-
-
-
-### TODO: This stuff needs a permanent home - taken from the help file
-If you need to reset your device connection, simply open the devices menu, then hit ok.  LightBurn does a full disconnect / reconnect cycle when you click ok in the devices menu.
-
-
-
-
