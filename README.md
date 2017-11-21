@@ -25,6 +25,7 @@ distribution of the LightBurn software.
 * [About LightBurn](AboutLightBurn.md)
 * [Installation](Installation.md)
 * [Device Setup](DeviceWizard.md)
+	* [Pre and Post Commands](PrePostCommands.md)
 * [Menu Commands](MenuCommands.md)
 * [Working with Vectors](WorkingWithVectors.md)
   * [Creating New Vectors](CreatingNewVectors.md)
@@ -33,8 +34,7 @@ distribution of the LightBurn software.
 * [Working with Images](WorkingWithImages.md)
   * [Engraving Images](EngravingImages.md)
 * [Laser Operation](LaserOperation.md)
-  * [G-Code (Excluding Ruida)](G-Code.md)
-  * [RD Files (For Ruida)](Ruida.md)
+  * [Machine Instructions](MachineInstructions.md)
 * [Hot Keys and Gestures](HotKeys.md)
 <a name="generalUsage"></a>
 ## General Usage Notes
