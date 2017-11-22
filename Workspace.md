@@ -12,6 +12,10 @@ The user interface is grouped into several categories.
 * [Toolboxes and tabs](#toolboxes)
 * [Workspace](#workspace)
 
+Most tools and areas of the application have helpful tips if you hover over them. 
+
+![ToolTips](/img/ToolTip.PNG)
+
 <a name="toolbars"></a>
 
 ----
@@ -32,15 +36,17 @@ You can enable or disable toolbars by right clicking on any open space on a tool
 
 Toolboxes provide a grouped set of tools for various operations. Here you will find your [Cuts](#cuts), [File List](#filelist), [Laser](#laser), [Move](#move), [Shape Properties](#shapeproperties) and [Console](#console) toolboxes. 
 
+### Manipulating Toolboxes and Tabs
+
 You can undock a toolbox and make it floating by dragging it away from the other toolboxes. You can also click the min/max button in the upper right of the toolbox to undock it.
 
 You can dock the toolbox by itself by dragging it to the right or left of the screen and dropping it in an area that highlights blue when you hover over it.
 
 You can dock the toolbox as a tab by dropping it on top of another docked toolbox.
 
-You can reorder tabs by clicking on the tab and dragging it left or right in the tab strip.
-
 You can close a toolbox by clicking the X in the upper right of the toolbox or by turning it off in the toolbar context menu as seen in the [Tools and Toolbars](#toolbars) section above.
+
+You can reorder tabs by clicking on the tab and dragging it left or right in the tab strip.
 
 <a name="cuts"></a>
 ### Cuts
@@ -57,6 +63,8 @@ The Cuts toolbox is where you will configure most of your job. It contains layer
 
 <a name="filelist"></a>
 ### File List
+
+TODO: Content needed
 
 <a name="laser"></a>
 ### Laser
@@ -93,3 +101,22 @@ On non-Ruida machines, a console toolbox is available for directly inputting com
 Note, this is not available on some connected devices including Ruida.
 
 ![Console ToolBox](/img/ConsoleToolBox.PNG)
+
+<a name="workspace"></a>
+
+-----
+
+## Workspace
+
+The workspace is a versatile interface for manipulating your drawings. Some ways to interact with the workspace include:
+
+* Drag and drop supported files onto the workspace to import them
+* Use the tools to draw vector shapes directly in the workspace
+* Manipulate the size and rotation of shapes and images
+* Move your laser head using the locator tool and clicking an area of the workspace
+* Review your machine and job origin
+* Type text
+
+New features are being added quickly so this may not be a comprehensive list of all of the capabilities. Documentation will be added or updated as quickly as possible as new features are made available.
+
+Many hot keys have been added to increase your productivity. See the [Hot Keys](HotKeys.md) section for details.
