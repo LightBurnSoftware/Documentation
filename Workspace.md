@@ -4,7 +4,7 @@
 
 ## Overview
 
-![User Interface](/img/Desktop.PNG)
+![User Interface](/img/Desktop.png)
 
 The user interface is grouped into several categories. 
 
