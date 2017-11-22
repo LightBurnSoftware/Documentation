@@ -18,11 +18,11 @@ Most feature hot-keys can be found next to the action in the menus.  I've tried 
 ## Keyboard
 * **View drag:** Hold space-bar + left-click & drag (useful for Mac, or users without a mouse wheel)
 * **Undo:** Ctrl + Z
-* **Redo:**Ctrl + Shift + Z
+* **Redo:** Ctrl + Shift + Z
 * **Delete:** Backspace or Delete keys
-* **Zoom out:**Ctrl + Minus key
+* **Zoom out:** Ctrl + Minus key
 * **Zoom in:** Ctrl + Equals key (plus key)
-* **Select Mode**: Pressing the Esc key while in the workspace will return to the selection tool
+* **Select Mode:** Pressing the Esc key while in the workspace will return to the selection tool
 
 ### Move
 * Arrow keys move the current selection
