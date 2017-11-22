@@ -1,7 +1,8 @@
 [Return to main page](README.md)
 
-----------------------------------
 **[Common Settings](#common) | [Cut](#cut) | [Scan](#scan) | [Scan+Cut](#scancut)**
+
+----
 
 # Laser Operations 
 

@@ -31,6 +31,7 @@ Lightburn Software.
 #### Using LightBurn
 * [Menus and Toolbars](MenuCommands.md)
 * [Hot Keys and Gestures](HotKeys.md)
+* [Workspace / User Interface](Workspace.md)
 * [Working with Layers](Layers.md)
 * [Cut, Scan, Scan+Cut, Image](Operations.md)
 * [Machine Instructions](MachineInstructions.md)
