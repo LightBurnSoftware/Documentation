@@ -62,7 +62,7 @@ This setting is used primarily for Ruida based machines. Enabling this setting w
 ## Scan
 Scan will fill the interior of a vector simililar to engraving a raster image. When you select Scan from the Mode options, the settings below will become available.
 
-![Scan Settings](/url/ScanSettingsAdditional.PNG)
+![Scan Settings](/img/ScanSettingsAdditional.PNG)
 
 ### Bi-Directional scanning
 This is an on/off value. By default this will be on which enables the laser to fire on both the out and return stroke. Turning this off will result in your laser only firing on the outward stroke. The graphic shown will represent the expected output of your laser.
