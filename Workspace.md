@@ -75,6 +75,8 @@ The Laser toolbox is used to interact with the connected device.
 
 This toolbox provides most of the functions for interacting directly with your laser. The commands are covered in detail elsewhere in the documentation. 
 
+For a detailed explaination of the *Start From* options, see [Coordinates and Origin](CoordinatesOrigin.md)
+
 <a name="move"></a>
 ### Move
 
