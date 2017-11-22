@@ -34,6 +34,7 @@ Lightburn Software.
 * [Workspace / User Interface](Workspace.md)
 * [Cut, Scan, Scan+Cut, Image](Operations.md)
 * [Machine Instructions](MachineInstructions.md)
+* [Coordinates and Origin](CoordinatesOrigin.md)
 #### Vector Drawings
 * [Creating Vectors](CreatingNewVectors.md)
 * [Importing External Vectors](ImportingExternalVectors.md)
