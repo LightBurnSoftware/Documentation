@@ -29,7 +29,8 @@ Lightburn Software.
 * [Device Setup](DeviceWizard.md)
 * [Pre and Post Commands](PrePostCommands.md)
 #### Using LightBurn
-* [Menus and Toolbars](MenuCommands.md)
+* [Menus](MenuCommands.md)
+* [Toolbars](Toolbars.md)
 * [Hot Keys and Gestures](HotKeys.md)
 * [Workspace / User Interface](Workspace.md)
 * [Cut, Scan, Scan+Cut, Image](Operations.md)
