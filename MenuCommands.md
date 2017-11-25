@@ -101,12 +101,38 @@ This is not how you produce gcode / cuts for your machine, it's just a debugging
 <a name="ToolsMenu"></a>
 ## Tools Menu
 
+### Select
+### Draw Lines
+### Rectabgle Tool
+### Ellipse Tool
+### Edit Nodes
+### Edit Text
+### Offset Vectors
+### Zoom In
+### Zoom Out
+### Frame Selection
+### Position Laser
+### Preview
+
 [Return to top](#MenuCommands)
 
 ----------------------------------
 <a name="ArrangeMenu"></a>
 ## Arrange Menu
 [Return to top](#MenuCommands)
+
+### Group
+### Ungroup
+### Flip Horizontal
+### Flip Vertical
+### Align Left
+### Align Right
+### Align Top
+### Align Bottom
+### Align H-Center
+### Align V-Center
+### Grid / Array
+### Circle Array
 
 ----------------------------------
 <a name="HelpMenu"></a>
