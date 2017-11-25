@@ -111,3 +111,14 @@ This is not how you produce gcode / cuts for your machine, it's just a debugging
 ----------------------------------
 <a name="HelpMenu"></a>
 ## Help Menu
+
+### Help and Notes
+Click on "Help and Notes" or press F1 to access hotkey list, general usage notes and version information.
+
+### License Actvation and Trial
+Click on "License Activation and Trial" to enter license key, or see the status of your license.
+
+### Enable Debug Log
+This is for the developers, turn on the log by clicking on "Enable Debug Log"
+
+[Return to top](#MenuCommands)
