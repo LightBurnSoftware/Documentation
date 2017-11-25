@@ -22,7 +22,7 @@ Most tools and areas of the application have helpful tips if you hover over them
 
 ## Tools and Toolbars
 
-The toolbars and the tools they contain will allow you to manipulate your work. The function of each tool is covered in the [Menu Commands](MenuCommands.md) section.
+The toolbars and the tools they contain will allow you to manipulate your work. The function of each tool is covered in the [Toolbars](Toolbars.md) section.
 
 You can enable or disable toolbars by right clicking on any open space on a toolbar to bring up the context menu. This will allow you to turn on or off toolbars and toolboxes to fit your work style.
 
