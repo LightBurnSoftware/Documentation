@@ -6,13 +6,13 @@ If you've never run LightBurn, the first thing you need to do is set up your mac
 ## Adding a new device (Laser)
 If you've never used LightBurn before, you'll need to tell it a couple things about your hardware to get going.
 
-1. In the lower-right of the display is a box called "Laser" - on the bottom is a button called "Devices". Click it.
+1. In the lower-right of the display is a box called "Laser" - on the bottom of it is a button called "Devices". Click it.
 
-![Laser Module](/img/LaserModule.PNG)
+![Laser Module](/img/LaserToolBox.PNG)
 
-2. Click the *New Device* button
+2. Click the *New Device* button (highlighted in red, below):
 
-![Device Wizard Main](/img/DeviceWizardMain.PNG)
+![Device Wizard Empty](/img/DeviceWizardEmpty.PNG)
 
 3. Choose a device that matches the one in your laser. Don't worry if you have more than one laser. Start with one for now, and add the others later.
 

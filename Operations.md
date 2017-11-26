@@ -38,7 +38,7 @@ This can be used to choose the opration for the layer. Cut, Scan and Scan+Cut
 
 ------------------
 ## Cut
-Cut will trace the laser along the vector path. Depending on the power and feed rate settings, this can be used to cut through a material in single or multiple passes. Decreasing the power and/or increasing the speed can also allow you to engrave rather than cut. 
+Cut will trace the laser along the vector path. Depending on the power and feed rate settings, this can be used to cut through a material in single or multiple passes. Decreasing the power and/or increasing the speed can also allow you to simply mark the surface (engraving).
 
 ### Cut Settings
 
