@@ -26,8 +26,8 @@ Lightburn Software.
 * [About LightBurn](AboutLightBurn.md)
 #### Installation and Configuration
 * [Installation](Installation.md)
+* [Licensing](Licensing.md)
 * [Device Setup](DeviceWizard.md)
-* [Pre and Post Commands](PrePostCommands.md)
 #### Using LightBurn
 * [Menus](MenuCommands.md)
 * [Toolbars](Toolbars.md)
