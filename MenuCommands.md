@@ -170,3 +170,4 @@ Click on "License Activation and Trial" to enter license key, or see the status 
 This is for the developers, turn on the log by clicking on "Enable Debug Log"
 
 [Return to top](#MenuCommands)
+
