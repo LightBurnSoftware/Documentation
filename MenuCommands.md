@@ -23,7 +23,6 @@ The toolbars and windows can all be dragged around if you don't like the layout.
 
 <a name="FileMenu"></a>
 ## File Menu 
-[Return to top](#MenuCommands)
 
 ### New
 Adding a new file
@@ -131,8 +130,6 @@ Click on "Preview" or press "Alt + P" to open the preview window. It will show t
 ----------------------------------
 <a name="ArrangeMenu"></a>
 ## Arrange Menu
-[Return to top](#MenuCommands)
-
 ### Group
 Click on "Group" or press "Ctrl + G" to group the selected objects in the workspace.
 ### Ungroup
@@ -156,6 +153,8 @@ Click on "Align V-Center" to align the selected objects in the workspace to the 
 ### Grid / Array
 Click on "Grid / Array" to create an array or grid of objects in the workspace. A window will open allowing you to enter the parameters for the array or grid.
 ### Circular Array
+[Return to top](#MenuCommands)
+
 ----------------------------------
 <a name="HelpMenu"></a>
 ## Help Menu
