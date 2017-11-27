@@ -99,7 +99,7 @@ This is not how you produce gcode / cuts for your machine, it's just a debugging
 ----------------------------------
 <a name="ToolsMenu"></a>
 ## Tools Menu
-Many of the tools in this manu are also available as icons in the tool toolbar that by default, is on the left side of the workspace.
+Many of the tools in this menu are also available as icons in the tool toolbar that by default, is on the left side of the workspace.
 
 ### Select
 Click on "Select" to select objects in the workspace, or to access menus and toolbars.
