@@ -121,7 +121,7 @@ Click on "Zoom In" or press "Ctrl + -" to zoom out in the workspace.
 ### Frame Selection
 
 ### Position Laser
-
+Click on "Position Laser" to allow clicking on the workspace to move the laser head to that location.
 ### Preview
 Click on "Preview" or press "Alt + P" to open the preview window. It will show the current laser project and includes information on cut distance, rapid moves, and total time estimate. Cut lines are in black and traversal moves are red. You can toggle the display of traversal moves on or off, as well as shading by power level.
 
