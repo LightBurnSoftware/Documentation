@@ -102,17 +102,29 @@ This is not how you produce gcode / cuts for your machine, it's just a debugging
 ## Tools Menu
 
 ### Select
+Click on "Select" to select objects in the workspace, or to access menus and toolbars.
 ### Draw Lines
-### Rectabgle Tool
+Click on "Draw Lines" or press "Ctrl + L" to draw straight lines in the workspace.
+### Rectangle Tool
+Click on "Rectangle" or press "Ctrl + R" to draw rectangles in the workspace.
 ### Ellipse Tool
+Click on "Ellipse" or press "Ctrl + E" to draw ellipses in the workspace.
 ### Edit Nodes
+Click on "Edit Nodes" or press "Ctrl + ??" to edit nodes of objects in the workspace.
 ### Edit Text
+Click on "Edit Text" or press "Ctrl + T" to create or edit text in the workspace.
 ### Offset Vectors
+
 ### Zoom In
+Click on "Zoom In" or press "Ctrl + =" to zoom in the workspace.
 ### Zoom Out
+Click on "Zoom In" or press "Ctrl + -" to zoom out in the workspace.
 ### Frame Selection
+
 ### Position Laser
+
 ### Preview
+Click on "Preview" or press "Alt + P" to open the preview window. It will show the current laser project and includes information on cut distance, rapid moves, and total time estimate. Cut lines are in black and traversal moves are red. You can toggle the display of traversal moves on or off, as well as shading by power level.
 
 [Return to top](#MenuCommands)
 
@@ -122,18 +134,28 @@ This is not how you produce gcode / cuts for your machine, it's just a debugging
 [Return to top](#MenuCommands)
 
 ### Group
+Click on "Group" or press "Ctrl + G" to group the selected objects in the workspace.
 ### Ungroup
+Click on "Ungroup" or press "Ctrl + U" to ungroup the selected objects in the workspace.
 ### Flip Horizontal
+Click on "Flip Horizontal" or press "Ctrl + Shift + H" to flip the selected objects in the workspace horizontaly.
 ### Flip Vertical
+Click on "Flip Vertical" or press "Ctrl + Shift + V" to flip the selected objects in the workspace vertically.
 ### Align Left
+Click on "Align Left" or press "Ctrl + Shift + Left arrow" to align the selected objects in the workspace to the left.
 ### Align Right
+Click on "Align Right" or press "Ctrl + Shift + Right arrow" to align the selected objects in the workspace to the right.
 ### Align Top
+Click on "Align Top" or press "Ctrl + Shift + Up arrow" to align the selected objects in the workspace to the top.
 ### Align Bottom
+Click on "Align Bottom" or press "Ctrl + Shift + Down arrow" to align the selected objects in the workspace to the bottom.
 ### Align H-Center
+Click on "Align H-Center" to align the selected objects in the workspace to the center of the horizontal plane.
 ### Align V-Center
+Click on "Align V-Center" to align the selected objects in the workspace to the center of the vertical plane.
 ### Grid / Array
-### Circle Array
-
+Click on "Grid / Array" to create an array or grid of objects in the workspace. A window will open allowing you to enter the parameters for the array or grid.
+### Circular Array
 ----------------------------------
 <a name="HelpMenu"></a>
 ## Help Menu
