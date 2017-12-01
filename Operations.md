@@ -21,7 +21,7 @@ Output is a on/off selection. By default this setting is on for a layer. This me
 
 ### Air Assist
 This is also an on/off selection. If your machine is capable of turning on or off air assist automatically, set this to on to enable your air assist or off to keep it off. If your air assist is always on or manually controled, this will have no affect.
-
+<a name="speed"></a>
 ### Speed (mm/sec)
 Speed is the feed rate when the laser is firing. This does not affect the feed rate for rapid move.
 
@@ -63,7 +63,7 @@ This setting is used primarily for Ruida based machines. Enabling this setting w
 Scan will fill the interior of a vector simililar to engraving a raster image. When you select Scan from the Mode options, the settings below will become available.
 
 ![Scan Settings](/img/ScanSettingsAdditional.PNG)
-
+<a name="bidirectional"></a>
 ### Bi-Directional scanning
 This is an on/off value. By default this will be on which enables the laser to fire on both the out and return stroke. Turning this off will result in your laser only firing on the outward stroke. The graphic shown will represent the expected output of your laser.
 
@@ -72,7 +72,7 @@ This is an on/off value. By default this will be on which enables the laser to f
 
 #### Bi-Directional *OFF*
 ![Bi-Directional Scan Off](/img/Bi-Directional-Off.PNG)
-
+<a name="crosshatch"></a>
 ### Cross-Hatch
 Cross hatch is an on/off value. By default this is off wich means your laser will only burn in the direction you have chosen. By turning this setting on you will get a second operation that will burn lines in parallel to the first creating a cross-hatch as shown below.
 
@@ -81,12 +81,17 @@ Cross hatch is an on/off value. By default this is off wich means your laser wil
 
 ### Cross-Hatch On
 ![Cross-Hatch.PNG](/img/CrossHatch.PNG)
-
+<a name="overscanning"></a>
 ### Overscanning
 
+When engraving, the head is scanning back and forth. Because we have to accelerate and decelerate the head at the beginning and end of each line this can cause darker edges than intended.
+
+Overscanning allows the head move past the ends of each line before it starts to decelerate allowing the entirety of the engraving to happen at the desired head speed and then decelerating while the laser is not burning. 
+
+<a name="lineinterval"></a>
 ### Line Interval (mm)
 Line interval is the spacing between scan lines. The lower this value, the less space will be left between successive passes. Lowering this value can create a slight overlap causing the laser to slightly trace over the previous line. Setting a higher value will leave untouched material between passes leaving visible scan lines. This is roughly equivelant to stepover for a CNC.
-
+<a name="scanangle"></a>
 ### Scan Angle
 The default scan angle is 0. This will produce scan lines along the X path only. By introducing a scan angle, your laser head will track at the selected angle using both X and Y during operation. As you change this angle, the graphic will show you the expected result.
 
