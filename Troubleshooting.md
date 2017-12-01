@@ -22,8 +22,8 @@ If you need to reset your device connection, from the Laser toolbox click the *D
 
 ### Lost toolbar
 
-A common question is "Where did my toolbox or toolbox go?"
+A common question is "Where did my Toolbar or Tool Window go?"
 
-A right click on any open area of a toolbar will bring up the options to turn on or off any toolbar or toolbox. Click on the missing item to return it to your workspace.
+A right click on any open area of a toolbar will bring up the options to turn on or off any toolbar or tool window. Click on the missing item to return it to your workspace.
 
 ![Toolbar Options](/img/Toolbars.PNG)
