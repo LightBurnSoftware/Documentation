@@ -1,7 +1,9 @@
 [Return to main page](README.md)
 # Hot Keys and Gestures
 
-Most feature hot-keys can be found next to the action in the menus.  I've tried to put everything in menus and toolbars to make it easier to use, but also to make the hotkeys for things visible.
+Most feature hot-keys can be found next to the action in the menus.  
+
+# General Usage Hot-Keys
 
 ## Mouse
 * **Selection:** Left click, or band-box
@@ -28,3 +30,11 @@ Most feature hot-keys can be found next to the action in the menus.  I've tried 
 * Arrow keys move the current selection
 * Shift + arrow moves in large steps
 * Ctrl + arrow moves in small steps
+
+## Menu Hot-Keys
+
+* File
+* Edit
+* Tools
+* Arrange
+* Help
