@@ -1,6 +1,4 @@
 ![LightBurn Banner](/img/LightBurn_SlimBanner.jpg)
-# Documentation
-Documentation for LightBurn laser software
 
 ## Disclaimer
 By using this software, the user accepts complete responsibility for each and every
@@ -17,7 +15,7 @@ Lightburn Software.
   distribution of the LightBurn software.
 6. You are entirely operating at your own risk. Lasers can be lethally dangerous.
 
-
+## LightBurn Documentation
 ### Table of Contents
 ----------
 #### Start Here
