@@ -2,22 +2,23 @@
 
 ## Toolbars and Tool Windows
 
-The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive.
+The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive.Right clicking on the top bar of the app will allow you to toggle toolbars on or off.
+
+![Toolbars](/img/Toolbars.PNG)
 
 ## Laser Tool Window
 ![Laser Tool WIndow](/img/LaserToolBox.PNG)
-
-
 ## Shape Properties Tool Window
-
+![Shape Properties](img/ShapePropertiesToolBox.PNG)
 ## Move Tool Window
-
+![Move Tool Window](img/ShapePropertiesToolBox.PNG)
 ## Console Tool Window
-
+![Console Tool Window](/img/Console.png)
 ## File List
-
+![File List Tool Window](img/FileListToolBox.PNG)
 ## Cuts
-
+![Cut Settings Common](/imgCutSettingsCommon.PNG)
+![Cut Settings Additional](/imgCutSettingsAdditional.PNG)
 ## Main Toolbar
 
 ## Tools Toolbar
