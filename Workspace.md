@@ -65,3 +65,4 @@ The workspace is a versatile interface for manipulating your drawings. Some ways
 New features are being added quickly so this may not be a comprehensive list of all of the capabilities. Documentation will be added or updated as quickly as possible as new features are made available.
 
 Many hot keys have been added to increase your productivity. See the [Hot Keys](HotKeys.md) section for details.
+
