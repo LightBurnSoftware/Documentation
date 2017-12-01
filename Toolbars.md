@@ -5,7 +5,8 @@
 The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive.
 
 ## Laser Tool Window
-![Laser Tool WIndow](/img/LaserToolWindow.jpg)
+![Laser Tool WIndow](/img/LaserToolBox.PNG)
+
 
 ## Shape Properties Tool Window
 
