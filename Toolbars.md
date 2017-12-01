@@ -9,7 +9,7 @@ On the left of the workspace in the default configuration, there is a tool bar w
 
 
 ### Select
-Click on "Select" to select objects in the workspace, or to access menus and toolbars.
+Click on the "Select" icon to select objects in the workspace, or to access menus and toolbars.
 ### Draw Lines
 Click on the "Draw Lines" icon to draw straight lines in the workspace.
 ### Rectangle Tool
