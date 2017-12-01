@@ -82,19 +82,19 @@ Changing the image mode will change the algorithm used to prepare the image for 
 
 Here's how they look.  The original image (Madrid truck):
 
-![MadridTruck-Original](F:\Github\LightBurnDocs\Documentation\img\MadridTruck-Original.png)
+![MadridTruck-Original](img/MadridTruck-Original.png)
 
 Threshold:
 
-![MadridTruck-Threshold](F:\Github\LightBurnDocs\Documentation\img\MadridTruck-Threshold.png)
+![MadridTruck-Threshold](img/MadridTruck-Threshold.png)
 
 Ordered:
 
-![MadridTruck-Ordered](F:\Github\LightBurnDocs\Documentation\img\MadridTruck-Ordered.png)
+![MadridTruck-Ordered](img/MadridTruck-Ordered.png)
 
 Dithered:
 
-![MadridTruck-Dithered](F:\Github\LightBurnDocs\Documentation\img\MadridTruck-Dithered.png)
+![MadridTruck-Dithered](img/MadridTruck-Dithered.png)
 
 
 
@@ -104,7 +104,7 @@ Dithering is attempting to use 2 colors (black and white) to approximate continu
 
 The LightBurn icon is shown below using in both diffusion and ordered dithering.
 
-![Logo-DithersCompared](F:\Github\LightBurnDocs\Documentation\img\Logo-DithersCompared.png)
+![Logo-DithersCompared](img/Logo-DithersCompared.png)
 
 ### Number of Passes
 
