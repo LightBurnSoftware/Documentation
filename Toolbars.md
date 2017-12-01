@@ -6,6 +6,8 @@ The workspace has may toolbar and tool windows to make working with files fairly
 
 ![Toolbars](/img/Toolbars.PNG)
 
+The workspace by default has the following layout of the toolbar and tool windows.
+![Workspace](/img/Desktop.png)
 ## Laser Tool Window
 ![Laser Tool WIndow](/img/LaserToolBox.PNG)
 ## Shape Properties Tool Window
