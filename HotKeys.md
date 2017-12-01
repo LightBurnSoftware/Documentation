@@ -34,7 +34,11 @@ Most feature hot-keys can be found next to the action in the menus.
 ## Menu Hot-Keys
 
 * File
+Test
 * Edit
+
 * Tools
+
 * Arrange
+
 * Help
