@@ -2,7 +2,7 @@
 
 ## Toolbars and Tool Windows
 
-The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive.Right clicking on the top bar of the app will allow you to toggle toolbars on or off.
+The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive. Right clicking on the top bar of the app will allow you to toggle toolbars on or off.
 
 ![Toolbars](/img/Toolbars.PNG)
 
