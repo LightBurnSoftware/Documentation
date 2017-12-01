@@ -1,3 +1,5 @@
+[Return to main page](README.md)
+
 # Engraving Raster Images
 
 [Supported Image Files](#supported)
