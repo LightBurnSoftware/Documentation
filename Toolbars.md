@@ -6,9 +6,7 @@ The workspace has may toolbar and tool windows to make working with files fairly
 
 ![Toolbars](/img/Toolbars.PNG)
 
-Tool Windows provide a grouped set of tools for various operations. Here you will find your [Cuts](#cuts), [File List](#filelist), [Laser](#laser), [Move](#move), [Shape Properties](#shapeproperties) and [Console](#console) toolboxes. 
 
-[Return to Top](#Top)
 
 ### Manipulating Tool Windows and Tabs
 
@@ -21,6 +19,24 @@ You can dock the tool window as a tab by dropping it on top of another docked to
 You can close a tool window by clicking the X in the upper right of the tool window or by turning it off in the toolbar context menu as seen in the [Tools and Toolbars](#toolbars) section above.
 
 You can reorder tabs by clicking on the tab and dragging it left or right in the tab strip.
+
+[Return to Top](#Top)
+
+Tool Windows provide a grouped set of tools for various operations. 
+
+* [Cuts](#cuts)
+* [File List](#filelist)
+* [Laser](#laser)
+* [Move](#move)
+* [Shape Properties](#shapeproperties)
+* [Console](#console)  
+
+Toolbars are similar to Tool Windows, but are a grouped set of icons for various types of operations.
+
+* [Tools](#Tools)
+* [Arrange](#Arrange)
+* [Numeric Edits](#Numeric)
+* [Text Edits](#Text)
 
 [Return to Top](#Top)
 
@@ -97,6 +113,7 @@ Note, this is not available on some connected devices including Ruida.
 
 [Return to Top](#Top)
 
+<a name="Tools"></a>
 ## Tools Toolbar
 
 On the left of the workspace in the default configuration, there is a tool bar with many of the commonly used tools. These are also duplicated in the tool menu at the top of the workspace. The tools are as follows:
@@ -121,14 +138,17 @@ Click on the "Offset Vectors" icon to createnew vectors that are an offset of th
 
 [Return to Top](#Top)
 
+<a name="Arrange"></a>
 ## Arrange Toolbar
 
 [Return to Top](#Top)
 
+<a name="Numeric"></a>
 ## Numeric Edits Toolbar
 
 [Return to Top](#Top)
 
+<a name="Text"></a>
 ## Text Options Toolbar
 
 [Return to Top](#Top)
