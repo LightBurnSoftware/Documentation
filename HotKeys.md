@@ -73,4 +73,4 @@ Most feature hot-keys can be found next to the action in the menus.
 * **Align Bottom** Ctrl + Shift + Down Arrow
 
 ### Help
-**Help** and Notes F1
+**Help and Notes** F1
