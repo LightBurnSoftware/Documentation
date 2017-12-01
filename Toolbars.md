@@ -17,8 +17,8 @@ The workspace has may toolbar and tool windows to make working with files fairly
 ## File List
 ![File List Tool Window](img/FileListToolBox.PNG)
 ## Cuts
-![Cut Settings Common](/imgCutSettingsCommon.PNG)
-![Cut Settings Additional](/imgCutSettingsAdditional.PNG)
+![Cut Settings Common](/img/CutSettingsCommon.PNG)
+![Cut Settings Additional](/img/CutSettingsAdditional.PNG)
 ## Main Toolbar
 
 ## Tools Toolbar
