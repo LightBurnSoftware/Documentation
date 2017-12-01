@@ -30,7 +30,7 @@ Lightburn Software.
 * [Device Setup](DeviceWizard.md)
 #### Using LightBurn
 * [Menus](MenuCommands.md)
-* [Toolbars](Toolbars.md)
+* [Toolbars and Tool Windows](Toolbars.md)
 * [Hot Keys and Gestures](HotKeys.md)
 * [Workspace / User Interface](Workspace.md)
 * [Cut, Scan, Scan+Cut, Image](Operations.md)
