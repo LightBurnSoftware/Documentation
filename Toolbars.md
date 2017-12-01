@@ -1,6 +1,6 @@
 [Return to main page](README.md)
 
-## Toolbars and Tool WIndows
+## Toolbars and Tool Windows
 
 The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive.
 
