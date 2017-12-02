@@ -123,3 +123,5 @@ When you enable Scan+Cut you will get the additional settings below. See the [Cu
 ![Scan+Cut Settings](/img/CutAfterScanSettings.PNG)
 
 
+
+
