@@ -7,7 +7,7 @@ The trial version will work with all supported hardware.
 
 Once the trial expires, you will need to purchase a version for your hardware: The standard version for GCode based machines, or the Pro version for Ruida DSP controllers. The pro version will include additional hardware DSPs as those come online, and will include the Gcode back ends as well, however that is currently the only difference.
 
-[Entering your License Key](EnterLicense.md)
+### [Entering your License Key](EnterLicense.md)
 
 ## Pricing
 
