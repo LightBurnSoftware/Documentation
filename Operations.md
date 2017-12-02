@@ -1,6 +1,5 @@
 [Return to main page](README.md)
 
-**[Common Settings](#common) | [Cut](#cut) | [Scan](#scan) | [Scan+Cut](#scancut)**
 
 ----
 
@@ -9,6 +8,12 @@
 The basic operations of any device can be categorized in one of two ways. Cut and Scan. These two options combined with variations in power and speed can achieve a variety of results.
 
 Settings will vary from machine to machine and acrosss different materials. It is recommended to test your settings on a scrap piece of the same material as your final work piece before your final run.
+
+* [Common Settings](#common) 
+* [Cut](#cut)
+* [Scan](#scan)
+* [Scan+Cut](#scancut)
+
 
 <a name="common"></a>
 
