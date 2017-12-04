@@ -18,7 +18,7 @@ Lightburn Software.
 ## Code of Conduct
 [Code of Conduct](CODE_OF_CONDUCT.md)
 
----
+-----
 ## LightBurn Documentation
 ### Table of Contents
 ----------
