@@ -5,7 +5,7 @@ LightBurn has a powerful set of tools for creating basic shapes directly in the 
 ## Basic shape creation
 
 ### Pen Tool ![Pen Tool Icon](/img/PenTool.PNG) 
-[Video Tutorial #2: Pen Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=6m20s)
+[Video Tutorial #2: Pen Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=6m26s)
 * Lets you draw lines
 * Llines will automatically snap to existing verticies or objects as well as center points on shapes
 
@@ -30,7 +30,7 @@ LightBurn has a powerful set of tools for creating basic shapes directly in the 
 
 ## Offset Tool ![Offset Tool Icon](/img/OffsetTool.PNG)
 
-[Video Tutorial #2: Offset Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=10m30s)
+[Video Tutorial #2: Offset Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=10m49s)
 
 * Create an offset line around the selected objects
 * Can increase or decrease the offset distance
