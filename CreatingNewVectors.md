@@ -10,7 +10,7 @@ LightBurn has a powerful set of tools for creating basic shapes directly in the 
 * Llines will automatically snap to existing verticies or objects as well as center points on shapes
 
 ### Rectangle and Ellipse Tools ![Rectangle Tool Icon](img/RectangleTool.PNG) ![Ellipse Tool Icon](/img/EllipseTool.PNG)
-[Video Tutorial #2: Rectagnle and Ellipse](https://www.youtube.com/watch?v=uzFsrUwONbw#t=8m38s)
+[Video Tutorial #2: Rectangle and Ellipse](https://www.youtube.com/watch?v=uzFsrUwONbw#t=8m38s)
 * Quickly draw rectangle or ellipse
 * Holding shift key locks the aspect to create squares or circles
 * Holding ctrl key creates them from the center out
