@@ -16,7 +16,9 @@ Lightburn Software.
 6. You are entirely operating at your own risk. Lasers can be lethally dangerous.
 
 ## Code of Conduct
-[Code of Conduct]([Prerequisites]()
+[Code of Conduct](CODE_OF_CONDUCT.md)
+
+---
 ## LightBurn Documentation
 ### Table of Contents
 ----------
