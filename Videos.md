@@ -8,7 +8,7 @@ These are a series of videos to guide users in using LightBurn. Videos will be a
 
 1. [Lesson 1: First Time Users](https://www.youtube.com/watch?v=1UygQiNqSQA "LightBurn Lesson 1")
 2. [Lesson 2: User Interface](https://www.youtube.com/watch?v=uzFsrUwONbw "LightBurn Lesson 2")
-
+3. [Lesson 3: Cut Settings](https://www.youtube.com/watch?v=nybhYtjElQU "LightBurn Lesson 3")
 ------------
 
 ## LightBurn Progress Videos
