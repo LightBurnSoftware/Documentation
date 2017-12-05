@@ -22,7 +22,7 @@ You can reorder tabs by clicking on the tab and dragging it left or right in the
 
 [Return to Top](#Top)
 
-Tool Windows provide a grouped set of tools for various operations. 
+#### Tool Windows provide a grouped set of tools for various operations. 
 
 * [Cuts](#cuts)
 * [File List](#filelist)
@@ -31,7 +31,7 @@ Tool Windows provide a grouped set of tools for various operations.
 * [Shape Properties](#shapeproperties)
 * [Console](#console)  
 
-Toolbars are similar to Tool Windows, but are a grouped set of icons for various types of operations.
+#### Toolbars are similar to Tool Windows, but are a grouped set of icons for various types of operations.
 
 * [Tools](#Tools)
 * [Arrange](#Arrange)
