@@ -14,7 +14,7 @@ LightBurn has a powerful set of tools for creating basic shapes directly in the 
 [Video Tutorial #2: Rectangle and Ellipse](https://www.youtube.com/watch?v=uzFsrUwONbw#t=8m38s)
 * Quickly draw rectangle or ellipse.
 * Holding Shift locks the aspect to create squares or circles.
-* Holding Ctrl (![Command icon](/img/key-command-16.png)on Mac)creates them from the center out.
+* Holding Ctrl (![Command icon](/img/key-command-16.png)on Mac) creates them from the center out.
 
 ### Node Editing Tool ![Node Tool Icon](/img/NodeTool.PNG)
 [Video Tutorial #2: Node Editing](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m15s)
