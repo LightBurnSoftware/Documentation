@@ -4,7 +4,7 @@
 
 # Laser Operations 
 
-The basic operations of any device can be categorized in one of two ways. Cut and Scan. These two options combined with variations in power and speed can achieve a variety of results.
+The basic operations of any device can be categorized in one of two ways: Cut and Scan. These two options combined with variations in power and speed can achieve a variety of results.
 
 Settings will vary from machine to machine and acrosss different materials. It is recommended to test your settings on a scrap piece of the same material as your final work piece before your final run.
 
@@ -21,22 +21,22 @@ Settings will vary from machine to machine and acrosss different materials. It i
 ![Common Cut Settings](/img/CutSettingsCommon.PNG)
 
 ### Output
-Output is a on/off selection. By default this setting is on for a layer. This means that the laser will output the contents of the layer. Turning this setting off will skip creating instructions for the layer and the layer will be ignored. This is useful for alignment lines or other content that should not be in the end product.
+Output is an on/off selection. By default this setting is on for a layer. This means that the laser will output the contents of the layer. Turning this setting off will skip creating instructions for the layer and the layer will be ignored. This is useful for alignment lines or other content that should not be in the end product.
 
 ### Air Assist
-This is also an on/off selection. If your machine is capable of turning on or off air assist automatically, set this to on to enable your air assist or off to keep it off. If your air assist is always on or manually controlled, this will have no affect.
+This is also an on/off selection. If your machine is capable of turning air assist on or off automatically, set this to on to enable your air assist or off to keep it off. If your air assist is always on or manually controlled, this will have no effect.
 <a name="speed"></a>
 ### Speed (mm/sec)
-Speed is the feed rate when the laser is firing. This does not affect the feed rate for rapid move.
+Speed is the feed rate when the laser is firing. This does not affect the feed rate for rapid move (IE moves traversing between cuts).
 
 ### Max Power
-This is the maximum percentage of power that the laser will produce during the cut. 
+This is the maximum percentage of power that the laser will produce during the cut.
 
 ### Min Power
 For DSP devices (not GCode based controllers) this is the minimum percentage of power that the laser will produce during the cut. On Ruida machines, this is power setting that will be used during a cut when the machine slows down to reverse direction, or make a sharp corner.  You should normally set this number to just above the threshold where your laser fires.  Setting it the same as Max Power means the laser will not change power output as the speed varies, which will result in a poorer quality cut, particularly on thinner materials.
 
 ### Mode
-This can be used to choose the operation for the layer. Cut, Scan and Scan+Cut
+This can be used to choose the operation for the layer. Cut, Scan, or Scan+Cut
 
 <a name="Cut"></a>
 
