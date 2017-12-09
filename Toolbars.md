@@ -2,7 +2,7 @@
 <a name="Top"></a>
 ## Toolbars and Tool Windows
 
-The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive. Right clicking on the top bar of the app will allow you to toggle toolbars on or off.
+The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive. Right clicking on the top bar of the app will allow you to toggle toolbars on or off, as will using the 'Window' menu in the main menu bar.
 
 ![Toolbars](/img/Toolbars.PNG)
 
@@ -51,14 +51,20 @@ The Cuts tool window is where you will configure most of your job. It contains l
 * Double clicking a cut layer will launch the full settings editor for that layer
 * You can quickly select the Mode or set the layer Output and Hide options directly from the tool window
 * You can quickly set the basic operation parameters in the *Cut Info* section
-* Clicking the up or down arrows on the right side of the tool window will move the selected layer up or down in priority
+* Clicking the up or down arrows on the right side of the tool window will move the selected layer up or down in priority (as will editing the Priority value below)
 
 [Return to Top](#Top)
 
 <a name="filelist"></a>
 ### File List
 
-TODO: Content needed
+This is currently for Ruida controllers, but will be implemented for Smoothie controllers as well. This window lets you manage the files hosted on your controller, if it supports this.
+
+![FileListWindow](/img/FileListWindow.png)
+
+Hit the Refresh button to query your controller for the list of hosted files. You can select a file and press Start to cut it, Delete to remove it from the controller, or Download to save it locally. Pressing Upload will let you choose a local cut file to send to the controller (this is not the same as the current job, which you can upload with the "Send" button in the Laser window - see the [Machine Instructions](MachineInstructions.md) page for more details)
+
+
 
 [Return to Top](#Top)
 
@@ -69,9 +75,9 @@ The Laser tool window is used to interact with the connected device.
 
 ![Laser Tool Window](/img/LaserToolBox.PNG)
 
-This tool window provides most of the functions for interacting directly with your laser. The commands are covered in detail elsewhere in the documentation. 
+This tool window provides most of the functions for interacting directly with your laser. The commands are covered in detail elsewhere in the documentation.
 
-For a detailed explaination of the *Start From* options, see [Coordinates and Origin](CoordinatesOrigin.md)
+For a detailed explanation of the *Start From* options, see [Coordinates and Origin](CoordinatesOrigin.md)
 
 [Return to Top](#Top)
 
