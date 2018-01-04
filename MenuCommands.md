@@ -154,6 +154,7 @@ Click on "Align V-Center" to align the selected objects in the workspace to the 
 ### Grid / Array
 Click on "Grid / Array" to create an array or grid of objects in the workspace. A window will open allowing you to enter the parameters for the array or grid.
 ### Circular Array
+Click on "Circular Array" to create an array or grid of objects in a circle in the workspace. A window will open allowing you to enter the parameters for the array.
 [Return to top](#MenuCommands)
 
 ----------------------------------
