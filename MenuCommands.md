@@ -86,6 +86,10 @@ Click on "Close path" in the Edit menu or press "Alt + C"
 ### Auto join selected shapes
 Looks at the start and end points of all the selected curves, and if any of them are close enough, connects them together into a single shape.
 Useful when importing DXF files, which don't contain connectivity information. Click on "Auto join selected shapes" in the Edit menu or press "Alt + J"
+### Optimize Selected Shapes
+This will attempt to optimize the order of operations
+### Delete Duplicates
+This will delete duplicate items within the drawing, for example if two squares are identical and one ontop of the other, this will delete the extra square. This helps to minimize erroneous moves.
 ### Settings
 Clicking on "Settings" in the Edit menu will open a [Dialog box](Settings.md) where you can enter information about your laser and default application settings.
 ### Debug drawing
