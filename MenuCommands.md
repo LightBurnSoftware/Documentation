@@ -158,6 +158,17 @@ Click on "Circular Array" to create an array or grid of objects in a circle in t
 [Return to top](#MenuCommands)
 
 ----------------------------------
+<a name="Window"></a>
+## Window Menu
+
+### Reset to Default Layout
+To arrange the windows and menus back to the original default layout, click on "Reset to Default Layout"
+You can use the Window menu to toggle windows and menus on or off.
+
+[Return to top](#MenuCommands)
+
+
+---------------------------------
 <a name="HelpMenu"></a>
 ## Help Menu
 
