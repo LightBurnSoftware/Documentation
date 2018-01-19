@@ -151,6 +151,16 @@ Click on "Align Bottom" or press "Ctrl + Shift + Down arrow" to align the select
 Click on "Align H-Center" to align the selected objects in the workspace to the center of the horizontal plane.
 ### Align V-Center
 Click on "Align V-Center" to align the selected objects in the workspace to the center of the vertical plane.
+### Move to Page Center
+Click on this to move selected objects to center of page
+### Move to Upper Left
+Click on this to move selected objects to Upper Left of page.
+### Move to Upper Right
+Click on this to move selected objects to Upper Right of page.
+### Move to Lower Left
+Click on this to move selected objects to Lower Left of page.
+### Move to Lower Right
+Click on this to move selected objects to Lower Right of page.
 ### Grid / Array
 Click on "Grid / Array" to create an array or grid of objects in the workspace. A window will open allowing you to enter the parameters for the array or grid.
 ### Circular Array
