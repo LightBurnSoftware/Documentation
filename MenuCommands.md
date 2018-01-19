@@ -161,11 +161,23 @@ Click on "Circular Array" to create an array or grid of objects in a circle in t
 <a name="HelpMenu"></a>
 ## Help Menu
 
-### Help and Notes
-Click on "Help and Notes" or press F1 to access hotkey list, general usage notes and version information.
+### Quick Help and Notes
+Click on "Quick Help and Notes" or press F1 to access hotkey list, general usage notes and version information.
+
+### Online Documentation
+Click on "Online Documentation to access the documentation for LightBurn.
+
+### Online Video Tutorials
+Click on "Online Video Tutorials" to access the tutorial videos.
+
+### Check for Updates
+Click on "Check for Upfates" to make sure you are on the most recent version.
 
 ### License Actvation and Trial
 Click on "License Activation and Trial" to enter license key, or see the status of your license.
+
+### Force License Check
+Use "Force License Check" if installing on a different machine that has not recently been activated for LightBurn.
 
 ### Enable Debug Log
 This is for the developers, turn on the log by clicking on "Enable Debug Log"
