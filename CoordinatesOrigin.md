@@ -34,3 +34,11 @@ Using Current Position and Job Origin together lets you line up a cut on a piece
 ## User Origin
 
 **User Origin** works almost exactly the same as Current Position, except that the starting location is "programmable".  Some lasers have an "Origin" button on them (like Ruida controllers).  GCode based systems use the "Set Origin" button in LightBurn to do the same thing.  You jog your laser to the position you want your job to start from, hit the "Set Origin" button, and then you're free to move the laser around again.  If you specify "User Origin" as the "Start From" value, the laser will move back to that programmed location and start the cut from there.
+
+## Finish Position
+
+LightBurn gives you the control of where you want the head of the laser to return to after a job is finished. By default it will return to 0,0 however this is not the optimal location for some machines. 
+
+To change your finish position, go to the Move tool window and use the arrows to reposition your laser head to where you would like it to return to on job finish. Then click the **Set Finish Position** button. Your machine will now remember that spot for future jobs. This can be reset at any time by repeating these steps for a new location.
+
+![Move Tool Window](/img/MoveToolBox.PNG)
