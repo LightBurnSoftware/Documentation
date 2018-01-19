@@ -29,6 +29,9 @@ Adding a new file
 A new file can be added by clicking on “New” in the File menu
 or press "ctrl + N"
 
+### Open recent projects
+This will open a list of the most recently opened files to choose from.
+
 ### Open
 Opening an existing file
 To open a saved file. Click on “Open” in the File menu or
