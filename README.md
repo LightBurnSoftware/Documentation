@@ -48,4 +48,8 @@ Lightburn Software.
 #### Videos
   - [LightBurn Video Links](Videos.md)
 
+#### Support
+
+* [How to ask for help](RequestingHelp.md)
+
 ------------
