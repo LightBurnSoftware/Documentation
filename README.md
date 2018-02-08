@@ -30,6 +30,7 @@ Lightburn Software.
 * [Installation](Installation.md)
 * [Licensing](Licensing.md)
 * [Device Setup](DeviceWizard.md)
+* [Device Settings (Edit > Device Settings)](DeviceSettings.md)
 #### Using LightBurn
 * [Menus](MenuCommands.md)
 * [Toolbars and Tool Windows](Toolbars.md)
