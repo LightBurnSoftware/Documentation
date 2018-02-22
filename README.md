@@ -52,5 +52,6 @@ Lightburn Software.
 #### Support
 
 * [How to ask for help](RequestingHelp.md)
+* [FAQ](FAQ.md)
 
 ------------
