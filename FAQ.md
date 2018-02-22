@@ -16,7 +16,7 @@ A: No, the license system stores a digital fingerprint independent of the softwa
 
 ### Q: Does LightBurn work with the stock K40 board?
 
-A: No. Please get a real controller that allows control of power through software. Even a lowly Arduino running Grbl can do this. We recommend a Cohesion3D Mini though – it’s a drop-in replacement that takes about 5 to 10 minutes to install.
+A: No. Please get a real controller that allows control of power through software. Even a lowly Arduino running Grbl can do this. We recommend a Cohesion3D Mini (Laser Upgrade Bundle) though – it’s a drop-in replacement that takes about 5 to 10 minutes to install.
 
 ### Q: Does LightBurn work with (strong LED flashlight they called a laser) that I bought from HappySunshine888 on EBay?
 
