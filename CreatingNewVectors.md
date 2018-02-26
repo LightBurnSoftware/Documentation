@@ -16,6 +16,9 @@ LightBurn has a powerful set of tools for creating basic shapes directly in the 
 * Holding Shift locks the aspect to create squares or circles.
 * Holding Ctrl (![Command icon](/img/key-command-16.png)on Mac) creates them from the center out.
 
+#### Creating rounded corners on rectangles
+You can create rounded corners on rectangles by selecting the shape and going to the Shape Properties tool window. In this window you can edit the base path properties including Width, Height and Corner Radius.
+
 ### Node Editing Tool ![Node Tool Icon](/img/NodeTool.PNG)
 [Video Tutorial #2: Node Editing](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m15s)
 * Allows you to move the vertices of a selected shape.
