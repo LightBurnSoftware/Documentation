@@ -49,3 +49,7 @@ A: You should post them to our suggestion site. Other people can vote on suggest
 ### Q: I imported an SVG file but only get Image options for Mode
 
 A: SVG files do not automatically imply vector drawings. It is possible to have a bitmap/raster image embedded in an SVG file and LightBurn will treat it as any other bitmap and give you the Image engraving options. If you are trying to create vector tracing, you will need to use the Trace Image (ALT+T or Tools > Trace Image) function in LightBurn or another application to create line art of the image. 
+
+### Q: My X/Y axis moves the wrong way when I Start
+
+A: Change the origin from back to front or vice versa. The most common mistake people make is thinking that the homing position and zero position are the same. They usually aren’t. On a K40, for example, the limit switches for homing are in the rear left, but X0 Y0 is front left.
