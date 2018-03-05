@@ -36,6 +36,7 @@ Lightburn Software.
 * [Toolbars and Tool Windows](Toolbars.md)
 * [Hot Keys and Gestures](HotKeys.md)
 * [Workspace / User Interface](Workspace.md)
+* [Layers](Layers.md)
 * [Laser Operations - Cut, Scan, Scan+Cut, Image](Operations.md)
 * [Machine Instructions](MachineInstructions.md)
 * [Coordinates, Origin and Finish Position](CoordinatesOrigin.md)
