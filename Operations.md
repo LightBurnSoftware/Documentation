@@ -92,6 +92,8 @@ When engraving, the head is scanning back and forth. Because the laser has to ac
 
 Overscanning generates extra moves, past the ends of each line, switching the laser off before it fully stops, or even before it begins to decelerate, allowing the entirety of the engraving to happen at the desired head speed and then decelerating while the laser is not burning. The overscan number is a percentage of your cut speed - the default setting is 2.5%, meaning a cut at 100mm/sec will move an additional 2.5mm past the last cut with the laser off.
 
+Note, Overscan is applied automatically by Ruida hardware. If you are on Ruida then you will not see the Overscan option. This is primarily for gcode driven controllers.  
+
 <a name="lineinterval"></a>
 ### Line Interval (mm)
 Line interval is the spacing between scan lines. The lower this value, the less space will be left between successive passes. Lowering this value can create a slight overlap causing the laser to slightly trace over the previous line. Setting a higher value will leave untouched material between passes leaving visible scan lines. This is roughly equivalent to stepover for a CNC.
