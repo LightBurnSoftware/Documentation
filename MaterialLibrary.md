@@ -42,7 +42,7 @@ LightBurn makes it easy to build out your library using the current cut settings
 
 3. Now you can use this new entry titled "Birch Ply" anytime in the future and easily assign it to a new cut layer.
 
-[![Library_new_Layer_result.png](/img/MaterialLibrary/Library_new_Layer_result.png)
+![Library_new_Layer_result.png](/img/MaterialLibrary/Library_new_Layer_result.png)
 
 There are several helpful ways to facilitate adding to and managing your library covered later in the "Manage existing Library" section below.
 
