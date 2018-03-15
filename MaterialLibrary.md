@@ -123,9 +123,3 @@ Multiple machines can access a single Material Library file hosted on a network 
 1. Create a library on one machine and save it to your network or Google drive, DropBox, etc..  
 2. Point to that saved library file after hitting 'Load' in the 'Library' screen of LB for each machine.
 3. If you edit that library the changes will be there of both machines as they are pointing to the same file.
-
-
-
-### Library file explained *(a deep dive)*
-
-Documentation of .CLB (XML) file format and variables [Placeholder for text - need some help here to craft]
