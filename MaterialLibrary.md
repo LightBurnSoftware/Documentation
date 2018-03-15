@@ -90,7 +90,7 @@ Existing Library entries can be managed in several helpful ways. Changing existi
 
 
 
-###Edit Cut
+### Edit Cut
 
 Click *Edit Cut* to open the "Cut Settings Editor".  This allows you to change any of the cut settings as you would normally and saves them back to the library.
 
