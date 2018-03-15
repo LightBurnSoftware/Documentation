@@ -52,7 +52,7 @@ There are several helpful ways to facilitate adding to and managing your library
 
 As you fill out the Library with your favorite materials, it is always a good idea to periodically save your additions.  To do this, click the *Save* button.
 
-![Library_Save.png]/img/MaterialLibrary/Library_Save.png)
+![Library_Save.png](/img/MaterialLibrary/Library_Save.png)
 
 
 
