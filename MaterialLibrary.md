@@ -5,7 +5,7 @@
 
 LightBurn's Material Library provides a way to store and organize lots of cut presets, and have a way to quickly apply them.  This is entirely user-generated - You set up a cut layer however you like and save it to a Library.  You set a material type, thickness (if appropriate), and a short description.
 
-[![Library_UI.png](https://s20.postimg.org/z3p5g0xt9/Library_UI.png)](https://postimg.org/image/du1j56hih/)
+[![Library_UI.png](/img/MaterialLibrary/Library_UI.png)
 
 Any Library setting can be applied to a cut layer by selecting the library entry and assign it to the layer. Settings are copied, so if you need to make edits to the setting you won't hurt the copy in your library - you can edit those independently.
 
