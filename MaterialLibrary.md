@@ -30,13 +30,13 @@ LightBurn makes it easy to build out your library using the current cut settings
 
 1. Select one of your cut layers then click the *Create new from layer* button in the "Library" window.
 
-[![Library_new_Layer.png](/img/MaterialLibrary/Library_new_Layer.png)
+![Library_new_Layer.png](/img/MaterialLibrary/Library_new_Layer.png)
 
 
 
 2. Fill out the details sheet providing a *Name*, *Thickness* (if appropriate) and a short *Description* of the cut layer parameters.  Once completed, click the *Ok* button to save this new entry into your library.
 
-[![Library_new_Layer_details.png](/img/MaterialLibrary/Library_new_Layer_details.png)
+![Library_new_Layer_details.png](/img/MaterialLibrary/Library_new_Layer_details.png)
 
 
 
@@ -52,7 +52,7 @@ There are several helpful ways to facilitate adding to and managing your library
 
 As you fill out the Library with your favorite materials, it is always a good idea to periodically save your additions.  To do this, click the *Save* button.
 
-[![Library_Save.png]/img/MaterialLibrary/Library_Save.png)
+![Library_Save.png]/img/MaterialLibrary/Library_Save.png)
 
 
 
@@ -60,7 +60,7 @@ As you fill out the Library with your favorite materials, it is always a good id
 
 Now that you have some entries added to your library, you can use them to quickly and easily apply these settings to your work.  Settings are copied, so if you need to make edits to the setting you have applied you won't hurt the originals in your library.
 
-[![Libary_Assign.png](/img/MaterialLibrary/Libary_Assign.png)
+![Libary_Assign.png](/img/MaterialLibrary/Libary_Assign.png)
 
 
 
@@ -68,7 +68,7 @@ Now that you have some entries added to your library, you can use them to quickl
 
 Depending on your workflow, you may find it desirable to have several libraries to work from.  You can start a new Material Library anytime by clicking the *New* button at the lower-right corner of the "Library" window.  Now you are presented with a new, blank library ready to fill out and save.
 
-[![Library_New.png](/img/MaterialLibrary/Library_New.png)
+![Library_New.png](/img/MaterialLibrary/Library_New.png)
 
 
 
@@ -76,7 +76,7 @@ Depending on your workflow, you may find it desirable to have several libraries 
 
 Selecting *Load* provides access to your previously saved Libraries.  Once clicked, a file finding window will open allowing you to point to a saved library.  Select library of choice and click the *Open* button.  Your chosen file will then become the active library for use.
 
-[![Library_Load.png](/img/MaterialLibrary/Library_Load.png)
+![Library_Load.png](/img/MaterialLibrary/Library_Load.png)
 
 
 
@@ -86,7 +86,7 @@ Existing Library entries can be managed in several helpful ways. Changing existi
 
 ###### 	Note: These items are only selectable when "Description" is selected.
 
-[![Library_Edit.png](/img/MaterialLibrary/Library_Edit.png)
+![Library_Edit.png](/img/MaterialLibrary/Library_Edit.png)
 
 
 
