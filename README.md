@@ -26,6 +26,7 @@ Lightburn Software.
 * [Prerequisites](PreReq.md)
 * [Read Me (This file)](README.md)
 * [About LightBurn](AboutLightBurn.md)
+* [Copyrights](Copyrights.md)
 #### Installation and Configuration
 * [Installation](Installation.md)
 * [Licensing](Licensing.md)
