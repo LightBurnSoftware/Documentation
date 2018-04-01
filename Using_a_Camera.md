@@ -14,11 +14,11 @@ Using the camera as a monitor is simple - enable the Camera Control window (righ
 
 You'll be presented with a window that looks like this:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\CameraControl.png)
+![](.\img\Camera\CameraControl.png)
 
 If your system has a compatible USB camera connected, it will appear in the Camera drop-down box. Select the camera, and the view from the camera will appear in the window, as shown:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\CameraControl-Monitor.png)
+![](.\img\Camera\CameraControl-Monitor.png)
 
 
 
@@ -43,17 +43,17 @@ Position your laser head away from the working area of the machine and out of th
 
 You will enter the following screen:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\CalibrateCamera.png)
+![](.\img\Camera\CalibrateCamera.png)
 
 Choose your camera in the drop-down, as before, and you'll see the view from the camera.
 
 With your circles image printed on stiff card, place the card in the center of the field of view of the camera, with the printed face of the card pointed directly at the camera, similar to what you see here:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\Calibration-Step1.png)
+![](.\img\Camera\Calibration-Step1.png)
 
 Click the Capture + Calibration button (highlighted above) and you should see something like this:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\Calibration-Step2.png)
+![](.\img\Camera\Calibration-Step2.png)
 
 Below the image on the left you see "success - Image error: --- , average error: ---"  That's telling you that:
 
@@ -66,11 +66,11 @@ In all, you're shooting for a final average error value of less than 1.0, with a
 
 When you have a good calibration, the image on the right should appear to be free of lens distortion, as shown here:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\GoodCalibration.png)
+![](.\img\Camera\GoodCalibration.png)
 
 A poorly calibrated result will still show lens distortion, and may have other artifacts, like the "wobble" seen in the lower-left of the gray image below:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\PoorCalibration.png)
+![](.\img\Camera\PoorCalibration.png)
 
 If you don't get it straight away, you can "Restore Default" and try again, or simply "Remove Last Image" to remove a bad one, and keep going. It can take a few tries to get the feel for it.
 
@@ -80,23 +80,23 @@ When satisfied that you have a good calibration result, with a nicely undistorte
 
 Now that the camera is calibrated, you can move on to the next step. Bring up the Camera Control window again and select your camera. You will see the bed of your machine through the camera as before. Place the printed chess-board image in the center of the workspace, and as straight as you can by eye, like so:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\AlignedChessboard.jpg)
+![](.\img\Camera\AlignedChessboard.jpg)
 
 From the camera, it looks like this:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\AlignedChessboard-FromCamera.jpg)
+![](.\img\Camera\AlignedChessboard-FromCamera.jpg)
 
 Click the "Get Chessboard" button, and if everything has gone well, you'll see something like this in the edit window of LightBurn:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\BackgroundImage-Chessboard.png)
+![](.\img\Camera\BackgroundImage-Chessboard.png)
 
 You're almost done - The chessboard will be placed in the exact center of the display, and should be quite close to "real world" position, but won't be exact. For example, if I jog my laser to this point in LightBurn:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\Position-Calculated.png)
+![](.\img\Camera\Position-Calculated.png)
 
 The laser is actually pointing here:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\Position-Actual.jpg)
+![](.\img\Camera\Position-Actual.jpg)
 
 
 
@@ -104,7 +104,7 @@ It's very close, but not quite right. The Camera Control window has Width / Heig
 
 Once everything is aligned, you can remove the chessboard and simply click "Update Overlay" to capture and project whatever happens to be in the camera view, as shown:
 
-![](F:\Github\LightBurnDocs\Documentation\img\Camera\AligningTheLaser.jpg)
+![](.\img\Camera\AligningTheLaser.jpg)
 
 Click the "Fade" button to dim the background image, or the "Show" button to toggle it off and on.
 
