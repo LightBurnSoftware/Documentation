@@ -23,7 +23,12 @@ You can create rounded corners on rectangles by selecting the shape and going to
 [Video Tutorial #2: Node Editing](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m15s)
 * Allows you to move the vertices of a selected shape.
 * Pressing the S key when hovering over a node will convert it to a smooth node, and if required, creates tangent handles that can be manipulated from it.
+* Pressing S while hovering over a line will convert the line to a smooth curve, with tangent handles, but leaves the shape of the original line intact.
+* Pressing L while hovering over a smooth curve will convert it back to a straight line.
+* Pressing C while hovering over a node will convert it to a corner, allowing the two handles to be manipulated independently of each other.
 * Pressing D when hovering over a node will delete it and connect the lines on either side together.
+* Pressing D when hovering over a line will delete it and open or split the shape.
+* Pressing I when hovering over a line or curve will insert a new node at that point along the line
 
 ### Text Tool ![Text Tool Icon](/img/TextTool.PNG)
 [Video Tutorial #2: Text Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m45s)
