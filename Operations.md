@@ -49,7 +49,7 @@ Cut will trace the laser along the vector path. Depending on the power and feed 
 ![Cut Mode Settings](/img/CutSettingsAdditional.PNG)
 
 #### Enable "Cut-Through" Mode
-This setting is used primarily for Ruida based machines. Enabling this setting will allow the laser to dwell in the same position after initially firing or before turning off based on the settings below.
+This setting is only available for Ruida based machines. Enabling this setting will allow the laser to dwell in the same position after initially firing or before turning off based on the settings below, and is useful for piercing thick materials before the cut starts.
 
 * Start pause time (ms): Number of milliseconds to fire the laser before moving
 * End pause time (ms): Number of milliseconds to fire the laser at the end of a move
@@ -57,6 +57,8 @@ This setting is used primarily for Ruida based machines. Enabling this setting w
 
 
 #### Passes
+* Kerf offset: Allows you to shift the cut inward or outward from a closed shape to compensate for the diameter of the beam. This is useful when making parts like inlays or finger joins.
+* Z Offset: Specifies an amount to offset the laser head (or bed) for this cut. Useful for defocusing, or pushing the focus point into deep materials for cutting.
 * Number of Passes: The number of times the laser will trace the same path
 * Z step per pass: Increase or decrease bed height for powered Z bed
 
@@ -92,7 +94,7 @@ When engraving, the head is scanning back and forth. Because the laser has to ac
 
 Overscanning generates extra moves, past the ends of each line, switching the laser off before it fully stops, or even before it begins to decelerate, allowing the entirety of the engraving to happen at the desired head speed and then decelerating while the laser is not burning. The overscan number is a percentage of your cut speed - the default setting is 2.5%, meaning a cut at 100mm/sec will move an additional 2.5mm past the last cut with the laser off.
 
-Note, Overscan is applied automatically by Ruida hardware. If you are on Ruida then you will not see the Overscan option. This is primarily for gcode driven controllers.  
+Note, Overscan is applied automatically by Ruida hardware. This setting is only available for gcode based controllers.
 
 <a name="lineinterval"></a>
 ### Line Interval (mm)
@@ -109,6 +111,10 @@ The default scan angle is 0. This will produce scan lines along the X path only.
 
 On Ruida hardware, scan angles that are multiples of 90 degrees are supported natively by the hardware and will automatically overscan for you.  Other angles are scanned using standard cutting commands.
 
+### Z-Offset, Number of Passes, and Z-Step per pass
+
+These options behave identically to their counterparts in a standard cut.
+
 ### Scan all shapes at once
 
 This setting tells the scanner to group all shapes within a cut layer together and scan them all at once. In most cases this is faster than scanning individually, if your laser is fast.
@@ -116,6 +122,10 @@ This setting tells the scanner to group all shapes within a cut layer together a
 ### Scan shapes individually
 
 This will scan each distinct shape in your layer one at a time.  For users with slower moving lasers, this will occasionally be faster than scanning shapes together.  For example, if you have two filled shapes on opposite sides of your work area, filling one, then the other is probably faster than continually scanning back and forth across the work area.
+
+### Flood Fill Scanning
+
+This option is intended for use with slower machines where traversing is more time consuming than reversing direction. It will prefer direction changes over long traversals, and will save scanning time if the machine has a slow rapid speed, or quick acceleration. This *can* be used with image scans as well, but the cost to compute the path can be very high - use sparingly, and only with very simple image modes like threshold.
 
 <a name="scancut"></a>
 
