@@ -16,6 +16,8 @@ The toolbars and windows can all be dragged around if you don't like the layout.
 ### [Edit Menu](#EditMenu)
 ### [Tools Menu](#ToolsMenu)
 ### [Arrange Menu](#ArrangeMenu)
+### [Window Menu](#WindowMenu)
+### [Language Menu](#LanguageMenu)
 ### [Help Menu](#HelpMenu)
 
 
@@ -172,6 +174,7 @@ Click on this to move selected objects to Lower Right of page.
 Click on "Grid / Array" to create an array or grid of objects in the workspace. A window will open allowing you to enter the parameters for the array or grid.
 ### Circular Array
 Click on "Circular Array" to create an array or grid of objects in a circle in the workspace. A window will open allowing you to enter the parameters for the array.
+
 [Return to top](#MenuCommands)
 
 ----------------------------------
@@ -186,6 +189,16 @@ You can use the Window menu to toggle windows and menus on or off.
 
 
 ---------------------------------
+
+<a name="ToolsMenu"></a>
+## Language Menu
+
+Choose the language you would like to have LightBurn use in this menu.
+
+
+[Return to top](#MenuCommands)
+
+--------------------------------
 <a name="HelpMenu"></a>
 ## Help Menu
 
