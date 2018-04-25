@@ -174,11 +174,15 @@ Click on this to move selected objects to Lower Right of page.
 Click on "Grid / Array" to create an array or grid of objects in the workspace. A window will open allowing you to enter the parameters for the array or grid.
 ### Circular Array
 Click on "Circular Array" to create an array or grid of objects in a circle in the workspace. A window will open allowing you to enter the parameters for the array.
+### Push forward in draw order
+Click on "Push forward in draw order" or use "Page up" key to move the selected object up one level in the draw order. Usefull when trying to see objects on the screen.
+### Push backward in draw order
+Click on "Push backward in draw order" or use "Page down" key to move the selected object down one level in the draw order. Usefull when trying to see objects on the screen.
 
 [Return to top](#MenuCommands)
 
 ----------------------------------
-<a name="Window"></a>
+<a name="WindowMenu"></a>
 ## Window Menu
 
 ### Reset to Default Layout
@@ -190,7 +194,7 @@ You can use the Window menu to toggle windows and menus on or off.
 
 ---------------------------------
 
-<a name="ToolsMenu"></a>
+<a name="LanguageMenu"></a>
 ## Language Menu
 
 Choose the language you would like to have LightBurn use in this menu.
