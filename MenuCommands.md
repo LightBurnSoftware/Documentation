@@ -97,6 +97,8 @@ This will attempt to optimize the order of operations
 This will delete duplicate items within the drawing, for example if two squares are identical and one ontop of the other, this will delete the extra square. This helps to minimize erroneous moves.
 ### Settings
 Clicking on "Settings" in the Edit menu will open a [Dialog box](Settings.md) where you can enter information about your laser and default application settings.
+### Device Settings
+After initial setup, you can access device settings by choosing "Device Settings".
 ### Debug drawing
 This is mostly an internal tool for LightBurn developers that shows the bounds of shapes being drawn.
 ### Convert to cut
