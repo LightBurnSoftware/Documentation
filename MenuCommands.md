@@ -95,6 +95,12 @@ Useful when importing DXF files, which don't contain connectivity information. C
 This will attempt to optimize the order of operations
 ### Delete Duplicates
 This will delete duplicate items within the drawing, for example if two squares are identical and one ontop of the other, this will delete the extra square. This helps to minimize erroneous moves.
+### Select Open shapes
+This will select all open shapes in the document
+### Select open shapes set to scan
+This will select all the openb shapes that are set to scan in the document
+### Select all shapes in current layer
+This will select all the shapes that are set to cut in the current layer of the document.
 ### Settings
 Clicking on "Settings" in the Edit menu will open a [Dialog box](Settings.md) where you can enter information about your laser and default application settings.
 ### Device Settings
