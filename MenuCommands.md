@@ -143,6 +143,9 @@ Click on "Position Laser" to allow clicking on the workspace to move the laser h
 ### Preview
 Click on "Preview" or press "Alt + P" to open the preview window. It will show the current laser project and includes information on cut distance, rapid moves, and total time estimate. Cut lines are in black and traversal moves are red. You can toggle the display of traversal moves on or off, as well as shading by power level.
 
+### Rotary
+This will open the rotary setup dialog box. Use this to set up your rotary attachment.
+
 [Return to top](#MenuCommands)
 
 ----------------------------------
