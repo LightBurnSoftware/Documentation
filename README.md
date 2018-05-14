@@ -51,6 +51,8 @@ Lightburn Software.
 
 * [Coordinates, Origin and Finish Position](CoordinatesOrigin.md)
 
+* [Rotary Setup](RotarySetup.md)
+
 * [Using a Camera with LightBurn](Using_a_Camera.md)
 
 #### Vector Drawings
