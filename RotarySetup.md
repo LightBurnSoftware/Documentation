@@ -5,7 +5,7 @@
 
 Click on the Tools menu, Rotary Setup link and it will open the rotary setup dialog box.
 
-1. If using a Ruida controller, disconnect the Y axis stepper connection and connect the rotary attachment to the Y axis
+1. If using a Ruida controller, disconnect the Y axis stepper connection and connect the rotary attachment to the Y axis. If using Smoothie or Grbl or C3D controllers, click which axis your rotary is on.
 2. Choose wether you havew a chuck style or roller attachment.
 3. Tick the enable rotary check box.
 4. In the steps per revolution box, enter the number of steps it takes your attchment to make one full revolution.
