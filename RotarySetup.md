@@ -12,6 +12,7 @@ Click on the Tools menu, Rotary Setup link and it will open the rotary setup dia
 5. Enter either the diameter of the object to be engraved or it's circumferance, the other value will be automatically calculated.
 6. Align your object uynder the laser head in a position where the X axis will start and rotate the object in the rotary attachment to the point where you want the Y axis to start engraving.
 7. Click start and watch the magic happen.
+8. Remeber to uncheck the use rotary attachment check box once you are finished so that you do not mess up your next regular project.
 
 Some general notes on using a rotary attachment:
 
