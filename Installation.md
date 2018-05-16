@@ -6,6 +6,7 @@ Download the latest release version that matches your computer.
 * Windows 64-bit
 * Windows 32-bit
 * Mac OSX
+* Linux 64-bit
 
 ## Windows Installation
 ![LightBurn Setup](/img/Setup-1.png)
@@ -28,4 +29,13 @@ That's it! Locate the LightBurn icon to launch the program
 4. Drag the LightBurn application into your applications folder
 5. Launch LightBurn from the launcher as normal
 6. You can now eject the DMG file (drag it to the trash bin)
+
+## Linux Installation
+
+1. Open a terminal and run the following command:
+   - ```sudo adduser $USER dialout && sudo adduser $USER tty```
+2. **IMPORTANT!** Log out and log back in (this refreshes the permissions we just added)
+3. Download the Linux 64-bit version
+4. Extract the folder wherever you want Lightburn to exist
+5. Double click ```AppRun``` inside your Lightburn folder
 
