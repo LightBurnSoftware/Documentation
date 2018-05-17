@@ -35,6 +35,9 @@ This is the maximum percentage of power that the laser will produce during the c
 ### Min Power
 For DSP devices (not GCode based controllers) this is the minimum percentage of power that the laser will produce during the cut. On Ruida machines, this is power setting that will be used during a cut when the machine slows down to reverse direction, or make a sharp corner.  You should normally set this number to just above the threshold where your laser fires.  Setting it the same as Max Power means the laser will not change power output as the speed varies, which will result in a poorer quality cut, particularly on thinner materials.
 
+
+******Please note:  Ruida controllers have a “Start Speed” value in the controller that is the point where they start ramping power from Min to max. Below that they just use min power. If you’re cutting slow, set min/max to the same value.*******
+
 ### Mode
 This can be used to choose the operation for the layer. Cut, Scan, or Scan+Cut
 
