@@ -8,6 +8,8 @@ The basic operations of any device can be categorized in one of two ways: Cut an
 
 Settings will vary from machine to machine and acrosss different materials. It is recommended to test your settings on a scrap piece of the same material as your final work piece before your final run.
 
+To the right of the cut window you will see 4 arrows. The up and down arrows allow you to change the order of the highlighted cut or scan layer, and the right and lkeft arrows allow you to copy cut or scan settings into the cache, and write those cached settings into a cut or scan layer. Useful for copying settings from one layer to another.
+
 * [Common Settings](#common) 
 * [Cut](#cut)
 * [Scan](#scan)
@@ -139,6 +141,11 @@ Scan+Cut, as the name suggests, combines the scan and cut operations. In order o
 When you enable Scan+Cut you will get the additional settings below. See the [Cut](#cut) section for a description of each setting.
 
 ![Scan+Cut Settings](/img/CutAfterScanSettings.PNG)
+
+
+
+
+
 
 
 
