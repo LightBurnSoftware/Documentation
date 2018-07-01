@@ -20,7 +20,6 @@ The toolbars and windows can all be dragged around if you don't like the layout.
 ### [Language Menu](#LanguageMenu)
 ### [Help Menu](#HelpMenu)
 
-
 ----------------------------------------------
 
 <a name="FileMenu"></a>
@@ -92,7 +91,7 @@ Click on "Close path" in the Edit menu or press "Alt + C"
 Looks at the start and end points of all the selected curves, and if any of them are close enough, connects them together into a single shape.
 Useful when importing DXF files, which don't contain connectivity information. Click on "Auto join selected shapes" in the Edit menu or press "Alt + J"
 ### Optimize Selected Shapes
-This will attempt to optimize the order of operations
+Attempts to fit the selected shapes to arcs and lines within a specified error tolerance. Useful for reducing the point count in a shape, or recovering arcs from software that exports them as many small line segments.
 ### Delete Duplicates
 This will delete duplicate items within the drawing, for example if two squares are identical and one ontop of the other, this will delete the extra square. This helps to minimize erroneous moves.
 ### Select Open shapes
@@ -127,16 +126,20 @@ Click on "Rectangle" or press "Ctrl + R" to draw rectangles in the workspace.
 ### Ellipse Tool
 Click on "Ellipse" or press "Ctrl + E" to draw ellipses in the workspace.
 ### Edit Nodes
-Click on "Edit Nodes" or press "Ctrl + ??" to edit nodes of objects in the workspace.
+Click on "Edit Nodes" or press "Ctrl + ~" to edit nodes of objects in the workspace.
 ### Edit Text
 Click on "Edit Text" or press "Ctrl + T" to create or edit text in the workspace.
 ### Offset Vectors
+
+Used to create new shapes that are offset from the current selection, inward or outward.
 
 ### Zoom In
 Click on "Zoom In" or press "Ctrl + =" to zoom in the workspace.
 ### Zoom Out
 Click on "Zoom In" or press "Ctrl + -" to zoom out in the workspace.
 ### Frame Selection
+
+Zoom the view to completely contain the current selection.
 
 ### Position Laser
 Click on "Position Laser" to allow clicking on the workspace to move the laser head to that location.
@@ -201,7 +204,6 @@ To arrange the windows and menus back to the original default layout, click on "
 You can use the Window menu to toggle windows and menus on or off.
 
 [Return to top](#MenuCommands)
-
 
 ---------------------------------
 
