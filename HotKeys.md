@@ -65,8 +65,8 @@ Most feature hot-keys can be found next to the action in the menus.
 ### Arrange
 * **Group** Ctrl + G
 * **Ungroup** Ctrl + U
-* **Flip Horizontal** Ctrl + Shift + H
-* **Flip Vertical** Ctrl + Shift + V
+* **Flip Horizontal** Ctrl + Shift + H  (or just 'H' in the edit window)
+* **Flip Vertical** Ctrl + Shift + V  (or just 'V' in the edit window)
 * **Align Left** Ctrl + Shift + Left Arrow
 * **Align Right** Ctrl + Shift + Right Arrow
 * **Align Top** Ctrl + Shipt + Up Arrow

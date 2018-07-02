@@ -68,6 +68,7 @@ Lightburn Software.
 #### Support
 
 * [How to ask for help](RequestingHelp.md)
+* [Common Grbl Setups](CommonGrblSetups.md)
 * [FAQ](FAQ.md)
 
 ------------

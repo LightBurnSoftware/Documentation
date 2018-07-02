@@ -5,7 +5,7 @@
 LightBurn includes a camera feature which allows a USB connected camera to be used in a couple of different ways:
 
 - Monitoring your laser
-- Positioning your work
+- Positioning designs on material
 - Tracing artwork directly from the bed of the laser
 
 
@@ -26,45 +26,64 @@ The image from this camera is very distorted, because it is uses a fish-eye lens
 
 # Camera Calibration
 
-In order to use the camera for work placement, it's necessary to "teach" LightBurn how to remove the distortion from your camera lens, and where your camera is in relation to the work area of your laser. The first part of this is accomplished in the Camera Calibration window.
+In order to use the camera for work placement, it's necessary to "teach" LightBurn how to remove the distortion from your camera lens, and where your camera is in relation to the work area of your laser. The first part of this is accomplished in the Lens Calibration wizard.
 
-You'll need to download and print the following two images:
+You'll need to download and print the following image:
 
 [Calibration-Circles.png](./img/Camera/Calibration-Circles.png)
-[Calibration-Chess.png](./img/Camera/Calibration-Chess.png)
 
-Do not resize them - The circles image will be approximately 148mm x 105mm (5.8" x 4.1"), and the chessboard will be approximately 210mm x 297mm (8.5" x 11").
+The circles image will be approximately 148mm x 105mm (5.8" x 4.1"), and should have at least 6mm (1/4") of white space around the pattern.
 
-Mount them on stiff card, foam-board, or wood, so the images remain very, very flat.
+Mount it to stiff card, foam-board, or wood, so the image remains very, very flat. If the image is curved, it will affect the calibration process and reduce the accuracy.
 
-### The camera calibration screen
+### The Camera Lens Calibration wizard
 
-Position your laser head away from the working area of the machine and out of the field of view of the camera.  Make sure you do not have your camera selected in the Camera Control window, and choose "Tools -> Calibrate Camera" from the main menu.
+Camera Lens Calibration uses series of captured images of a known pattern. The software analyzes how the pattern appears in the images, and compares that against its internal knowledge of how the pattern should look. It determines the amount and shape of distortion produced by the lens of the camera, and computes an inversion for this distortion.
 
-You will enter the following screen:
+**Note:** This process is dependent **only** on the camera and lens, not on its placement in your machine - as long as the camera and calibration pattern are perfectly still, you do not need to mount the camera in the machine to perform the lens calibration. If the calibration image cannot be held at the appropriate distance to match the shown image in the display, you may shrink or enlarge the printed pattern.
 
-![](/img/Camera/CalibrateCamera.png)
+It is best to have good, consistent lighting for the capture process, and the camera should be in focus. A fuzzy image, or shadows falling across the calibration pattern will make the process much harder, if not impossible.
 
-Choose your camera in the drop-down, as before, and you'll see the view from the camera.
+Open the "Tools" menu and choose "Calibrate Camera Lens" from the menu.  You will be presented with a screen like the one below.
 
-With your circles image printed on stiff card, place the card in the center of the field of view of the camera, with the printed face of the card pointed directly at the camera, similar to what you see here:
+![](/img/Camera/CalibrateCameraLens.png)
+
+Choose your camera in the list, and you'll see the view from the camera in the area to the left. With the correct camera selected, click Next.
+
+The view will change to include a capture button, and a helper image to show you how to position the printed pattern for capture. For the first capture, place the pattern in the center of the field of view of the camera, with the printed face of the card pointed directly at the camera, as shown in the small view up top. If you cannot easily match your capture image with the suggested image, you may need to adjust the scale of your printed card, or leave the camera out of the machine for lens calibration.
 
 ![](/img/Camera/Calibration-Step1.png)
 
-Click the Capture + Calibration button (highlighted above) and you should see something like this:
+
+
+Click the Capture button (highlighted above) and you should see something like this:  (note that we've removed the camera from the machine for this one)
 
 ![](/img/Camera/Calibration-Step2.png)
 
-Below the image on the left you see "success - Image error: --- , average error: ---"  That's telling you that:
+Above the image on the right you see:
 
-- The image was captured, and the calibration pattern was found
-- After distortion removal, the positions of the dots in the image aligns with the known positions of the printed dots with an error of 0.13 pixels - That's very good.
+​	Image 1 (1600 x 1200) : Pattern found - Score: 0.09 - Great! Click Next
 
-Notice that in the gray image that appears to the right, the pattern of circles is not distorted, though the image around them is considerably worse. That is temporary, and the result of only having a single calibration image to work with. Move the circles image around the view of your camera, roughly in a tic-tac-toe board pattern, capturing an image of the circles in each of the corners of the camera, and the middle, at a minimum. At each capture, if the image error value exceeds 2.0, click "Remove Last Image" and try again. It's also possible that you'll see a "failure" message, if LightBurn was unable to find the circles pattern in the image. You may need to reposition the card away from the edge of the image, or light the card more uniformly.
+This tells you:
 
-In all, you're shooting for a final average error value of less than 1.0, with at least 6 images captured across the field of view of the camera.
+- The image was successfully captured
+- The resolution of the captured image is 1600 x 1200 (higher is better)
+- The calibration pattern was found in this image
+- This image scored very well - Lower scores are better. In this image, after distortion removal, the positions of the dots in the image align with the positions of the real dots with an average error of only 0.09 pixels - That's very good, and well within our desired score of 0.3 pixels of error.
 
-When you have a good calibration, the image on the right should appear to be free of lens distortion, as shown here:
+Notice that in the gray image that appears to the right, the pattern of circles is not distorted, though the image around them is considerably worse (look just above the dots). That is temporary, and the result of only having a single calibration image to work with. As you progress through the remaining calibration steps, you'll capture more images with the pattern in different parts of the camera view, filling in more information about how your lens distortion affects the image.
+
+If the calibration pattern is not found, LightBurn will tell you so. Make sure the pattern card faces directly toward the camera, and occupies roughly the same amount of view area shown in the "suggestion" image.  The pattern card should be "aligned" with the sensor of the camera, as shown in the upper-left graphic in the capture window, though the pattern can be rotated within the view without affecting the calibration if this is easier, as shown here:
+
+![](/img/Camera/Calibration-Step2-Alternate1.png)
+
+
+
+As you advance through the captures, the suggestion image will update. The first five images are the center of view, followed by bottom, left, right, then top. If your camera has a very strong fisheye effect, it may be necessary for you to move the non-center images inward a little to get a successful capture. This is ok.
+
+The final four images are the corners, and these can be difficult to capture with high-distortion cameras. If your first 5 images score very well (below 0.3) you are allowed to skip the final four images (the 'Next' button will shows as 'Skip' in this case).  If you are having trouble capturing the last four images and don't have the option to skip, you can place the card anywhere within the view and capture that instead - We don't verify that your placement matches what we're suggesting.
+
+Even after only a few good captures, the image on the right should appear to be free of lens distortion, as shown here:
 
 ![](/img/Camera/GoodCalibration.png)
 
@@ -72,37 +91,63 @@ A poorly calibrated result will still show lens distortion, and may have other a
 
 ![](/img/Camera/PoorCalibration.png)
 
-If you don't get it straight away, you can "Restore Default" and try again, or simply "Remove Last Image" to remove a bad one, and keep going. It can take a few tries to get the feel for it.
+If you don't get it straight away, you can re-capture the current image, or just go back to the beginning and try again. It can take a few tries to get a feel for how to align the card with the camera to get the lowest score.
 
-When satisfied that you have a good calibration result, with a nicely undistorted image, click OK to save the results.
+When you have advanced through all the steps, and you are satisfied that you have a good calibration result with a nicely undistorted image, click Finish to save the results. You can also click the "Align Camera" button in the final page to take you to the next wizard automatically.
+
+
 
 # Aligning the Camera and Workspace
 
-Now that the camera is calibrated, you can move on to the next step. Bring up the Camera Control window again and select your camera. You will see the bed of your machine through the camera as before. Place the printed chess-board image in the center of the workspace, and as straight as you can by eye, like so:
+Now that the camera is calibrated, you can move on to the next step, camera alignment - telling LightBurn where your camera is in relation to the workspace of your machine. From this step forward, it is very important that the camera not move in relation to the machine. It is possible to mount the camera to a movable piece of your laser, like the cover, as long as the position of the camera is the same when you use it as it is when you calibrate the alignment. The camera should be firmly mounted pointing at the center of the machine work area, with a clear view.
 
-![](/img/Camera/AlignedChessboard.jpg)
+#### Cutting the Alignment Markers
 
-From the camera, it looks like this:
+In the Tools menu, choose "Calibrate Camera Alignment" to start the alignment wizard. Choose the same camera you did in the Lens Calibration wizard.
 
-![](/img/Camera/AlignedChessboard-FromCamera.jpg)
+After selecting the camera and verifying that you can see an image from it, click Next and you'll get to this screen:
 
-Click the "Get Chessboard" button, and if everything has gone well, you'll see something like this in the edit window of LightBurn:
+![](img/Camera/CameraAlignmentWizard.png)
 
-![](/img/Camera/BackgroundImage-Chessboard.png)
+This page uses your laser to cut a target pattern onto a piece of material, such as card stock, paper, cardboard, or thin wood. The pattern that will be cut is shown on the right side of the display.
 
-You're almost done - The chessboard will be placed in the exact center of the display, and should be quite close to "real world" position, but won't be exact. For example, if I jog my laser to this point in LightBurn:
+LightBurn supports many different types of laser, so we need you to specify how fast and at what power to do this cut. You should choose settings that will make a dark surface mark on the material, but not cut through it. The "Support Height" and "Material Thickness" values can be set to zero if you do not normally use these values when cutting.
 
-![](/img/Camera/Position-Calculated.png)
+Follow the directions in order - set the numbers appropriately, use the Frame button to check that the material is aligned with the cut, and click Start when you're ready. If the cut comes out incorrectly (too light, or too strong) change the settings and try again. Your results should look something like this:
 
-The laser is actually pointing here:
+![](/img/Camera/PrintedMarkers.jpg)
 
-![](/img/Camera/Position-Actual.jpg)
+When you have a good result, click next.
+
+#### Capturing the Target Marker Image
+
+From this screen, you're going to capture the alignment image. *It is very important you do not move the target marker image after cutting it.* Use the jog or "send to corner" buttons here to move the laser out of the view of the camera. When the camera has a clear view of all four targets, click the Capture button. You should see an undistorted version of the camera view appear in the right side of the window, with all four corner targets visible, as shown below:
+
+![](/img/Camera/CameraAlignmentCapture.png)
 
 
 
-It's very close, but not quite right. The Camera Control window has Width / Height / Shift controls to adjust the position of the background image in the edit window to align it with the real-world positioning of the chessboard. Use those controls to adjust the image until the two align. It can take a bit of time, and it's something we're going to improve the process for in the near future - consider this version 1.0.
+#### Marking the Targets
 
-Once everything is aligned, you can remove the chessboard and simply click "Update Overlay" to capture and project whatever happens to be in the camera view, as shown:
+On this page you 'tag' each of the targets by double-clicking in the center of each one in order. You can pan and zoom around the image using the same controls as the LightBurn edit and preview windows. When you double-click, a red '+' mark will appear. Place a marker in the center of each of the four targets, in the order they are numbered (1, 2, 3, 4). If you place one incorrectly, you can double click near it to shift it around, or click "Undo Last" to remove it and try again.
+
+![](/img/Camera/PlacingMarkers.png)
+
+
+
+Place each marker as accurately as you can. You can see the ideal placement here:
+
+![](/img/Camera/PlacingMarkers2.png)
+
+When you have placed all four markers in sequence, zoom back out and verify that all four are visible and clearly centered on the targets, like this:
+
+![](/img/Camera/FinalMarkerPlacement.png)
+
+Click Next to finish the marker placement screen and click Finish to complete the process and store the results.  You're done!
+
+
+
+Now that everything is aligned, open the Camera Control window again, and simply click "Update Overlay" to capture and project whatever happens to be in the camera view onto your workspace, as shown:
 
 ![](/img/Camera/AligningTheLaser.jpg)
 
