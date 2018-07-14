@@ -9,8 +9,9 @@ This is the main LightBurn settings page.
 There are a few different sections here, all related to different settings:
 
 - [Display / Graphics](#Display_Graphics)
-- [Grid / Units](#Grid_Units)
-- [DXF Import Units](#DXF_Import_Units)
+- [Units / Grid](#Grid_Units)
+- [DXF Import Settings](#DXF_Import_Settings)
+- [Shape Move Increments](#Shape_Move_Increments)
 - [Output Settings](#Output_Settings)
 
 <a name="Display_Graphics"></a>
@@ -35,17 +36,29 @@ Aliasing is commonly called "jaggies" - in our case, it's the visible appearance
 
 I'm a PC guy, with a Mac, and the scroll wheel always feels backwards to me, so this switch changes the direction you scroll when zooming. If you're a Mac person stuck on a PC, this is also for you.
 
+##### Use System Clipboard
+
+Enabling this makes copy and paste operations slightly slower, but allows LightBurn to:
+
+- Copy and paste across different runs of LightBurn, or between two running copies of the app
+- Paste images copied from other software or web browsers
+- Paste text directly into the edit window, auto-creating a text object for you
+
 <a name="Grid_Units"></a>
 
-## Grid & Units
+## Units & Grid
 
 ##### Inches / mm
 
-LightBurn currently operates in millimeters only. At some point after the initial release, we expect to support both metric (mm) and imperial (inch) units. For now, this setting is disabled.
+LightBurn internally operates in millimeters, but can display in either millimeters or inches. Speeds can be represented as either units per second or units per minute. Users with diode lasers will likely prefer the units per minute setting, whereas CO2 lasers generally express speeds using units per second.
 
-##### Snap to Objects / Snap to Grid
+##### Visual Grid Spacing
 
-LightBurn has two snapping behaviors which can be enabled / disabled here. Snap to Objects will snap your pointer location to the nearest object center or vertex when creating new objects, or drawing lines, making it easier to connect and align shapes.  Snap to Grid will snap your cursor position to the nearest grid location, as specified by the Grid Snap value.  Note that the Grid Snap and the Visual Grid do not have to be the same.
+The visual grid is set to 10mm by default. Note that this is independent of the Grid Snap setting below.
+
+##### Grid Snap Distance
+
+Positioning of lines and other primitives will snap to the Grid Snap distance unless overridden using the Ctrl key. The default for this is 1mm.
 
 ##### Click Selection Tolerance
 
@@ -55,11 +68,27 @@ This is how close you have to be to a line or vertex, in screen pixels, to click
 
 Controls how close, in screen pixels, your cursor has to be to an object vertex or center to engage the object snapping behavior.
 
-<a name="DXF_Import_Units"></a>
+##### Snap to Objects / Snap to Grid
 
-## DXF Import Units
+LightBurn has two snapping behaviors which can be enabled / disabled here. Snap to Objects will snap your pointer location to the nearest object center or vertex when creating new objects, or drawing lines, making it easier to connect and align shapes.  Snap to Grid will snap your cursor position to the nearest grid location, as specified by the Grid Snap value.  Note that the Grid Snap and the Visual Grid do not have to be the same.
 
-If you work with DXF files, you may need to use this.  DXF files do not store the measurement system that was used to create them. If you create an object that is 5 inches wide, it might import as 5mm wide, because LightBurn can only see the '5'. Similarly, if your object was created in microns, it might import huge. Set this value as appropriate before importing DXF files to ensure correct scaling.
+##### <a name="DXF_Import_Settings"></a>
+
+## DXF Import Settings
+
+##### Units
+
+DXF files do not store the measurement system that was used to create them. If you create an object that is 5 inches wide, it might import as 5mm wide, because LightBurn can only see the '5'. Similarly, if your object was created in microns, it might import huge. Set this value as appropriate before importing DXF files to ensure correct scaling.
+
+##### Auto Close Tolerance
+
+DXF files are often saved as a collection of discrete pieces, instead of continuous paths. The Auto-Close Tolerance value tells LightBurn to connect any lines or curves that are on the same layer and closer together than this value.
+
+<a name="Shape_Move_Increments"></a>
+
+## Shape Move Increments
+
+When moving objects with the cursor keys in the edit window, these values control the distance to move the selection, when using the arrow keys by themselves or with the Control or Shift modifiers.
 
 <a name="Output_Settings"></a>
 
@@ -69,7 +98,7 @@ These two settings affect the output sent to the laser.
 
 ##### Job Origin
 
-This setting controls where LightBurn assumes your laser position to be relative to the graphics in your project when using a "Start From" value of "Current Position" or "User Origin".  This is explained in more detail in the Coordinates and Origin settings page.
+This setting controls where LightBurn assumes your laser position to be relative to the graphics in your project when using a "Start From" value of "Current Position" or "User Origin".  This is explained in more detail in the [Coordinates and Origin](Coordinates_and_Origin.md) settings page.
 
 ##### Curve Tolerance
 
