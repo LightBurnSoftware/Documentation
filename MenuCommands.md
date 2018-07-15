@@ -129,9 +129,17 @@ Click on "Ellipse" or press "Ctrl + E" to draw ellipses in the workspace.
 Click on "Edit Nodes" or press "Ctrl + ~" to edit nodes of objects in the workspace.
 ### Edit Text
 Click on "Edit Text" or press "Ctrl + T" to create or edit text in the workspace.
-### Offset Vectors
+### Offset Shapes
 
 Used to create new shapes that are offset from the current selection, inward or outward.
+
+### Weld Shapes
+
+Fuses multiple shapes together into a single outline.
+
+### Trace Image
+
+Opens a dialog box where you can trace the content of a bitmap image into vector graphics.  ([Read more here](TracingImages.md))
 
 ### Zoom In
 Click on "Zoom In" or press "Ctrl + =" to zoom in the workspace.

@@ -35,25 +35,15 @@ Lightburn Software.
 * [Device Settings (Edit > Device Settings)](DeviceSettings.md)
 #### Using LightBurn
 * [Menus](MenuCommands.md)
-
 * [Toolbars and Tool Windows](Toolbars.md)
-
 * [Hot Keys and Gestures](HotKeys.md)
-
 * [Workspace / User Interface](Workspace.md)
-
 * [Layers](Layers.md)
-
 * [Material Library](MaterialLibrary.md)
-
 * [Laser Operations - Cut, Scan, Scan+Cut, Image](Operations.md)
-
 * [Machine Instructions](MachineInstructions.md)
-
 * [Coordinates, Origin and Finish Position](CoordinatesOrigin.md)
-
 * [Rotary Setup](RotarySetup.md)
-
 * [Using a Camera with LightBurn](Using_a_Camera.md)
 
 #### Vector Drawings
@@ -61,6 +51,7 @@ Lightburn Software.
 * [Importing External Vectors](ImportingExternalVectors.md)
 #### Raster Images
 * [Engraving Images](EngravingImages.md)
+* [Tracing Images](TracingImages.md) (converting bitmaps to vectors)
 #### Troubleshooting
 * [General Troubleshooting](Troubleshooting.md)
 #### Videos
