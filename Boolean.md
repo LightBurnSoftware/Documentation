@@ -13,12 +13,12 @@ Clicking on the Weld icon will join all the selected shapes into a single entity
 
 ## Union
 
-Union is similar to weld, but works with 2 selected objects only.
+Union is similar to weld, but works with 2 selected objects only. However these selected objects can actually be grouped items, not just a single vector shape.
 
 ## Boolean Subtract 
 
-Boolean subtract is the opposite of Union. It will remove the area that the second selected shape overlaps the first shape by.
+Boolean subtract is the opposite of Union. It will remove the area that the second selected shape overlaps the first shape by. The order in which you select shapes will determine the outcome. This tool also works with grouped items.
 
 ## Boolean Intersection
 
-This will creatre a shape from 2 selected shapes that has an outline defined by only the areas in which the shapes overlap.
+This will creatre a shape from 2 selected shapes that has an outline defined by only the areas in which the shapes overlap. This tool also works with grouped items.
