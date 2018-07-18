@@ -49,6 +49,7 @@ Lightburn Software.
 #### Vector Drawings
 * [Creating Vectors](CreatingNewVectors.md)
 * [Importing External Vectors](ImportingExternalVectors.md)
+* [Weld,Add,Subtract Operations](Boolean.md)
 #### Raster Images
 * [Engraving Images](EngravingImages.md)
 * [Tracing Images](TracingImages.md) (converting bitmaps to vectors)
