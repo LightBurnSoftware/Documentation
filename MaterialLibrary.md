@@ -102,7 +102,7 @@ Click *Edit Description* to modify the Name, Thickness and Description for the h
 
 Click *Duplicate* to create a copy of the highlighted entry.  This can be helpful in quickly adding to your library.  
 
-###### Hint: Combined with *Edit Description* and *Edit Cut* you can keep the same "Material Name" and "Thickness" to create 'nested' entries (e.g. 3mm cut, scan and image).  Kepping just the "Name" while changing the "Thickness" allows nesting of different thicknesses of the same material. 
+###### Hint: Combined with *Edit Description* and *Edit Cut* you can keep the same "Material Name" and "Thickness" to create 'nested' entries (e.g. 3mm cut, scan and image).  Keeping just the "Name" while changing the "Thickness" allows nesting of different thicknesses of the same material. 
 
 ### Delete
 
