@@ -22,3 +22,8 @@ Boolean subtract is the opposite of Union. It will remove the area that the seco
 ## Boolean Intersection
 
 This will creatre a shape from 2 selected shapes that has an outline defined by only the areas in which the shapes overlap. This tool also works with grouped items.
+
+
+## Quick Video Walkthrough of the Boolean Operations
+
+https://www.youtube.com/watch?v=51cXqmNHgeI&feature=youtu.be
