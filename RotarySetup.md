@@ -5,7 +5,7 @@
 
 Click on the Tools menu, Rotary Setup link and it will open the rotary setup dialog box.
 
-(/img/rotary.png)
+![Rotary Setup Window](/img/rotary.png)
 
 1. If using a Ruida controller, disconnect the Y axis stepper connection and connect the rotary attachment to the Y axis. If using Smoothie or Grbl or C3D controllers, click the "A" axis selection.
 2. Choose whether you have a chuck style or roller attachment.
