@@ -23,9 +23,7 @@ This is the origin or 0,0 location for your laser.
 
 ### Scanning Offset Adjust
 
-Scanning offset is useful when doing raster or vector scanning at high enough speeds that belt flex puts your laser head a little behind where it should be when it fires. (see the comparison below of RDWorks with the feature enabled vs LightBurn before it was available). You run several scans at different speeds, measure the distance between your horizontal scans on odd / even rows, and enter those measurements into the table. A minimum of two measurements are needed for it to work. Others are interpolated from those, but you can enter as many as you like.
-
-![Scanning Offset Calibration](/img/ScanningOffsetCalibration.jpg)
+Scanning offset is useful when doing raster or vector scanning at high enough speeds that delays in your power supply cause the firing point to be a little behind where it should be. See the help for [Scanning Offset Adjustment here](ScanningOffsetAdjustment.md).
 
 <a name="FastWhitespace">
 
@@ -36,3 +34,5 @@ When engraving an image, LightBurn normally moves at the same speed across the e
 <a name="zaxis">
 
 ### Z Axis Controls
+
+(pending / incomplete)
