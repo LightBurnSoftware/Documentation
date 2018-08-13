@@ -13,7 +13,7 @@ Once the trial expires, you will need to purchase a version for your hardware: T
 
 ------
 
-### GRBL or Smoothie: $30 one-time purchase fee
+### GRBL or Smoothie: $40 one-time purchase fee
 
 ### Ruida or other DSP: $80 one-time purchase fee
 
