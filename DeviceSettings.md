@@ -1,4 +1,7 @@
 [Return to main page](README.md)
+
+----
+
 # Device Settings
 
 After initial setup, you can access device settings under the Edit > Device Settings menu.

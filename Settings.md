@@ -1,4 +1,7 @@
-### [Return to main page](README.md)
+[Return to main page](README.md)
+
+----
+# Settings
 
 This is the main LightBurn settings page.
 

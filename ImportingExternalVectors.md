@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Importing External Vectors
 
 LightBurn supports the following external vector file formats

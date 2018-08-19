@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Frequently Asked Questions
 
 ### Q: I just paid, how long until my license arrives?

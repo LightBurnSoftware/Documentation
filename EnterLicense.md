@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Entering your License Key
 
 When you first start LightBurn you will be prompted to enter your license key or start your trial version. If you do not have a license key you can click the *Start your Free Trial* button to being your 30-day unrestricted trial of the software.

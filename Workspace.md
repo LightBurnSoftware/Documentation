@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Workspace / User Interface
 
 ## Overview

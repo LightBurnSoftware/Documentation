@@ -1,4 +1,7 @@
 [Return to main page](README.md)
+
+----
+
 # Installation
 
 ## Download 

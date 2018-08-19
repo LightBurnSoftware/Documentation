@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Licensing
 
 There is a 30 day free trial with no restrictions on the software.

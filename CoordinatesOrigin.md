@@ -1,5 +1,8 @@
+[Return to main page](README.md)
+
+----
+
 # Coordinates and Job Origin
-[Return Home](README.md)
 
 There are a couple different ways to tell LightBurn how to cut the project within the work area of your machine.  You choose them in the "Start From" box on the Laser tab:
 

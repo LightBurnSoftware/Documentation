@@ -1,3 +1,7 @@
+[Return to main page](README.md)
+
+----
+
 # Common Grbl setups
 
 If you have a GCode-based system, like a Shapeoko, Eleksmaker,  X-Carve, or Acro system, you might need to make some simple changes to get the most from LightBurn.

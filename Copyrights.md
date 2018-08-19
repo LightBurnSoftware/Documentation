@@ -1,4 +1,7 @@
 [Return to main page](README.md)
+
+----
+
 # Copyrights
 
 **LightBurn** - Copyright (c) 2018, LightBurn Software, LLC

@@ -1,3 +1,7 @@
+[Return to main page](README.md)
+
+----
+
 # Creating Vectors in LightBurn
 
 LightBurn has a powerful set of tools for creating basic shapes directly in the workspace. These can be accessed via the Tools menu or via the Tools toolbar located along the left side of the default window.

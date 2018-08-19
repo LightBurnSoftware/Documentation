@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Scanning Offset Adjustment
 
 Modern lasers are capable of moving very fast, and with remarkable precision, however firing the beam still takes time.  Some power supplies and tubes may respond in less than a millisecond, but many take longer.

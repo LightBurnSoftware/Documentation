@@ -1,3 +1,7 @@
+[Return to main page](README.md)
+
+----
+
 # LightBurn
 
 ##### Better software for laser cutters

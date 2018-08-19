@@ -1,3 +1,7 @@
+[Return to main page](README.md)
+
+----
+
 # Troubleshooting
 
 [Machine Connectivity](#connectivity)

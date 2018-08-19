@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Layers
 
 LightBurn offers layering capability to allow different actions and settings for the various drawings or images of your job.

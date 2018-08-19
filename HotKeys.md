@@ -1,4 +1,7 @@
 [Return to main page](README.md)
+
+----
+
 # Hot Keys and Gestures
 
 Most feature hot-keys can be found next to the action in the menus.  

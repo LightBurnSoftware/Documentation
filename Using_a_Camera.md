@@ -1,5 +1,7 @@
 [Return to main page](README.md)
 
+----
+
 # Using a camera with LightBurn
 
 LightBurn includes a camera feature which allows a USB connected camera to be used in a couple of different ways:

@@ -1,3 +1,7 @@
+[Return to main page](README.md)
+
+----
+
 # Requesting Help for LightBurn
 
 When asking for support for LightBurn via any social media outlets or email, please keep the following tips in mind for the fastest and most helpful answers.

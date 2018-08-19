@@ -1,4 +1,7 @@
 [Return to main page](README.md)
+
+----
+
 <a name="TracingImages"></a>
 
 # Tracing Images

@@ -1,4 +1,7 @@
 [Return to main page](README.md)
+
+----
+
 # Creating a Power Scale Test Grid
 
 Create a 15x15mm square. Set its speed to your lowest speed to test and set power to whatever 100% on your laser is (i.e. if your max Power should be set to 70% so as not to overpower your tube (i.e. go above the recommended MAX milliamps) then set power to 70%).
