@@ -104,10 +104,10 @@ This setting controls where LightBurn assumes your laser position to be relative
 
 This setting is similar to the Curve Quality setting above, except that it controls the quality of output to the laser. The number is a measure of how much error to allow in the output.  A value of 0 would be "perfect", but would create very dense data, as some lasers can only process line segments.
 
-![OutputTolerance](F:\Github\LightBurnDocs\Documentation\img\OutputTolerance.png)
+![OutputTolerance](./img/OutputTolerance.png)
 
 In the above image, the blue curve between the two points is the ideal shape. The black line is a straight line between them, and the red line shows the error (how far the line is from the curve). LightBurn measures this error, and if it's equal to or lower than the Curve Tolerance value, it outputs the straight line. If not, the curve is subdivided into two linear segments and the process repeats with each new segment. Those segments are shown below in violet, along with their new error values.  You can see that the two new lines do a much better job of approximating the original curve.
 
-![OutputTolerance-SubDiv](F:\Github\LightBurnDocs\Documentation\img\OutputTolerance-SubDiv.png)
+![OutputTolerance-SubDiv](./img/OutputTolerance-SubDiv.png)
 
 Most people will probably never need to change this - the default is 0.05mm, which is about 1/2 the width of a typical beam.  Note that this is the *maximum* error value allowed, so typical output will be better than this, and this only affects curves, not straight lines or vertices, which are exact.
