@@ -36,13 +36,13 @@ This will open a list of the most recently opened files to choose from.
 To open an existing or saved file, click on “Open” in the File menu or press "Ctrl + O" (Command + O on Mac).
 
 ### Import
-You can import any supported LightBurn files into the file you are currently working on. Click on “Import” in the File menu or press “Ctrl – I” LightBurn supports importing the following file types: svg, ai, pdf, dxf, png, jpg, bmp.
+You can import any supported LightBurn files into the file you are currently working on. Click on “Import” in the File menu or press “Ctrl – I” LightBurn supports importing the following file types: svg, ai, pdf, dxf, hpgl, plt, png, jpg, bmp.
 
 ### Save
 To save a project click on “Save” in the File menu or press "Ctrl + S".  Type the name you want the file saved as in the dialog box that opens up. To save a file with changes, but still keep the original file intact, click on the “Save As” icon in the File menu.
 
 ### Export
-To export a file to a different file format, click on “Export” in the File menu. LightBurn can export to SVG or AI format, though bitmaps are currently not exported.
+To export a file to a different file format, click on “Export” in the File menu. LightBurn can export to SVG or AI format, though bitmaps and text are currently not exported.
 
 ### Exit 
 To exit LightBurn, click on the “Exit" in the File menu or press “Ctrl – Q”.  You will be prompted to save your file if you have unsaved changes.
@@ -85,11 +85,11 @@ This will select all open shapes in the document.
 ### Select open shapes set to scan
 This will select all the open shapes that are set to scan in the document.
 ### Select all shapes in current layer
-This will select all the shapes that are set to cut in the current layer of the document.
+This will select all the shapes that are set to cut in the current layer of the document. Note that if some of these shapes are grouped, the system may have to un-group them in order to select them.
 ### Settings
 Clicking on "Settings" in the Edit menu will open a [Dialog box](Settings.md) where you can enter information about your laser and default application settings.
 ### Device Settings
-After initial setup, you can access device settings by choosing "Device Settings".
+After initial setup, you can access device settings by choosing "[Device Settings](DeviceSettings.md)".
 ### Debug drawing
 This is mostly an internal tool for LightBurn developers that shows the bounds of shapes being drawn.
 ### Convert to cut
@@ -141,7 +141,7 @@ Click on "Position Laser" to allow clicking on the workspace to move the laser h
 Click on "Preview" or press "Alt + P" to open the preview window. It will show the current laser project and includes information on cut distance, rapid moves, and total time estimate. Cut lines are in black and traversal moves are red. You can toggle the display of traversal moves on or off, as well as shading by power level.
 
 ### Rotary
-This will open the rotary setup dialog box. Use this to set up your rotary attachment.
+This will open the [rotary setup dialog](RotarySetup.md) box. Use this to set up your rotary attachment.
 
 [Return to top](#MenuCommands)
 
@@ -225,11 +225,11 @@ Click on "Online Video Tutorials" to access the tutorial videos.
 ### Check for Updates
 Click on "Check for Upfates" to make sure you are on the most recent version.
 
-### License Actvation and Trial
-Click on "License Activation and Trial" to enter license key, or see the status of your trial period or license.
+### License Activation and Trial
+Click on "License Activation and Trial" to launch the [license dialog](EnterLicense.md), where you can enter your license key, or see the status of your trial period or license.
 
 ### Enable Debug Log
-This is for the developers, turn on the log by clicking on "Enable Debug Log"
+This is for the developers, turn on the log by clicking on "Enable Debug Log".  The log file will be written to your "My Documents" folder on Windows, or Documents on Mac, and is cumulative - each time you enable the debug log it will append to any existing log, so it's a good idea to delete it after you're finished.
 
 [Return to top](#MenuCommands)
 
