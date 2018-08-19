@@ -4,7 +4,7 @@
 
 LightBurn offers layering capability to allow different actions and settings for the various drawings or images of your job.
 
-Layers are controlled by the color pallet at the bottom of the LightBurn workspace.
+Layers are controlled by the color palette at the bottom of the LightBurn workspace.
 
 ![Layers Palette](/img/LayersPalette.PNG)
 
