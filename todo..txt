@@ -1,0 +1,25 @@
+
+- Update the licensing docs / images (consolidate EnterLicense page with licensing)
+  - When complete, change the link in "MenuCommands" for License Activation and Trial
+- Update Global Settings screen shot
+- Document Auto-Save (including setting and behavior)
+- Update Device Setup laser menu image
+- Include Home on Startup option in device setup
+- Update Device Settings image to include new M7 toggle, S_Max parameter
+- Add Z Axis controls docs to Device Settings
+- Add "Distribute" commands to MenuCommands.md
+- Document grid array
+- Document radial array
+- Document "Arrange (Long)" vs "Arrange" (toolbars.md)
+- Document Material(mm) in Cuts view (toolbars.md)
+- Update screen shot of Laser window (toolbars.md)
+  - "These commands are covered in detail elsewhere..." provide link.
+- Update Move image (toolbars.md) and documentation
+- Add information about Corner Radius (and specifcally limitations, wrt scaling) (toolbars.md)
+- Main Toolbar empty (toolbars.md) as are others.  Remove or complete.
+- Layers - can now be named by the user (document)
+- Layers can now be cached / uncached (left/right arrows)
+- "Machine Instructions" should be "Sending jobs to the laser" or similar
+- GCode console should document macros (MachineInstructions.md)
+- Document "auto-weld" feature for text (CreatingNewVectors.md)
+- Add boolean.md link to CreatingNewVectors.md
