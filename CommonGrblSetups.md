@@ -40,7 +40,12 @@ It is simple to set these up as macro buttons in the LightBurn console window.  
 
 ## X-Carve
 
-X-Carve machines usually run an older flavor of Grbl (1.0c) which does not support the variable power (M4) command, meaning you'll need to use the Grbl-M3 device in LightBurn.
+X-Carve machines sold prior to January 2018 generally run an older flavor of Grbl (1.0c) which does not support the variable power (M4) command, meaning you'll need to use the Grbl-M3 device in LightBurn.  Machines sold after that date use Grbl 1.1f, and will work with the standard Grbl device in LightBurn if the following settings commands are entered in the console:
+
+$30=1000
+$32=1
+
+These two lines set the spindle max value (\$30) to match LightBurn and Grbl's default setting (1000), and to enable laser mode (\$32).
 
 
 
