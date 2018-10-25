@@ -57,3 +57,6 @@ You can create rounded corners on rectangles by selecting the shape and going to
 ## Boolean Operations
 
 Vector shapes can be modified using the [Boolean Tools](Boolean.md)
+
+## Text Autoweld
+When using script fonts, Lightburn will autoweld the letters together.
