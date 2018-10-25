@@ -52,3 +52,8 @@ You can create rounded corners on rectangles by selecting the shape and going to
 * Resulting shape can be auto-converted to splines.
 * Can auto-delete the source shape(s) if desired.
 * Pressing the Offset button with the Ctrl key pressed (![Command icon](/img/key-command-16.png)on Mac) executes with the last used options.
+
+
+## Boolean Operations
+
+Vector shapes can be modified using the [Boolean Tools](Boolean.md)
