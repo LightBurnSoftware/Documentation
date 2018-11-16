@@ -64,5 +64,5 @@ Lightburn Software.
 * [How to ask for help](RequestingHelp.md)
 * [Common Grbl Setups](CommonGrblSetups.md)
 * [FAQ](FAQ.md)
-
+* [Change Log] (http://https://lightburnsoftware.com/blogs/news/lightburn-0-8-05-new-cut-planner-lots-of-new-extras-and-fixes)
 ------------
