@@ -21,6 +21,9 @@ Lightburn Software.
 
 # LightBurn Documentation
 ### Table of Contents
+
+
+#### Change Log and News (https://lightburnsoftware.com/blogs/news/lightburn-0-8-05-new-cut-planner-lots-of-new-extras-and-fixes)
 ----------
 #### Start Here
 * [Prerequisites](PreReq.md)
