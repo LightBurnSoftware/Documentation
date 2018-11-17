@@ -30,6 +30,8 @@ If you choose Order By Priority, the cut planner will  apply all optimizations t
 As the name implies, if there is an object within another object, and both are being cut, it will cut out the inside object before the outside one.
 
 ### Cut In Direction Order
+If you have set the cut direction of objects in the Shapes Properties, choosing this option will cut all shapes of one direction, before the other direction.
+
 
 ### Reduce Travel Moves
 
