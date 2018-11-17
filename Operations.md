@@ -67,6 +67,9 @@ This setting is only available for Ruida based machines. Enabling this setting w
 * Number of Passes: The number of times the laser will trace the same path
 * Z step per pass: Increase or decrease bed height for powered Z bed
 
+#### Reset To Default
+* Clicking on the Reset to Defaults button, will reset the cut settings to their default settings.
+
 <a name="scan"></a>
 
 -------------------
