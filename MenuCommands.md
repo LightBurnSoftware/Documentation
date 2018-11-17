@@ -191,7 +191,7 @@ Click on "Circular Array" to create an array or grid of objects in a circle in t
 Click on "Push forward in draw order" or use "Page up" key to move the selected object up one level in the draw order. Usefull when trying to see objects on the screen.
 ### Push backward in draw order
 Click on "Push backward in draw order" or use "Page down" key to move the selected object down one level in the draw order. Usefull when trying to see objects on the screen.
-
+"Ctrl-PgDn" or "Ctrl-PgUp" will send an object to the very bottom, or very top of the objects on the screen.
 [Return to top](#MenuCommands)
 
 ----------------------------------
