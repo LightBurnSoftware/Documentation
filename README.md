@@ -44,6 +44,7 @@ Lightburn Software.
 * [Layers](Layers.md)
 * [Material Library](MaterialLibrary.md)
 * [Laser Operations - Cut, Scan, Scan+Cut, Image](Operations.md)
+* [Cut Planner](CutPlanner.md)
 * [Machine Instructions](MachineInstructions.md)
 * [Coordinates, Origin and Finish Position](CoordinatesOrigin.md)
 * [Rotary Setup](RotarySetup.md)
