@@ -98,7 +98,7 @@ You can also set or clear a custom origin or get the current reported position.
 <a name="shapeproperties"></a>
 ### Shape Properties
 
-Shape properties is used for setting a percentage of power for a given shape. This allows you to set different shapes within the same layer to a higher or lower laser power percentage without creating a new layer. This is especially useful for creating test patterns and is covered in detail in the Video [LightBurn progress demo #9 - Power Scaling](https://www.youtube.com/watch?v=ZiUAOv4tAGY)
+Shape properties is used for setting a percentage of power for a given shape. This allows you to set different shapes within the same layer to a higher or lower laser power percentage without creating a new layer. This is especially useful for creating test patterns and is covered in detail in the Video [LightBurn progress demo #9 - Power Scaling](https://www.youtube.com/watch?v=ZiUAOv4tAGY) You can also choose what direction the shape should be cut in. This will be used by the cut planner to determine the cut direction.
 
 ![Shape Properties Tool Window](/img/ShapePropertiesToolBox.PNG)
 
