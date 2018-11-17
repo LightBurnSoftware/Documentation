@@ -19,7 +19,7 @@ Most feature hot-keys can be found next to the action in the menus.
   * When sizing, Control means "resize from center"
 * **Zoom:** Mouse wheel (zooms relative to the cursor)
 * **View drag:** Middle-mouse click and drag
-* Double clicking text objects now auto chooses text mode and places cursor.
+* **Double clicking text** Now auto chooses text mode and places cursor.
 
 ## Keyboard
 * **View drag:** Hold space-bar + left-click & drag (useful for Mac, or users without a mouse wheel)
