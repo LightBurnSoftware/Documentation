@@ -158,6 +158,9 @@ Click on the "Offset Vectors" icon to createnew vectors that are an offset of th
 <a name="Text"></a>
 ## Text Options Toolbar
 
+You can select the font, size, and also Bold or Italic options here.
+
+
 [Return to Top](#Top)
 
 
