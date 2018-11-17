@@ -93,11 +93,17 @@ This will select all the shapes that are set to cut in the current layer of the 
 Clicking on "Settings" in the Edit menu will open a [Dialog box](Settings.md) where you can enter information about your laser and default application settings.
 ### Device Settings
 After initial setup, you can access device settings by choosing "[Device Settings](DeviceSettings.md)".
+### Machine Settings
+You can access the controller hardware settings by choosing this option.
 ### Debug drawing
 This is mostly an internal tool for LightBurn developers that shows the bounds of shapes being drawn.
 ### Convert to cut
 Also an internal tool for LightBurn developers - It converts the selected shapes into the cuts that would be sent to the laser, and makes a new shape from the result.
 This is not how you produce gcode / cuts for your machine, it's just a debugging tool. Click on "Convert to cut" in the Edit menu or press "Ctrl + Shift + C"
+
+### Machine Settings
+
+
 
 [Return to top](#MenuCommands)
 
