@@ -76,7 +76,7 @@ The Laser tool window is used to interact with the connected device.
 
 ![Laser Tool Window](/img/LaserToolBox.PNG)
 
-This tool window provides most of the functions for interacting directly with your laser. The commands are covered in detail elsewhere in the documentation.
+This tool window provides most of the functions for interacting directly with your laser. The commands are covered in detail elsewhere in the documentation. You can also enable the rotary here, as well as change the job origin.
 
 For a detailed explanation of the *Start From* options, see [Coordinates and Origin](CoordinatesOrigin.md)
 
