@@ -12,7 +12,7 @@ You can select what the initial order parameter will be. You have a choice of La
  
 ### Order By Layer
  
-If you choose Orer By Layer, the cut planner will apply all optimizations to the first layer, then the second layer, and so on.
+If you choose Order By Layer, the cut planner will apply all optimizations to the first layer, then the second layer, and so on.
  
  ### Order By Groups
  
