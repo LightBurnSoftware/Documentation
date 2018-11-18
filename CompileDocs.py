@@ -1,6 +1,8 @@
 
 import datetime
 import re
+import os
+import os.path
 
 
 # Start with Readme.md
@@ -61,6 +63,10 @@ def AddFileToDoc(filename):
 					if refName.lower().endswith('.md'):
 
 						if refName not in set:
+							if not os.path.exists(refName):
+								print 'File {} does not exist'.format(refName)
+								print '  referenced from {}'.format(filename)
+
 							queue.append( refName )
 							set[refName] = 1
 
