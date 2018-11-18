@@ -101,7 +101,7 @@ These two settings affect the output sent to the laser.
 
 ##### Job Origin
 
-This setting controls where LightBurn assumes your laser position to be relative to the graphics in your project when using a "Start From" value of "Current Position" or "User Origin".  This is explained in more detail in the [Coordinates and Origin](Coordinates_and_Origin.md) settings page.
+This setting controls where LightBurn assumes your laser position to be relative to the graphics in your project when using a "Start From" value of "Current Position" or "User Origin".  This is explained in more detail in the [Coordinates and Origin](CoordinatesOrigin.md) settings page.
 
 ##### Curve Tolerance
 
