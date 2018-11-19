@@ -14,7 +14,7 @@ Take the following example
 
 ![Size vs Scale](/img/Size-Vs-Scale.png)
 
-A diamond best expresses this concept as the actual size of the image in the Shape Properties differs from the width and height shown in the toolbar at the top. In this case, the diamond measures 50x50 however the measurement of the overall footprint of the diamond is actually just over 70x70 if you measure from corner to corner. If you scale this shape using the toolbar or the drag handles, it will appear to resize the diamond but in fact it's just squashing it or stretching it out to fill the dimensions you specify. The underlying diamond is still 50x50. 
+A diamond best expresses this concept as the actual size of the image in the Shape Properties differs from the width and height shown in the toolbar at the top. In this case, the diamond measures 50x50 however the measurement of the overall footprint of the diamond is actually just over 70x70 if you measure from corner to corner. If you scale this shape using the toolbar or the drag handles, it will appear to resize the diamond but in fact it's just squashing it or stretching it out to fill the dimensions you specify. The original diamond is still 50x50. 
 
 This is especially important for corner radius. The only way to change the size of your drawing and maintain the proportionality of the corner radius is to change it in the Shape Properties. If you scale the image the corners will stretch or squash just like the rest of the shape to fit your set scale dimensions.
 
