@@ -125,4 +125,4 @@ Most people will probably never need to change this - the default is 0.05mm, whi
 
 You can set the frequency of your auto-save by adjusting the value in minutes here.
 
-![](C:\Users\Owner\Documents\Projects\LB-Documentation\img\auto-save-interval.png)
+![Auto Save Interval](/img/auto-save-interval.png)
