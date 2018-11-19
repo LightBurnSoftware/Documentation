@@ -23,3 +23,5 @@
 - GCode console should document macros (MachineInstructions.md)
 - Document "auto-weld" feature for text (CreatingNewVectors.md)
 - Add boolean.md link to CreatingNewVectors.md
+
+## testing check in from new computer
