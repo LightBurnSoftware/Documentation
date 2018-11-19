@@ -22,7 +22,7 @@ When you select a drawing, you can accurately scale using the width and height u
 
 Using the Shape Properties dialog will resize the shape (note this is different from scaling). Using this will maintain corner radius proportions.
 
-![Scale Shape Properties](/img/Scale-Shape-Properties.png)
+![Scale Shape Properties](/img/Scale-Shape-Properties.PNG)
 
 -----------
 
