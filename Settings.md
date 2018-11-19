@@ -16,6 +16,7 @@ There are a few different sections here, all related to different settings:
 - [DXF Import Settings](#DXF_Import_Settings)
 - [Shape Move Increments](#Shape_Move_Increments)
 - [Output Settings](#Output_Settings)
+- [Other Setttings](#Other_Settings)
 
 <a name="Display_Graphics"></a>
 
@@ -114,3 +115,14 @@ In the above image, the blue curve between the two points is the ideal shape. Th
 ![OutputTolerance-SubDiv](./img/OutputTolerance-SubDiv.png)
 
 Most people will probably never need to change this - the default is 0.05mm, which is about 1/2 the width of a typical beam.  Note that this is the *maximum* error value allowed, so typical output will be better than this, and this only affects curves, not straight lines or vertices, which are exact.
+
+
+<a name="Other_Settings"></a>
+
+## Other Settings
+
+##### Auto Save Interval
+
+You can set the frequency of your auto-save by adjusting the value in minutes here.
+
+![](C:\Users\Owner\Documents\Projects\LB-Documentation\img\auto-save-interval.png)
