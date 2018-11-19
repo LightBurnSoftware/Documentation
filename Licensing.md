@@ -25,6 +25,8 @@ Both include all published updates and bug fixes for a year. After that first ye
 
 You can install the product on up to two machines at a time, so people with Mac/PC setups, or a PC in the house and one in the shop will be covered. Licenses can be transferred between machines if you get a new PC.
 
+* Note: As of version 0.8.00 the licensing system was redone. If you are upgrading from v0.7.x to 0.8.x or greater and have difficulty with your license, please contact Lightburn Software for assistance.
+
 ------
 
 Contact LightBurn Software to discuss multi-seat or institutional pricing.
