@@ -45,8 +45,14 @@ You can create rounded corners on rectangles by selecting the shape and going to
 
 [Video Tutorial #2: Offset Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=10m49s)
 
+![Offset Dialog](/img/OffsetDialog.png)
+
+
+
 * Create an offset line around the selected objects.
-* Can increase or decrease the offset distance, either outward or inward.
+* Can increase or decrease the offset distance, either outward, inward or both.
+* Corner style can be set to round, bevel or corner
+* Options to delete the original, select the resulting objects and optimize/simplify results
 * Resulting shape is grouped automatically.
 * You can ungroup and remove unwanted outline portions .
 * Resulting shape can be auto-converted to splines.
