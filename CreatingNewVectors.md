@@ -23,7 +23,17 @@ LightBurn has a powerful set of tools for creating basic shapes directly in the 
 #### Creating rounded corners on rectangles
 You can create rounded corners on rectangles by selecting the shape and going to the Shape Properties tool window. In this window you can edit the base path properties including Width, Height and Corner Radius.
 
+### Polygon Tool ![Polygon Tool](img/PolygonTool.png)
+
+The Polygon tool allows you to draw an N-sided polygon. Select the polygon tool and draw a shape on the screen. Then select the shape and go into the Shape Properties dialog box. You will see a Sides option below Width and Height to allow you to set the number of sides you want.
+
+![PolygonSides](/img/PolygonSides.png)
+
+
+
+
 ### Node Editing Tool ![Node Tool Icon](/img/NodeTool.PNG)
+
 [Video Tutorial #2: Node Editing](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m15s)
 * Allows you to move the vertices of a selected shape.
 * Pressing the S key when hovering over a node will convert it to a smooth node, and if required, creates tangent handles that can be manipulated from it.
