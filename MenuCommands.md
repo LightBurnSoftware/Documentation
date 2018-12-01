@@ -166,7 +166,7 @@ Click on "Flip Horizontal" or press "Ctrl + Shift + H" to flip the selected obje
 ### Flip Vertical
 Click on "Flip Vertical" or press "Ctrl + Shift + V" to flip the selected objects in the workspace vertically.
 ### Align Centers
-Click on "Align Centers" to place the center points of the selected obnjects directly on top of each other.
+Click on "Align Centers" to place the center points of the selected objects directly on top of each other.
 ### Align Left
 Click on "Align Left" or press "Ctrl + Shift + Left arrow" to align the selected objects in the workspace to the left.
 ### Align Right
