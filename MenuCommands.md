@@ -179,6 +179,10 @@ Click on "Align Bottom" or press "Ctrl + Shift + Down arrow" to align the select
 Click on "Align H-Center" to align the selected objects in the workspace to the center of the horizontal plane.
 ### Align V-Center
 Click on "Align V-Center" to align the selected objects in the workspace to the center of the vertical plane.
+### Move H-together 
+Click on "H-together to move shapes like distribute, but keeps shapes together
+### Move V-together  
+Click on "V-together to move shapes like distribute, but keeps shapes together
 ### Move to Page Center
 Click on this to move selected objects to center of page
 ### Move to Upper Left
