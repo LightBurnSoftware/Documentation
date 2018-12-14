@@ -118,6 +118,11 @@ Note, this is not available on some connected devices including Ruida.
 <a name="workspace"></a>
 ## Main Toolbar
 
+
+LightBurn's X & Y position, width, height, scale, and interval entry boxes now support expressions and units. What does this mean for you?
+
+If you type 1/2in, and you're in mm mode, it'll turn into 12.7.  If you're in inch mode and type 1/2in, it'll become 0.5.  You can use ft, cm, in, or mm, along with normal math symbols and parenthesis (*/-+).  You can combine them, so entering (1/2in + 3mm) * 2.5 + 1ft is valid.  You can type 1/300in in the interval box to have it convert "300 lines per inch" into an interval for you. This should make working in mixed units easier.
+
 [Return to Top](#Top)
 
 <a name="Tools"></a>
