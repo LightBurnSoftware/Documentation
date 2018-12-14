@@ -202,6 +202,8 @@ Click on "Push forward in draw order" or use "Page up" key to move the selected 
 ### Push backward in draw order
 Click on "Push backward in draw order" or use "Page down" key to move the selected object down one level in the draw order. Usefull when trying to see objects on the screen.
 "Ctrl-PgDn" or "Ctrl-PgUp" will send an object to the very bottom, or very top of the objects on the screen.
+### Break apart 
+Click on "Break apart" to break selected object into individual parts.
 [Return to top](#MenuCommands)
 
 ----------------------------------
