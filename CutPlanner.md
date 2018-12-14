@@ -52,3 +52,7 @@ The cut planner will attempt to start a cut at a corner or vertice to minimize b
 ### Choose Best Direction
 
 The cut planner will attempt to choose the best direction to cut in.
+
+### Remove Overlapping Lines
+
+The cut planner will remove lines that overlap eachother that would cause the laser to cut in the same place twice.
