@@ -71,6 +71,8 @@ To duplicate a selection in place, select one or more objects and click "Duplica
 This means if you already have something on the clipboard, it'll still be there after using Duplicate. The duplicate is placed directly on top of the original.
 ### Paste
 To paste an object from the clipboard click "Paste" in the Edit menu or press "Ctrl - V". This will place a copy of the clipboard contents in the current file. Note that LightBurn can paste text or images copied to the clipboard from other software.
+### Paste in place
+To paste an object from the clipboard click "Paste in place" in the Edit menu or press "Alt - V". This will place a copy of the clipboard contents in the current file in the same spot that it was in the original file. 
 ### Delete
 To delete an object select it and click "Delete" in the Edit menu, or hit the Delete key.  This will remove the object from the current file.
 ### Convert to path
