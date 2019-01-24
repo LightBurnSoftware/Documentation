@@ -78,4 +78,7 @@ Most feature hot-keys can be found next to the action in the menus.
 
 ### Help
 **Help and Notes** F1
-For a complete list of [Hotkeys](LightBurnHotKeys.pdf)
+
+
+### Complete List of LightBurn Hot Keys
+* [Hotkeys](LightBurnHotKeys.pdf)
