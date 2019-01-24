@@ -40,5 +40,6 @@ That's it! Locate the LightBurn icon to launch the program
 2. **IMPORTANT!** Log out and log back in (this refreshes the permissions we just added)
 3. Download the Linux 64-bit version
 4. Extract the folder wherever you want Lightburn to exist
+5. Right click ```AppRun``` > Properties > Permissions > 'Allow executing file as program'
 5. Double click ```AppRun``` inside your Lightburn folder
 
