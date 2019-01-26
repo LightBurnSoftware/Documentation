@@ -42,7 +42,7 @@ It is simple to set these up as macro buttons in the LightBurn console window.  
 
 X-Carve machines sold prior to January 2018 generally run an older flavor of Grbl (1.0c) which does not support the variable power (M4) command, meaning you'll need to use the Grbl-M3 device in LightBurn.  Machines sold after that date use Grbl 1.1f, and will work with the standard Grbl device in LightBurn if the following settings commands are entered in the console:
 
-$30=1000
+$30=1000<br>
 $32=1
 
 These two lines set the spindle max value (\$30) to match LightBurn and Grbl's default setting (1000), and to enable laser mode (\$32).
@@ -73,7 +73,7 @@ If your machine uses negative coordinate space, we need to offset the origin.
 
 LightBurn wants positive workspace numbers, like this:
 
-![](img/NormalWorkspace.png)
+![](img/PositiveWorkspace.png)
 
 This image shows the origin at the front-left, with positive X values moving to the right, and positive Y values heading to the rear of the machine.
 
@@ -83,7 +83,9 @@ A negative workspace system looks like this:
 
 In this image, the origin is at the rear-right of the machine.  The X and Y directions are the same as before, but now, to move into the work area, you would need to use negative numbers.  Instead, we're going to set up a work offset.
 
-You'll need to know the total distance your machine can travel in both axis.  For a Shapeoko XXL, for example, it's 812mm in X and Y. For a 500x500 X-Carve, it's 250mm in X and Y.
+You'll need to know the total distance your machine can travel in both axis.  For a Shapeoko XXL, for example, it's 812mm in X and Y. For a 500x500 X-Carve, it's 250mm in X and Y.  By applying a workspace offset that is the size of your machine area, we can shift the offset to the opposite corner, like this:
+
+![](img/WorkspaceOffset.png)
 
 Enter the following command:
 
