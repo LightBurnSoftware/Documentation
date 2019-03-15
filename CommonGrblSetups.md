@@ -6,6 +6,14 @@
 
 If you have a GCode-based system, like a Shapeoko, Eleksmaker,  X-Carve, or Acro system, you might need to make some simple changes to get the most from LightBurn.
 
+#### Short version:
+
+- You might need to adjust your spindle max RPM value ($30) to match the LightBurn default (1000) or vice versa.
+- You might need to enable "Laser Mode" if you have GRBL 1.1f or later (\$32=1).
+- If your machine uses negative workspace coordinates you'll need to apply a workspace offset (G10 L2 P1 xx yy) and set your machine status reporting to be relative to the workspace origin, not the machine origin (\$10=0).
+
+
+
 #### Grbl Flavors
 
 Grbl firmware was originally designed for CNC machines and 3D printers, with laser support added more recently.  It is highly configurable, and this is both a blessing and a curse. The "standard" way a CNC machine is configured is somewhat different than the way laser machines often are.  Luckily this is easy to change, and easy to switch from one to the other.
@@ -96,6 +104,8 @@ in the console, and hit enter. Note that the '250' above should be replaced with
 ​	G10 L2 P1 X-600 Y-400
 
 This command offsets the origin by the given amounts. If the origin used to be in the rear-right of the machine, and you offset it in the negative direction by the width and height of the work area, you've moved the origin to the front-left.
+
+If you enable a workspace offset, you will also need to make GRBL report its location relative to this shifted origin, instead of in "machine space" by setting $10=0.  Some systems, like Easel or Carbide Motion, may need a different value, so it is good to remember the existing setting.
 
 
 
