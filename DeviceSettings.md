@@ -36,6 +36,14 @@ When engraving an image, LightBurn normally moves at the same speed across the e
 
 **A note for Marlin users:** Since Marlin treats G0 and G1 moves identically, this value is used to specify the speed for rapid moves. If you do not set this value, LightBurn will use the same speed as the G1 moves.
 
+<a name="SValueMax">
+
+### S-Value Max
+
+GRBL and Smoothieware use the S-Value (spindle speed setting) to control the PWM power output to the laser.  This setting is the number that corresponds to 100% power in LightBurn.  Smoothieware typically uses a value from 0 to 1 and supports fractional numbers in between.  GRBL defaults to 0 to 1000 for newer versions of GRBL, or 0 to 255 for older ones.  The S-Value Max setting in LightBurn must match your controller setting, or you'll either get not enough power output (if LightBurn's setting is lower) or very small power numbers will set your laser to full power (if LightBurn's setting is higher).
+
+
+
 <a name="zaxis">
 
 ### Z Axis Controls
