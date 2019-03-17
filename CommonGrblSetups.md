@@ -8,7 +8,7 @@ If you have a GCode-based system, like a Shapeoko, Eleksmaker,  X-Carve, or Acro
 
 #### Short version:
 
-- You might need to adjust your spindle max RPM value ($30) to match the LightBurn default (1000) or vice versa.
+- You might need to adjust your spindle max RPM value ($30) to match the LightBurn default (1000) or vice versa.  The value in LightBurn is called "S-Value Max", in the [Device Settings](DeviceSettings.md#s-value-max).
 - You might need to enable "Laser Mode" if you have GRBL 1.1f or later (\$32=1).
 - If your machine uses negative workspace coordinates you'll need to apply a workspace offset (G10 L2 P1 xx yy) and set your machine status reporting to be relative to the workspace origin, not the machine origin (\$10=0).
 
