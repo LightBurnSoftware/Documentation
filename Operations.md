@@ -13,9 +13,9 @@ Please Note: Cut speeds have been limited to 2000mm/s (or equivelant) This will 
 To the right of the cut window you will see 4 arrows. The up and down arrows allow you to change the order of the highlighted cut or scan layer, and the right and left arrows allow you to copy cut or scan settings into the cache, and write those cached settings into a cut or scan layer. Useful for copying settings from one layer to another.
 
 * [Common Settings](#common) 
-* [Cut](#cut)
-* [Scan](#scan)
-* [Scan+Cut](#scancut)
+* [Line](#Line)
+* [Fill](#Fill)
+* [Fill+Line](#FillLine)
 
 
 <a name="common"></a>
@@ -30,8 +30,8 @@ Output is an on/off selection. By default this setting is on for a layer. This m
 ### Air Assist
 This is also an on/off selection. If your machine is capable of turning air assist on or off automatically, set this to on to enable your air assist or off to keep it off. If your air assist is always on or manually controlled, this will have no effect.
 <a name="speed"></a>
-### Speed (mm/sec)
-Speed is the feed rate when the laser is firing. This does not affect the feed rate for rapid move (IE moves traversing between cuts).
+### Speed
+Speed is the feed rate when the laser is firing. This does not affect the feed rate for rapid move (IE moves traversing between cuts). By default, speeds are shown in mm/sec, however if you are using a lower power diode laser, you can change this to mm/minute in the settings.
 
 ### Max Power
 This is the maximum percentage of power that the laser will produce during the cut.
@@ -45,25 +45,25 @@ For DSP devices (not GCode based controllers) this is the minimum percentage of 
 ### Mode
 This can be used to choose the operation for the layer. Cut, Scan, or Scan+Cut
 
-<a name="Cut"></a>
+<a name="Line"></a>
 
 ------------------
-## Cut
-Cut will trace the laser along the vector path. Depending on the power and feed rate settings, this can be used to cut through a material in single or multiple passes. Decreasing the power and/or increasing the speed can also allow you to simply mark the surface (engraving).
+## Line
+Line will trace the laser along the vector path. Depending on the power and feed rate settings, this can be used to cut through a material in single or multiple passes, using high power, or to simply mark a line on the surface with lower power.
 
-### Cut Settings
+### Line Settings
 
 ![Cut Mode Settings](/img/CutSettingsAdditional.PNG)
 
 #### Enable "Cut-Through" Mode
-This setting is only available for Ruida based machines. Enabling this setting will allow the laser to dwell in the same position after initially firing or before turning off based on the settings below, and is useful for piercing thick materials before the cut starts.
+This setting is only available for Ruida and GRBL  based machines. Enabling this setting will allow the laser to dwell in the same position after initially firing or before turning off based on the settings below, and is useful for piercing thick materials before the cut starts.
 
 * Start pause time (ms): Number of milliseconds to fire the laser before moving
 * End pause time (ms): Number of milliseconds to fire the laser at the end of a move
 * Power (%): Percentage of laser power while paused
 
 
-#### Passes
+#### Other settings
 * Kerf offset: Allows you to shift the cut inward or outward from a closed shape to compensate for the diameter of the beam. This is useful when making parts like inlays or finger joins.
 * Z Offset: Specifies an amount to offset the laser head (or bed) for this cut. Useful for defocusing, or pushing the focus point into deep materials for cutting.
 * Number of Passes: The number of times the laser will trace the same path
@@ -72,16 +72,16 @@ This setting is only available for Ruida based machines. Enabling this setting w
 #### Reset To Default
 * Clicking on the Reset to Defaults button, will reset the cut settings to their default settings.
 
-<a name="scan"></a>
+<a name="Fill"></a>
 
 -------------------
-## Scan
-Scan will fill the interior of a vector similar to engraving a raster image. When you select Scan from the Mode options, the settings below will become available.
+## Fill
+This option will fill the interior of a vector similar to engraving a raster image. When you select Fill from the Mode options, the settings below will become available.
 
 ![Scan Settings](/img/ScanSettingsAdditional.PNG)
 <a name="bidirectional"></a>
 ### Bi-Directional scanning
-This is an on/off value. By default this will be on which enables the laser to fire on both the out and return stroke. Turning this off will result in your laser only firing on the outward stroke. The graphic shown will represent the expected output of your laser.
+This is an on/off value.  With bi-directional scanning on, the laser sweeps back and forth, cutting from left to right, then right to left, and back again.  With bi-directional scanning off, the laser fires only in a single direction, say left to right, then returns without firing, then fires again from left to right, and so on.  The images below illustrate the difference - the black arrows show the direction of the laser firing, and the red lines show the path of the laser between firing moves (also called traversals). Bi-directional ON is usually preferred, because it is twice as fast.
 
 #### Bi-Directional *ON*
 ![Bi-Directional Scan](/img/Bi-Directional.PNG)
@@ -104,10 +104,10 @@ When engraving, the head is scanning back and forth. Because the laser has to ac
 
 Overscanning generates extra moves, past the ends of each line, switching the laser off before it fully stops, or even before it begins to decelerate, allowing the entirety of the engraving to happen at the desired head speed and then decelerating while the laser is not burning. The overscan number is a percentage of your cut speed - the default setting is 2.5%, meaning a cut at 100mm/sec will move an additional 2.5mm past the last cut with the laser off.
 
-Note, Overscan is applied automatically by Ruida hardware. This setting is only available for gcode based controllers.
+Note, Overscan is applied automatically by DSP hardware, like Ruida and Trocen controllers. This setting is only available for gcode based systems which do not do this automatically.
 
 <a name="lineinterval"></a>
-### Line Interval (mm)
+### Line Interval
 Line interval is the spacing between scan lines. The lower this value, the less space will be left between successive passes. Lowering this value can create a slight overlap causing the laser to slightly trace over the previous line. Setting a higher value will leave untouched material between passes leaving visible scan lines. This is roughly equivalent to stepover for a CNC.
 <a name="scanangle"></a>
 ### Scan Angle
@@ -121,6 +121,10 @@ The default scan angle is 0. This will produce scan lines along the X path only.
 
 On Ruida hardware, scan angles that are multiples of 90 degrees are supported natively by the hardware and will automatically overscan for you.  Other angles are scanned using standard cutting commands.
 
+**Note:** By default, LightBurn scans shapes from bottom up, because most laser systems exhaust in the rear, and this prevents smoke from being pulled across the freshly cut region.  If you wish to scan a shape from top to bottom, simply set the scan angle to 180 degrees.
+
+
+
 ### Z-Offset, Number of Passes, and Z-Step per pass
 
 These options behave identically to their counterparts in a standard cut.
@@ -133,17 +137,21 @@ This setting tells the scanner to group all shapes within a cut layer together a
 
 This will scan each distinct shape in your layer one at a time.  For users with slower moving lasers, this will occasionally be faster than scanning shapes together.  For example, if you have two filled shapes on opposite sides of your work area, filling one, then the other is probably faster than continually scanning back and forth across the work area.
 
+### Scan Groups Together
+
+This setting will treat grouped objects as a single unit for the purpose of scanning, allowing you the flexibility to choose which shapes get scanned together.  For example, if you had 10 small shapes on the left side of your work area, and 10 more on the right side, scanning all shapes together would be slow, but scanning each one individually would be slow as well.  Grouping the left objects  into a group, and the right objects into another group, then using "Scan Groups Together" allows you to scan the 10 left objects in a single pass, then scan the 10 right objects in another pass, without having to traverse the entire work area.
+
 ### Flood Fill Scanning
 
-This option is intended for use with slower machines where traversing is more time consuming than reversing direction. It will prefer direction changes over long traversals, and will save scanning time if the machine has a slow rapid speed, or quick acceleration. This *can* be used with image scans as well, but the cost to compute the path can be very high - use sparingly, and only with very simple image modes like threshold.
+This option is intended for use with slower machines where traversing is more time consuming than reversing direction. It will prefer direction changes over long traversals, and will save scanning time if the machine has a slow rapid speed, or quick acceleration. This *can* be used with image scans as well, but the cost to compute the path can be very high - use sparingly, and only with very simple image modes like threshold.  It is worth noting that Flood Fill is affected by the "Scan all at once", "Scan together", and "Scan groups" settings, and it can also produce paths that are quite erratic, seemingly skipping lines at random. It will eventually go back to fill them in, so don't panic if you see this happen.  It is a good idea to use the preview (and move the slider) to get a feel for how a Flood Filled job will progress, because it can be unpredictable.
 
-<a name="scancut"></a>
+<a name="FillLine"></a>
 
 --------------------
-## Scan+Cut
-Scan+Cut, as the name suggests, combines the scan and cut operations. In order of operations, the scan will happen first followed by the cut. This can be used to cut out a part once the scan is complete or simply emphasize the outline of the part before moving on to the next operation.
+## Fill+Line
+Fill+Line, as the name suggests, combines the fill and line operations. In order of operations, the fill will happen first followed by the line. This can be used to cut out a part once the fill is complete or simply emphasize the outline of the part before moving on to the next operation.
 
-When you enable Scan+Cut you will get the additional settings below. See the [Cut](#cut) section for a description of each setting.
+When you enable Fill+Line you will get the additional settings below. See the [Line](#line) section for a description of each setting.
 
 ![Scan+Cut Settings](/img/CutAfterScanSettings.PNG)
 
