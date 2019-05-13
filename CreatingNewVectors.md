@@ -43,6 +43,7 @@ The Polygon tool allows you to draw an N-sided polygon. Select the polygon tool 
 * Pressing D when hovering over a node will delete it and connect the lines on either side together.
 * Pressing D when hovering over a line will delete it and open or split the shape.
 * Pressing I when hovering over a line or curve will insert a new node at that point along the line
+* Pressing B when hovering over a point will break the curve at that point
 
 ### Text Tool ![Text Tool Icon](/img/TextTool.PNG)
 [Video Tutorial #2: Text Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m45s)
