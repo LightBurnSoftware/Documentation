@@ -109,7 +109,25 @@ Note, Overscan is applied automatically by DSP hardware, like Ruida and Trocen c
 <a name="lineinterval"></a>
 ### Line Interval
 Line interval is the spacing between scan lines. The lower this value, the less space will be left between successive passes. Lowering this value can create a slight overlap causing the laser to slightly trace over the previous line. Setting a higher value will leave untouched material between passes leaving visible scan lines. This is roughly equivalent to stepover for a CNC.
+
+<a name="linesperinch"></a>
+
+### Lines per Inch
+
+This is simply a different way to represent the Line Interval value above - more lines per inch is a smaller interval, and vice versa.  Lines per Inch is a more intuitive number for many.
+
+<a name="ramplength"></a>
+
+### Ramp Length
+
+Setting this value controls the length of the ramp, or slope, on the sides of an engraving.  Zero is the default, meaning that engravings will have vertical walls.  If you create stamps with fine details, using a non-zero value for the ramp length will produce a ramp (from Min Power to Max Power) as the engraving moves away from the edges of your design, producing sloped walls that can help stabilize the stamp when in use.
+
+This image shows a preview of the difference between an engraving with ramp applied, on the left, vs an engraving with no ramping, on the right:
+
+![](./img/RampComparison.png)
+
 <a name="scanangle"></a>
+
 ### Scan Angle
 The default scan angle is 0. This will produce scan lines along the X path only. By introducing a scan angle, your laser head will track at the selected angle using both X and Y during operation. As you change this angle, the graphic will show you the expected result.
 

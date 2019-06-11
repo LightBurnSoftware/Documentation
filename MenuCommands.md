@@ -138,6 +138,10 @@ Fuses multiple shapes together into a single outline.
 
 Opens a dialog box where you can trace the content of a bitmap image into vector graphics.  ([Read more here](TracingImages.md))
 
+### Apply Path to Text
+
+If you select a shape and a line of text, this command will attach the text to the shape, so the text follows the path. ([Read more here](ApplyPathToText.md))
+
 ### Zoom In
 Click on "Zoom In" or press "Ctrl + =" to zoom in the workspace.
 ### Zoom Out

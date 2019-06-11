@@ -112,3 +112,6 @@ The LightBurn icon is shown below using in both diffusion and ordered dithering.
 
 How many times to repeat the entire engraving process.
 
+### Pass Through
+
+This option tells LightBurn *not* to perform any resizing or resampling of the image, which it does by default. Turning on pass-through is useful if you have an image that is dithered outside of LightBurn, using software like PhotoShop, PaintShop, Photograv or One-Touch photo.  When pass-through is on, LightBurn will send each line of pixels from the image directly to the laser using Threshold mode.  You can uniformly resize the image, but you cannot do non-uniform resizing (different scaling applied to width & height)  and you cannot rotate the image, as both of these require resampling to process correctly.

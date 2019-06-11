@@ -39,6 +39,7 @@ Lightburn Software.
 #### Using LightBurn
 * [Menus](MenuCommands.md)
 * [Toolbars and Tool Windows](Toolbars.md)
+  * [Apply Path to Text](ApplyPathToText.md)
 * [Hot Keys and Gestures](HotKeys.md)
 * [Workspace / User Interface](Workspace.md)
 * [Layers](Layers.md)
