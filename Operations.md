@@ -163,6 +163,8 @@ This setting will treat grouped objects as a single unit for the purpose of scan
 
 This option is intended for use with slower machines where traversing is more time consuming than reversing direction. It will prefer direction changes over long traversals, and will save scanning time if the machine has a slow rapid speed, or quick acceleration. This *can* be used with image scans as well, but the cost to compute the path can be very high - use sparingly, and only with very simple image modes like threshold.  It is worth noting that Flood Fill is affected by the "Scan all at once", "Scan together", and "Scan groups" settings, and it can also produce paths that are quite erratic, seemingly skipping lines at random. It will eventually go back to fill them in, so don't panic if you see this happen.  It is a good idea to use the preview (and move the slider) to get a feel for how a Flood Filled job will progress, because it can be unpredictable.
 
+***Note*** the flood fill option is not available for DSP controllers at this time because the paths generated confuse the hardware. We are investigating this to see if we can correct it.
+
 <a name="FillLine"></a>
 
 --------------------
