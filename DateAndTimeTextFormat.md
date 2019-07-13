@@ -81,3 +81,46 @@ You cannot mix decimal and hexadecimal formatting in the same text entry, and yo
 
 Like the Date / Time formatting, any text between a pair of single quotes is copied exactly to the output, and a pair of single quotes together is replaced by one single quote in the output.
 
+
+
+#### CSV/Merge text format for LightBurn
+
+When using the CSV/Merge mode for text in LightBurn, the system will automatically substitute certain special combinations of characters with entries from the selected row of a CSV file. A CSV file is "Comma Separated Values" - a very simple text format that uses a line in the file as the row, and commas to separate columns in the file.
+
+For example:
+
+```
+LightBurn,80,10
+Corel,300,20
+```
+
+In a CSV/Merge entry in LightBurn, the text you enter uses the percent sign followed by a number to look up a column in the current row of the CSV file. For example, using this text with the above table:
+
+​	I'm thinking of buying %0 - it costs $%1
+
+Would display:
+
+​	I'm thinking of buying LightBurn - it costs $80
+
+Columns are numbered starting from 0.
+
+
+
+#### Cut Setting text format for LightBurn
+
+When using the Cut Setting mode for text in LightBurn, the system will automatically substitute certain characters with values from the cut setting applied to the text.
+
+Like the Date / Time or Serial number formatting, any text between a pair of single quotes is copied exactly to the output, and a pair of single quotes together is replaced by one single quote in the output.
+
+| Expression | Output                                                   |
+| ---------- | -------------------------------------------------------- |
+| s          | speed, as a number in the current speed units            |
+| S          | speed, including the current units (like mm/sec)         |
+| p          | max power, as a percentage                               |
+| P          | max power, including the percent sign                    |
+| m          | min power, as a percentage                               |
+| M          | min power, including the percent sign                    |
+| d          | DPI, as a number, always dots per inch                   |
+| i          | interval, in the current distance units                  |
+| I          | interval, including the current distance units (like mm) |
+
