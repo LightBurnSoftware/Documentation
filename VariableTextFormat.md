@@ -49,7 +49,7 @@ Example format strings (for the date & time 21 May 2001 14:13:09.120):
 | ddd MMMM d yy | Tue May 21 01 |
 | hh:mm:ss.zzz  | 14:13:09.120  |
 | hh:mm:ss.z    | 14:13:09.12   |
-| h:m:s ap      | 2:13:9 pm     |
+| h​ : m : s ap  | 2 : 13 : 9 pm |
 
 
 
