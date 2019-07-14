@@ -1,6 +1,14 @@
-#### Date / Time text format for LightBurn
+[Return to main page](README.md)
 
-When using the Date/Time mode for text in LightBurn, the system will automatically substitute special combinations of characters with values for the current local date and time.
+------
+
+<a name="VariableTextFormat"></a>
+
+These are the different formatting codes used for Variable Text in LightBurn.
+
+#### Date / Time text format
+
+When using the Date/Time mode for text, the system will automatically substitute special combinations of characters with values for the current local date and time.
 
 For example, if your text field is "d/MM/yyyy" the system would replace it with "15/6/2019". The values you can use for substitution are listed below.
 
@@ -53,9 +61,9 @@ Example format strings (for the date & time 21 May 2001 14:13:09.120):
 
 
 
-#### Serial number text format for LightBurn
+#### Serial number text format
 
-When using the Serial mode for text in LightBurn, the system will automatically substitute certain special combinations of characters with the current serial number value, and other characters control how it is formatted.
+When using the Serial mode for text, the system will automatically substitute certain special combinations of characters with the current serial number value, and other characters control how it is formatted.
 
 These expressions may be used for serial numbers:
 
@@ -83,9 +91,9 @@ Like the Date / Time formatting, any text between a pair of single quotes is cop
 
 
 
-#### CSV/Merge text format for LightBurn
+#### CSV/Merge text format
 
-When using the CSV/Merge mode for text in LightBurn, the system will automatically substitute certain special combinations of characters with entries from the selected row of a CSV file. A CSV file is "Comma Separated Values" - a very simple text format that uses a line in the file as the row, and commas to separate columns in the file.
+When using the CSV/Merge mode for text, the system will automatically substitute certain special combinations of characters with entries from the selected row of a CSV file. A CSV file is "Comma Separated Values" - a very simple text format that uses a line in the file as the row, and commas to separate columns in the file.
 
 For example:
 
@@ -106,9 +114,9 @@ Columns are numbered starting from 0.
 
 
 
-#### Cut Setting text format for LightBurn
+#### Cut Setting text format
 
-When using the Cut Setting mode for text in LightBurn, the system will automatically substitute certain characters with values from the cut setting applied to the text.
+When using the Cut Setting mode for text, the system will automatically substitute certain characters with values from the cut setting applied to the text.
 
 Like the Date / Time or Serial number formatting, any text between a pair of single quotes is copied exactly to the output, and a pair of single quotes together is replaced by one single quote in the output.
 
