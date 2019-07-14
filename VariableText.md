@@ -31,17 +31,17 @@ If using serial numbers or a CSV file, you have additional controls, available i
 
 The values shown are:
 
-<u>Current</u>: The current serial number, or row from the CSV file, that will be displayed.
+<u>**Current**</u>: The current serial number, or row from the CSV file, that will be displayed.
 
-<u>Start</u>: The first serial number you want to use, or the first row in the CSV file to be used.
+<u>**Start**</u>: The first serial number you want to use, or the first row in the CSV file to be used.
 
-<u>End</u>: The last serial number to use, or the last row in the CSV file to use.
+<u>**End**</u>: The last serial number to use, or the last row in the CSV file to use.
 
-<u>Advance by</u>: Imagine you are creating a series of numbered labels.  Rather than cutting each one separately, you would most likely want to do several at once on a page.  The "Advance by" value tells LightBurn how many entries to advance ahead when you click the Next or Previous buttons, or when it automatically advances to the next page for you.
+<u>**Advance by**</u>: Imagine you are creating a series of numbered labels.  Rather than cutting each one separately, you would most likely want to do several at once on a page.  The "Advance by" value tells LightBurn how many entries to advance ahead when you click the Next or Previous buttons, or when it automatically advances to the next page for you.
 
 
 
-There is a shape property on text objects called Variable Offset which controls is added to the current variable text index when evaluating the text object.  This allows you to have text objects on your design that display different serial numbers, or different rows from the CSV file.
+There is a shape property on text objects called <u>**Variable Offset**</u> which controls is added to the current variable text index when evaluating the text object.  This allows you to have text objects on your design that display different serial numbers, or different rows from the CSV file.
 
 If you created a design with 4 name tag labels on the page, you would set the Variable Offset value for each of the four labels to 0, 1, 2, and 3, and tell the Variable Text manager to advance by 4 with each run.
 
