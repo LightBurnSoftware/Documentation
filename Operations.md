@@ -69,8 +69,32 @@ This setting is only available for Ruida and GRBL  based machines. Enabling this
 * Number of Passes: The number of times the laser will trace the same path
 * Z step per pass: Increase or decrease bed height for powered Z bed
 
+<a name="PerforationMode"></a>
+
+#### Perforation Mode
+
+Perforation mode allows cutting perforated or dotted lines (lines with gaps) without having to change the source artwork.  You specify how long you want the cut, and how long you want the gap (skip), and LightBurn will alter the output when generating the cut.
+
+![PerforationSettings](./img/PerforationSettings.png)
+
+This is most commonly used to create fold lines, but can also be used for living hinges or creating bridges or tabs in your designs.  For example, setting a very long cut length, with a very short gap, will insert periodic gaps in the cut. The perforation mode is smart - if possible, it will make sure your shapes have at least one gap in them if the cut length is longer than the line to be cut. Perforation mode is also useful if cutting very delicate material.  By setting short Cut and Skip values, you can reduce the amount of power the laser outputs to the material, much like dithering. This can reduce scorching on paper, or melting on thin plastics from overheating.
+
+![PerforationExample](./img/PerforationSample.png)
+
+<a name="DotMode"></a>
+
+#### Dot Mode
+
+Dot Mode is similar to perforation mode, shown above, but the laser stops for each dot, fires for a set amount of time, and then continues.
+
+The firing time is specified in milliseconds (thousandths of a second) and the spacing will be in whatever your distance units are set to (mm by default, or inches if you've changed it).
+
+![DotModeSettings](./img/DotModeSettings.png)
+
+
+
 #### Reset To Default
-* Clicking on the Reset to Defaults button, will reset the cut settings to their default settings.
+* Clicking on the Reset to Defaults button, will reset all cut settings to their default settings.
 
 <a name="Fill"></a>
 
@@ -80,6 +104,7 @@ This option will fill the interior of a vector similar to engraving a raster ima
 
 ![Scan Settings](/img/ScanSettingsAdditional.PNG)
 <a name="bidirectional"></a>
+
 ### Bi-Directional scanning
 This is an on/off value.  With bi-directional scanning on, the laser sweeps back and forth, cutting from left to right, then right to left, and back again.  With bi-directional scanning off, the laser fires only in a single direction, say left to right, then returns without firing, then fires again from left to right, and so on.  The images below illustrate the difference - the black arrows show the direction of the laser firing, and the red lines show the path of the laser between firing moves (also called traversals). Bi-directional ON is usually preferred, because it is twice as fast.
 
@@ -88,7 +113,9 @@ This is an on/off value.  With bi-directional scanning on, the laser sweeps back
 
 #### Bi-Directional *OFF*
 ![Bi-Directional Scan Off](/img/Bi-Directional-Off.PNG)
+
 <a name="crosshatch"></a>
+
 ### Cross-Hatch
 Cross hatch is an on/off value. By default this is off which means your laser will only burn in the direction you have chosen. By turning this setting on you will get a second operation that will burn lines at 90 degrees to the first set, creating a cross-hatch pattern as shown below.  This is mostly useful at higher interval settings as a way to give the appearance of a filled shape, while taking less time.
 
@@ -97,7 +124,9 @@ Cross hatch is an on/off value. By default this is off which means your laser wi
 
 ### Cross-Hatch On
 ![Cross-Hatch.PNG](/img/CrossHatch.PNG)
+
 <a name="overscanning"></a>
+
 ### Overscanning
 
 When engraving, the head is scanning back and forth. Because the laser has to accelerate and decelerate the head at the beginning and end of each line, on machines with limited power control this can cause darker edges than expected.
