@@ -44,6 +44,7 @@ You can reorder tabs by clicking on the tab and dragging it left or right in the
 [Return to Top](#Top)
 
 <a name="cuts"></a>
+
 ### Cuts
 
 The Cuts tool window is where you will configure most of your job. It contains layers of cut operations that can be reordered and have various machine operations configured.  Details of the possible Modes and settings are covered in the [Operations](Operations.md) section.
@@ -55,6 +56,8 @@ The Cuts tool window is where you will configure most of your job. It contains l
 * You can quickly select the Mode or set the layer Output and Hide options directly from the tool window
 * You can quickly set the basic operation parameters in the *Cut Info* section
 * Clicking the up or down arrows on the right side of the tool window will move the selected layer up or down in priority (as will editing the Priority value below)
+* Clicking the small left / right arrows to the right side of the tool window will store the selected cut in the scratchpad, or apply the scratchpad setting to the selected cut. This is a handy way to store and recall a default setting if you have your own preferred settings you like to start from.
+* Right-Clicking on the Output or Show text above the cut list will let you quickly toggle, enable, or disable that setting for all layers.
 
 [Return to Top](#Top)
 
@@ -128,29 +131,55 @@ If you type 1/2in, and you're in mm mode, it'll turn into 12.7.  If you're in in
 <a name="Tools"></a>
 ## Tools Toolbar
 
-On the left of the workspace in the default configuration, there is a tool bar with many of the commonly used tools. These are also duplicated in the tool menu at the top of the workspace. The tools are as follows:
+On the left of the workspace in the default configuration, there is a tool bar with many of the commonly used tools. These are also duplicated in the tool menu at the top of the workspace, and this menu also displays the hotkeys to quickly access them.
+
+![ToolsDropDown](./img/ToolsDropDown.png)
+
+The tools are as follows:
 
 
 ### Select
-Click on the "Select" icon to select objects in the workspace, or to access menus and toolbars.
+Click on the "Select" icon to select objects in the workspace, or to access menus and toolbars. You can also quickly get back to Select mode by pressing Esc.
 ### Draw Lines
-Click on the "Draw Lines" icon to draw straight lines in the workspace.
+Click on the "Draw Lines" icon to draw straight lines in the workspace, or press Ctrl-L (or Command-L on Mac).
 ### Rectangle Tool
-Click on the "Rectangle" icon todraw rectangles in the workspace.
+Click on the "Rectangle" icon to draw rectangles in the workspace, or press Ctrl-R (or Command-R on Mac).
 ### Ellipse Tool
 Click on the "Ellipse" icon to draw ellipses in the workspace.
+
+### Polygon Tool
+
+Click on the "Polygon" icon to draw regular polygons, like hexagons, triangles, pentagons, and so on. The number of sides can be edited in the Shape Properties window.
+
 ### Edit Nodes
-Click on the "Edit Nodes" icon to edit nodes of objects in the workspace.
+Click on the "Edit Nodes" icon to edit nodes of objects in the workspace, or press Ctrl-`.
 ### Edit Text
-Click on the "Edit Text" icon to create or edit text in the workspace.
+Click on the "Edit Text" icon to create or edit text in the workspace, or press Ctrl-T.
 ### Position Laser
 Click on the "Position Laser" icon to allow clicking on the workspace to move the laser head to that location.
 ### Offset Vectors
 Click on the "Offset Vectors" icon to createnew vectors that are an offset of the original vector selected.
 
+### Weld, Union, Difference, and Intersect Vectors
+
+These four operations are covered in the [Boolean Operations](Boolean.md) page.
+
+### Grid Array
+
+Create an array of copies of the current selection, arranged in a grid with editable spacing and other options.
+
+### Radial Array
+
+Create an array of copies of the current selection, arranged in a circle, with editable spacing and other options.
+
+### Edit Start Point
+
+Edit the point and direction that LightBurn will use to start cutting the selected shape, or shapes.
+
 [Return to Top](#Top)
 
 <a name="Arrange"></a>
+
 ## Arrange Toolbar
 
 [Return to Top](#Top)
@@ -163,8 +192,7 @@ Click on the "Offset Vectors" icon to createnew vectors that are an offset of th
 <a name="Text"></a>
 ## Text Options Toolbar
 
-You can select the font, size, and also Bold or Italic options here.
-
+You can select the font, size, and also Bold or Italic options here, as well at the Variable Text mode to use, if any.  More information about Variable Text can be found [here](VariableText.md).
 
 [Return to Top](#Top)
 
