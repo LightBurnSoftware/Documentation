@@ -205,7 +205,22 @@ Edit the point and direction that LightBurn will use to start cutting the select
 
 ## Text Options Toolbar
 
-You can select the font, size, and also Bold or Italic options here, as well at the Variable Text mode to use, if any.  More information about Variable Text can be found [here](VariableText.md).
+This toolbar gives you access to settings on text objects, including font, size, spacing, alignment, and more.
+
+![TextToolbar](./img/TextToolbar.png)
+
+You can select the font, size, and also Bold or Italic options here, as well at the Variable Text mode to use, if any.
+
+- **Height** - sets the height of the font in the current units
+- **HSpace** - adjusts the horizontal character spacing as a percentage of the font size.  Positive numbers space the characters out more, negative numbers move them closer together.
+- **VSpace** - adjusts the vertical line spacing as a percentage of the font height.  Positive numbers increase the distance between lines, negative numbers reduce it.
+- **Align X** - chooses the horizontal anchor position of the text - Left, Right, or Middle
+- **Align Y** - chooses the vertical anchor position of the text - Left, Right, or Middle
+- **Bold** - Displays the font in bold typeface, if available
+- **Italic** - Displays the font in italics, if available
+- **Welded** - Enables automatic welding of characters.  When characters touch or overlap, as is common with script fonts, enabling this option will automatically weld the overlaps together.
+
+The remaining two options are for Variable Text, like serial numbers, dates, and so on.  More information about Variable Text can be found [here](VariableText.md).
 
 [Return to Top](#Top)
 
