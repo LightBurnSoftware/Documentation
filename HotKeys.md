@@ -73,11 +73,31 @@ Most feature hot-keys can be found next to the action in the menus.
 * **Flip Vertical** Ctrl + Shift + V  (or just 'V' in the edit window)
 * **Align Left** Ctrl + Shift + Left Arrow
 * **Align Right** Ctrl + Shift + Right Arrow
-* **Align Top** Ctrl + Shipt + Up Arrow
+* **Align Top** Ctrl + Shift + Up Arrow
 * **Align Bottom** Ctrl + Shift + Down Arrow
 
+
+
+### Node Edit
+
+- **Smooth corner node**  S  (while hovering over a node)
+- **Convert line to smooth curve**  S  (while hovering over a line)
+- **Convert curve to line**  L  (while hovering over a curve)
+- **Convert smooth node to corner**  C (while hovering over a node)
+- **Delete node**  D  (while hovering over a node)
+- **Delete line**  D  (while hovering over a line)
+- **Insert node point**  I  (while hovering over a line or curve)
+- **Break shape at point**  B  (while hovering over a point)
+
+
+
 ### Help
-**Help and Notes** F1
+
+- **Help and Notes** F1
+- Pressing F1 while hovering the mouse over the edit window will bring you to the documentation page for the editing mode you're in.
+- Pressing F1 while hovering the mouse over some tools will show you help for that tool.
+
+
 
 
 ### Complete List of LightBurn Hot Keys

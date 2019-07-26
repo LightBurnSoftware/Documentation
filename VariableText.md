@@ -41,7 +41,9 @@ The values shown are:
 
 
 
-There is a shape property on text objects called <u>**Variable Offset**</u> which controls is added to the current variable text index when evaluating the text object.  This allows you to have text objects on your design that display different serial numbers, or different rows from the CSV file.
+There is a property on text objects called <u>**Offset**</u> which controls is added to the current variable text index when evaluating the text object.  This allows you to have text objects on your design that display different serial numbers, or different rows from the CSV file.
+
+![VariableTextOffset](./img/VariableTextOffset.png)
 
 If you created a design with 4 name tag labels on the page, you would set the Variable Offset value for each of the four labels to 0, 1, 2, and 3, and tell the Variable Text manager to advance by 4 with each run.
 
