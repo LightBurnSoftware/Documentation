@@ -37,8 +37,8 @@ You can reorder tabs by clicking on the tab and dragging it left or right in the
 #### Toolbars are similar to Tool Windows, but are a grouped set of icons for various types of operations.
 
 * [Tools](#Tools)
+* [Numeric Edits](#numeric_edits)
 * [Arrange](#Arrange)
-* [Numeric Edits](#Numeric)
 * [Text Edits](#Text)
 
 [Return to Top](#Top)
@@ -201,12 +201,8 @@ Edit the point and direction that LightBurn will use to start cutting the select
 
 [Return to Top](#Top)
 
-<a name="Numeric"></a>
-## Numeric Edits Toolbar
-
-[Return to Top](#Top)
-
 <a name="Text"></a>
+
 ## Text Options Toolbar
 
 You can select the font, size, and also Bold or Italic options here, as well at the Variable Text mode to use, if any.  More information about Variable Text can be found [here](VariableText.md).
