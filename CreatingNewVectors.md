@@ -52,6 +52,8 @@ The Polygon tool allows you to draw an N-sided polygon. Select the polygon tool 
 * Quickly change font and size.
 * Alignment (Left, Right, Top, Bottom, Center).
 
+More information about creating text in LightBurn can be found [here.](Toolbars.md#text-options-toolbar)
+
 ## Offset Tool ![Offset Tool Icon](/img/OffsetTool.PNG)
 
 [Video Tutorial #2: Offset Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=10m49s)
