@@ -127,14 +127,24 @@ Note, this is not available on non-gcode devices, like Ruida and Trocen controll
 <a name="workspace"></a>
 ## Main Toolbar
 
+This is primarily for changing the size, position, and orientation of the current selection.
+
+![MainToolbar](./img/MainToolbar.png)
+
+The Lock icon is used to enable or disable aspect ratio locking. With the lock enabled, changing the width of an object will also adjust the height, and vice versa.  For example, if your object was 100mm x 50mm and you changed the width to 80mm, LightBurn would automatically change the height to 40mm, maintaining the aspect ratio of the object.  Turning off the lock allows the width and height to be manipulated independently.
 
 LightBurn's X & Y position, width, height, scale, and interval entry boxes now support expressions and units. What does this mean for you?
 
 If you type 1/2in, and you're in mm mode, it'll turn into 12.7.  If you're in inch mode and type 1/2in, it'll become 0.5.  You can use ft, cm, in, or mm, along with normal math symbols and parenthesis (*/-+).  You can combine them, so entering (1/2in + 3mm) * 2.5 + 1ft is valid.  You can type 1/300in in the interval box to have it convert "300 lines per inch" into an interval for you. This should make working in mixed units easier.
 
+The 9-point control selects the anchor point that objects resize from.  For example, if you select the upper-right dot, the upper right of the selection is anchored when resizing.
+
+The small button on the far left of the toolbar allows you to quickly toggle between mm and inch measurements in the UI.  When using this toggle, only distance measures are changed - speeds will always be viewed in mm.
+
 [Return to Top](#Top)
 
 <a name="Tools"></a>
+
 ## Tools Toolbar
 
 On the left of the workspace in the default configuration, there is a tool bar with many of the commonly used tools. These are also duplicated in the tool menu at the top of the workspace, and this menu also displays the hotkeys to quickly access them.
