@@ -124,8 +124,9 @@ Note, this is not available on non-gcode devices, like Ruida and Trocen controll
 
 [Return to Top](#Top)
 
-<a name="workspace"></a>
-## Main Toolbar
+<a name="numeric_edits"></a>
+
+## Numeric Edits Toolbar
 
 This is primarily for changing the size, position, and orientation of the current selection.
 
