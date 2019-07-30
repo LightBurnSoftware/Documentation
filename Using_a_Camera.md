@@ -28,11 +28,11 @@ The image from this camera is very distorted, because it is uses a fish-eye lens
 
 # Camera Calibration
 
+There is a YouTube video of the calibration process here: [LightBurn Camera Calibration Walkthrough](https://www.youtube.com/watch?v=ONnmCaoUkLQ)
+
 In order to use the camera for work placement, it's necessary to "teach" LightBurn how to remove the distortion from your camera lens, and where your camera is in relation to the work area of your laser. The first part of this is accomplished in the Lens Calibration wizard.
 
-You'll need to download and print the following image:
-
-[Calibration-Circles.png](./img/Camera/Calibration-Circles.png)
+You will need to download and print the following image: [Calibration-Circles.png](./img/Camera/Calibration-Circles.png)
 
 The circles image will be approximately 148mm x 105mm (5.8" x 4.1"), and should have at least 6mm (1/4") of white space around the pattern.
 
@@ -75,7 +75,7 @@ This tells you:
 
 Notice that in the gray image that appears to the right, the pattern of circles is not distorted, though the image around them is considerably worse (look just above the dots). That is temporary, and the result of only having a single calibration image to work with. As you progress through the remaining calibration steps, you'll capture more images with the pattern in different parts of the camera view, filling in more information about how your lens distortion affects the image.
 
-If the calibration pattern is not found, LightBurn will tell you so. Make sure the pattern card faces directly toward the camera, and occupies roughly the same amount of view area shown in the "suggestion" image.  The pattern card should be "aligned" with the sensor of the camera, as shown in the upper-left graphic in the capture window, though the pattern can be rotated within the view without affecting the calibration if this is easier, as shown here:
+If the calibration pattern is not found, LightBurn will tell you so. Make sure the pattern card faces directly toward the camera, and occupies roughly the same amount of view area shown in the "suggestion" image.  The pattern card should be parallel with the sensor of the camera, as shown in the upper-left graphic in the capture window, though the pattern can be rotated within the view without affecting the calibration if this is easier, as shown here:
 
 ![](/img/Camera/Calibration-Step2-Alternate1.png)
 
