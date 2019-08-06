@@ -71,10 +71,15 @@ Most feature hot-keys can be found next to the action in the menus.
 * **Ungroup** Ctrl + U
 * **Flip Horizontal** Ctrl + Shift + H  (or just 'H' in the edit window)
 * **Flip Vertical** Ctrl + Shift + V  (or just 'V' in the edit window)
-* **Align Left** Ctrl + Shift + Left Arrow
-* **Align Right** Ctrl + Shift + Right Arrow
-* **Align Top** Ctrl + Shift + Up Arrow
-* **Align Bottom** Ctrl + Shift + Down Arrow
+* **Rotate 90 clockwise** Press '.' (decimal) in the edit window
+* **Rotate 90 Counter-clockwise** Press ',' (comma) in the edit window
+* **Align Left** Ctrl + Shift + Left Arrow (or just 'L' in the edit window)
+* **Align Right** Ctrl + Shift + Right Arrow (or just 'R' in the edit window)
+* **Align Top** Ctrl + Shift + Up Arrow (or 'T' in the edit window)
+* **Align Bottom** Ctrl + Shift + Down Arrow (or 'B' in the edit window)
+* **Align Centers Vertically** Ctrl + Shift + PgUp (or 'C' in the edit window)
+* **Align Centers Horizontally** Ctrl + Shift + PgDn (or 'E' in the edit window)
+* **Move Selection to Page Center** ('P' in the edit window)
 
 
 
