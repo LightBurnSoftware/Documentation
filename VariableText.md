@@ -41,6 +41,20 @@ The values shown are:
 
 
 
+The buttons on the right are for:
+
+**<u>Previous</u>**: Go to the previous page of values (decrements the Current entry by the 'Advance by' amount)
+
+**<u>Next</u>**: Go to the next page of values (increments the Current entry by the 'Advance by' amount)
+
+**<u>Test</u>**: Displays the text that will be output, for as long as the button is pressed.
+
+**<u>Reset</u>**: Resets the Current value to the Start value
+
+**<u>Auto-Advance</u>**: When this switch is enabled, each time you press one of the 'Start', 'Send' or 'Save as..' buttons in the Laser window, LightBurn will automatically advance the Current value by the 'Advance by' amount. If you are running a large batch of parts, names, serial numbers, etc, each time you send a job to the laser the software will advance to the next batch.
+
+
+
 There is a property on text objects called <u>**Offset**</u> which controls is added to the current variable text index when evaluating the text object.  This allows you to have text objects on your design that display different serial numbers, or different rows from the CSV file.
 
 ![VariableTextOffset](./img/VariableTextOffset.png)
