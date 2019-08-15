@@ -28,7 +28,7 @@ Run this rectangle at multiple speeds, like 100mm/sec, 200mm/sec, 300mm/sec, and
 
 ![](./img/ScanningOffset-TestCuts.jpg)
 
-To compensate for this, measure the distance between the ends of the lines at each speed, and enter the speed and distance values into the scanning offset adjustment table.  LightBurn will use this information to compute the correct adjustments for other speeds as well.  A minimum of two measurements are needed for it to work.
+To compensate for this, measure the distance between the ends of the lines at each speed, and enter the speed and distance values into the scanning offset adjustment table.  LightBurn will use this information to compute the correct adjustments for other speeds as well.  A minimum of two measurements are needed for it to work.  **Note** you will need enter *half* the measured value - The software moves each line by the amount you specify, so each pair of lines only needs to move half the distance.
 
 There is an excellent tutorial online at Cartonus.com here: http://cartonus.com/how-to-improve-engraving-quality-of-laser-machine/
 
