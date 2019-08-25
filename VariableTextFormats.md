@@ -6,7 +6,7 @@
 
 These are the different formatting codes used for Variable Text in LightBurn.
 
-#### Date / Time text format
+### Date / Time text format
 
 When using the Date/Time mode for text, the system will automatically substitute special combinations of characters with values for the current local date and time.
 
@@ -61,7 +61,7 @@ Example format strings (for the date & time 21 May 2001 14:13:09.120):
 
 
 
-#### Serial number text format
+### Serial number text format
 
 When using the Serial mode for text, the system will automatically substitute certain special combinations of characters with the current serial number value, and other characters control how it is formatted.
 
@@ -91,7 +91,7 @@ Like the Date / Time formatting, any text between a pair of single quotes is cop
 
 
 
-#### CSV/Merge text format
+### CSV/Merge text format
 
 When using the CSV/Merge mode for text, the system will automatically substitute certain special combinations of characters with entries from the selected row of a CSV file. A CSV file is "Comma Separated Values" - a very simple text format that uses a line in the file as the row, and commas to separate columns in the file.
 
@@ -114,7 +114,7 @@ Columns are numbered starting from 0.
 
 
 
-#### Cut Setting text format
+### Cut Setting text format
 
 When using the Cut Setting mode for text, the system will automatically substitute certain characters with values from the cut setting applied to the text.
 
