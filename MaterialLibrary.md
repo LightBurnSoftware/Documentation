@@ -16,9 +16,7 @@ Any Library setting can be applied to a cut layer by selecting the library entry
 
 ## Understanding Material Library
 
-Material Library is a simple yet powerful component of Lightburn intended to assist in the management of the laser cutting process.  The viedo below provides an overview of how to create, use and manage libraries.
-
-[Video Tutorial #1: Using the Material Library](https://vimeo.com/257846436)
+Material Library is a simple yet powerful component of Lightburn intended to assist in the management of the laser cutting process.
 
 The first time you launch LightBurn, an empty Material Library is automatically set up and ready for new entries.  You can easily add to, edit and manage cut settings in this library.  Saved libraries can be loaded and shared from local or network accessed and even cloud based storage for convenience.  To get started, make sure you can see the Material Library window.
 
