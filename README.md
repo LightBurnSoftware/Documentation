@@ -18,7 +18,6 @@ Lightburn Software.
 
 <div style="page-break-after: always;"></div>
 
-
 # LightBurn Documentation
 
 #### Change Log and News (https://lightburnsoftware.com/blogs/news/lightburn-0-8-05-new-cut-planner-lots-of-new-extras-and-fixes)
@@ -50,6 +49,7 @@ Lightburn Software.
 * [Coordinates, Origin and Finish Position](CoordinatesOrigin.md)
 * [Rotary Setup](RotarySetup.md)
 * [Using a Camera with LightBurn](Using_a_Camera.md)
+* [Print and Cut with LightBurn](PrintAndCut.md)
 * [Creating a Power Scale Test Grid](CreatePowerScale.md)
 
 #### Vector Drawings
