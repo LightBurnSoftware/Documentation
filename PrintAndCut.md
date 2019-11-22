@@ -62,7 +62,7 @@ If you preview at this point, the orientation of the preview should match that o
 
 ![AlignedPreview](img/PrintAndCut-AlignedPreview.png)
 
-In the above image, you can see the preview image is rotated slightly counter-clockwise.
+In the above image, you can see the preview image is rotated slightly clockwise, matching the orientation of the printed image in the laser.
 
 
 
