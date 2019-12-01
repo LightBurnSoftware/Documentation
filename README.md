@@ -17,7 +17,6 @@ Lightburn Software.
 
 
 <div style="page-break-after: always;"></div>
-
 # LightBurn Documentation
 
 #### Change Log and News (https://lightburnsoftware.com/blogs/news/lightburn-0-8-05-new-cut-planner-lots-of-new-extras-and-fixes)
@@ -45,7 +44,7 @@ Lightburn Software.
 * [Material Library](MaterialLibrary.md)
 * [Laser Operations - Cut, Scan, Scan+Cut, Image](Operations.md)
 * [Cut Planner](CutPlanner.md)
-* [Machine Instructions](MachineInstructions.md)
+* [Machine Instructions (sending a job to the laser)](MachineInstructions.md)
 * [Coordinates, Origin and Finish Position](CoordinatesOrigin.md)
 * [Rotary Setup](RotarySetup.md)
 * [Using a Camera with LightBurn](Using_a_Camera.md)
@@ -58,7 +57,7 @@ Lightburn Software.
 * [Booleans - Weld, Union, Subtract, and Intersect Operations](Boolean.md)
 #### Raster Images
 * [Engraving Images](EngravingImages.md)
-* [Tracing Images](TracingImages.md) (converting bitmaps to vectors)
+* [Tracing Images](TracingImages.md) (converting images or bitmaps to vectors)
 
 #### Manipulating Drawings
 
@@ -74,6 +73,6 @@ Lightburn Software.
 * [How to ask for help](RequestingHelp.md)
 * [Common Grbl Setups](CommonGrblSetups.md)
 * [FAQ](FAQ.md)
-* [Change Log and News] (https://lightburnsoftware.com/blogs/news/lightburn-0-8-05-new-cut-planner-lots-of-new-extras-and-fixes)
+* [Change Log and News](https://lightburnsoftware.com/blogs/news)
 
 ------------
