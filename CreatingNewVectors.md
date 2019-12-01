@@ -45,6 +45,14 @@ The Polygon tool allows you to draw an N-sided polygon. Select the polygon tool 
 * Pressing I when hovering over a line or curve will insert a new node at that point along the line
 * Pressing B when hovering over a point will break the curve at that point
 
+<a name="Snapping"></a>
+
+### Snapping
+
+Note that in all of the above tools, when creating a new shape, you will occasionally see the cursor change if you hover over a point on an existing shape. This means LightBurn is going to snap what you're about to make to that point.  You can bypass this behavior by pressing the Ctrl key (Command on Mac).  LightBurn will snap to object centers, end points of lines or curves, or center point of lines or curves, in addition to just snapping to the grid.
+
+
+
 ### Text Tool ![Text Tool Icon](/img/TextTool.PNG)
 [Video Tutorial #2: Text Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m45s)
 
@@ -77,5 +85,5 @@ More information about creating text in LightBurn can be found [here.](Toolbars.
 
 Vector shapes can be modified using the [Boolean Tools](Boolean.md)
 
-## Text Autoweld
-When using script fonts, Lightburn will autoweld the letters together.
+## Text Auto-weld
+When using script fonts, LightBurn will auto-weld the letters together.  This can be disabled, as certain fonts misbehave when welded.  If you notice anything disappear, try turning off the welding for that text object.

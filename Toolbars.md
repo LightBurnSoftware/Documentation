@@ -3,6 +3,7 @@
 ----
 
 <a name="Top"></a>
+
 ## Toolbars and Tool Windows
 
 The workspace has may toolbar and tool windows to make working with files fairly easy and intuitive. Right clicking on the top bar of the app will allow you to toggle toolbars on or off, as will using the 'Window' menu in the main menu bar.
@@ -155,43 +156,53 @@ On the left of the workspace in the default configuration, there is a tool bar w
 The tools are as follows:
 
 
-### Select
+#### Select
 Click on the "Select" icon to select objects in the workspace, or to access menus and toolbars. You can also quickly get back to Select mode by pressing Esc.
-### Draw Lines
+
+<a name="Selection snapping"></a>
+
+##### Selection snapping
+
+When in selection mode, objects can be moved, scaled, or rotated by clicking on the various marks that appear around the selection.  You will occasionally see the cursor change if you hover over a point on a shape. This means LightBurn has found a 'snap point'.  When moving an object near another, you can hold the Ctrl key (Command on Mac) to enable object snapping. LightBurn will snap your selection to other object centers, end points of lines or curves, or center point of lines or curves, in addition to just snapping to the grid.
+
+#### Draw Lines
+
 Click on the "Draw Lines" icon to draw straight lines in the workspace, or press Ctrl-L (or Command-L on Mac).
-### Rectangle Tool
+#### Rectangle Tool
 Click on the "Rectangle" icon to draw rectangles in the workspace, or press Ctrl-R (or Command-R on Mac).
-### Ellipse Tool
+#### Ellipse Tool
 Click on the "Ellipse" icon to draw ellipses in the workspace.
 
-### Polygon Tool
+#### Polygon Tool
 
 Click on the "Polygon" icon to draw regular polygons, like hexagons, triangles, pentagons, and so on. The number of sides can be edited in the Shape Properties window.
 
-### Edit Nodes
+#### Edit Nodes
 Click on the "Edit Nodes" icon to edit nodes of objects in the workspace, or press Ctrl-`.
-### Edit Text
+#### Edit Text
 Click on the "Edit Text" icon to create or edit text in the workspace, or press Ctrl-T.
-### Position Laser
+#### Position Laser
 Click on the "Position Laser" icon to allow clicking on the workspace to move the laser head to that location.
-### Offset Vectors
-Click on the "Offset Vectors" icon to createnew vectors that are an offset of the original vector selected.
+#### Offset Vectors
+Click on the "Offset Vectors" icon to create new vectors that are an offset of the original vector selected.
 
-### Weld, Union, Difference, and Intersect Vectors
+#### Weld, Union, Difference, and Intersect Vectors
 
 These four operations are covered in the [Boolean Operations](Boolean.md) page.
 
-### Grid Array
+#### Grid Array
 
 Create an array of copies of the current selection, arranged in a grid with editable spacing and other options.
 
-### Radial Array
+#### Radial Array
 
 Create an array of copies of the current selection, arranged in a circle, with editable spacing and other options.
 
-### Edit Start Point
+#### Edit Start Point
 
 Edit the point and direction that LightBurn will use to start cutting the selected shape, or shapes.
+
+**Note** - These tools are covered in more detail in the '[Creating Vectors](CreatingNewVectors.md)' topic.
 
 [Return to Top](#Top)
 
