@@ -163,7 +163,7 @@ Click on the "Select" icon to select objects in the workspace, or to access menu
 
 ##### Selection snapping
 
-When in selection mode, objects can be moved, scaled, or rotated by clicking on the various marks that appear around the selection.  You will occasionally see the cursor change if you hover over a point on a shape. This means LightBurn has found a 'snap point'.  When moving an object near another, you can hold the Ctrl key (Command on Mac) to enable object snapping. LightBurn will snap your selection to other object centers, end points of lines or curves, or center point of lines or curves, in addition to just snapping to the grid.
+When in selection mode, objects can be moved, scaled, or rotated by clicking on the various marks that appear around the selection.  You will occasionally see the cursor change if you hover over a point of interest on a shape. This means LightBurn has found a 'snap point'.  When moving an object near another, snapping is on by default. LightBurn will snap your selection to other object centers, end points of lines or curves, or center point of lines or curves, in addition to just snapping to the grid. You can bypass the snapping behavior by holding the Ctrl key (Command on Mac).
 
 #### Draw Lines
 
