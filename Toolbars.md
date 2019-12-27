@@ -96,6 +96,7 @@ The Move tool window is used primarily for Jog and Home functions
 Here you can manually jog your laser head to different positions by selecting one of the arrow buttons around the home button. This will move your head by the set distance, speed and power entered in the toolbox. 
 
 You can also set or clear a custom origin or get the current reported position.
+
 **Note:** If you have a Ruida controller, you will not sett Set Origin, Clear Origin, or Set Finish Position, as these are handled by the controller itself. LightBurn will generally show only controls you can use.
 
 [Return to Top](#Top)
