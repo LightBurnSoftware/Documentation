@@ -16,7 +16,7 @@ Lightburn Software.
 6. You are entirely operating at your own risk. Lasers can be lethally dangerous.
 
 
-<div style="page-break-after: always;"></div>
+
 # LightBurn Documentation
 
 Change log and news: [https://lightburnsoftware.com/blogs/news](https://lightburnsoftware.com/blogs/news)
