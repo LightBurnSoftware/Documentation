@@ -111,7 +111,7 @@ Shape propertiesでは同じレイヤ上の異なるシェープにそれぞれ�
 Ruidaマシン以外ではコンソールが利用出来ます。コマンドを直接入力して作業が可能です。 
 Ruidaを含めいくつか利用になれない機器があります。
 
-![Console Tool Window](/img/ConsoleToolBox.PNG)
+![Console Tool Window](/img/Console.png)
 
 [Return to Top](#Top)
 

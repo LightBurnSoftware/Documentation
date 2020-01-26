@@ -202,7 +202,7 @@ Fill+Line, as the name suggests, combines the fill and line operations. In order
 
 When you enable Fill+Line you will get the additional settings below. See the [Line](#line) section for a description of each setting.
 
-![Scan+Cut Settings](/img/CutAfterScanSettings.PNG)
+![Scan+Cut Settings](/img/LineSettings.png)
 
 
 

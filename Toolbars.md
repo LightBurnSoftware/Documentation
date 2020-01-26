@@ -121,7 +121,7 @@ On non-Ruida machines, a console toolbox is available for directly inputting com
 
 Note, this is not available on non-gcode devices, like Ruida and Trocen controllers.
 
-![Console Tool Window](/img/ConsoleToolBox.PNG)
+![Console Tool Window](/img/Console.png)
 
 [Return to Top](#Top)
 
