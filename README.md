@@ -19,7 +19,10 @@ Lightburn Software.
 <div style="page-break-after: always;"></div>
 # LightBurn Documentation
 
-#### Change Log and News (https://lightburnsoftware.com/blogs/news/lightburn-0-8-05-new-cut-planner-lots-of-new-extras-and-fixes)
+[Change log and news:]: https://lightburnsoftware.com/blogs/news
+
+
+
 ----------
 ### Table of Contents
 
