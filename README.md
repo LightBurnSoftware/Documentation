@@ -1,4 +1,4 @@
-![LightBurn Banner](/img/LightBurn_SlimBanner.jpg)
+![LightBurn Banner](./img/LightBurn_SlimBanner.jpg)
 
 ## Disclaimer
 By using this software, the user accepts complete responsibility for each and every
@@ -19,9 +19,7 @@ Lightburn Software.
 <div style="page-break-after: always;"></div>
 # LightBurn Documentation
 
-[Change log and news:]: https://lightburnsoftware.com/blogs/news
-
-
+Change log and news: [https://lightburnsoftware.com/blogs/news](https://lightburnsoftware.com/blogs/news)
 
 ----------
 ### Table of Contents
