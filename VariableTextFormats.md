@@ -122,6 +122,7 @@ Like the Date / Time or Serial number formatting, any text between a pair of sin
 
 | Expression | Output                                                   |
 | ---------- | -------------------------------------------------------- |
+| C          | followed by a number, pulls settings from the numbered cut layer (ex, C03) for the remainder of this string |
 | s          | speed, as a number in the current speed units            |
 | S          | speed, including the current units (like mm/sec)         |
 | p          | max power, as a percentage                               |
@@ -131,4 +132,5 @@ Like the Date / Time or Serial number formatting, any text between a pair of sin
 | d          | DPI, as a number, always dots per inch                   |
 | i          | interval, in the current distance units                  |
 | I          | interval, including the current distance units (like mm) |
+| L          | Displays the name of the laser. Can optionally be followed by a character index to start displaying from, and optionally, a comma and a 2nd number for the number of characters to display. For example, if L displayed 'Ruida 6442G', L6 would display '6442G', and L6,4 would display '6442' (without the quotes) |
 
