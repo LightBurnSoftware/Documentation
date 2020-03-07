@@ -18,7 +18,7 @@ I've imported the same design into LightBurn, with the cross-hair markers, and a
 
 <img src="img/PrintAndCut-Source2.png" alt="PrintAndCut-Source" style="zoom:80%;" />
 
-The important part in this file is the two cross-hair marks - these are the target marks that you will use to align the cutting path with the printed sticker.  They don't have to be cross-hairs, but these are simplest to align with, as the *center* of the selected object is what is used for alignment when recording positions.
+The important part in this file is the two cross-hair marks - these are the target marks that you will use to align the cutting path with the printed sticker.  They don't have to be cross-hairs, but these are simplest to align with, as the *center* of the selected object is what is used for alignment when recording positions. Each target marker must be a single object that can be selected - If you draw two lines to make a crosshair, group them.
 
 
 
