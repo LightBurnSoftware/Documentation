@@ -6,7 +6,7 @@
 
 There are a couple different ways to tell LightBurn how to cut the project within the work area of your machine.  You choose them in the "Start From" box on the Laser tab:
 
-![Start From](/img/CoordinatesStartFrom.png)
+![Start From](./img/CoordinatesStartFrom.png)
 
 ## Absolute Coordinates
 
@@ -14,7 +14,7 @@ There are a couple different ways to tell LightBurn how to cut the project withi
 
 In the image below, the two circles placed in the middle of the work area will be cut in the middle of the machine work area.  The green square in the lower-left of the image represents the Job Origin, and the red square in the same place shows the Machine Origin.  In "Absolute Coordinates" these are always in the same place.
 
-![Coordinates Absolute Position](/img/CoordinatesAbsolute.png)
+![Coordinates Absolute Position](./img/CoordinatesAbsolute.png)
 
 ## Current Position
 
@@ -22,13 +22,13 @@ In the image below, the two circles placed in the middle of the work area will b
 
 In this image, we're starting from the Current Position, with the Job Origin set to the lower left:
 
-![Coordinates Absolute Position](/img/CoordinatesCurrentPosition.png)
+![Coordinates Absolute Position](./img/CoordinatesCurrentPosition.png)
 
 Notice that the green "Job Origin" indicator has moved.  This represents the position of the laser when you start the job, so the laser is going to move slightly up and to the right from wherever it is, cut the two circles, and go back to where it started.
 
 Imagine that you wanted to cut this amazing two-circle pattern onto a beverage coaster or a phone case.  Lining it up like this is not easy.  If you change the Job Origin setting to "Center", you get this instead:
 
-![Coordinates Center](/img/CoordinatesCenter.png)
+![Coordinates Center](./img/CoordinatesCenter.png)
 
 Now the job is going to be cut centered around the current position of the laser head.  If you position the laser directly over the center of the item you want to cut, the resulting image will be centered on the item.
 
@@ -46,4 +46,4 @@ LightBurn gives you the control of where you want the head of the laser to retur
 
 To change your finish position, go to the Move tool window and use the arrows to reposition your laser head to where you would like it to return to on job finish. Then click the **Set Finish Position** button. Your machine will now remember that spot for future jobs. This can be reset at any time by repeating these steps for a new location.
 
-![Move Tool Window](/img/MoveToolBox.PNG)
+![Move Tool Window](./img/MoveToolBox.PNG)

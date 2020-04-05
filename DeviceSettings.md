@@ -8,7 +8,7 @@ After initial setup, you can access device settings under the Edit > Device Sett
 
 
 
-![Device Settings Window](/img/DeviceSettings.PNG)
+![Device Settings Window](./img/DeviceSettings.png)
 
 <a name="WorkingSize">
 
