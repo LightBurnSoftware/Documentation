@@ -32,9 +32,10 @@ The Polygon tool allows you to draw an N-sided polygon. Select the polygon tool 
 
 
 
-### Node Editing Tool ![Node Tool Icon](/img/NodeTool.PNG)
+### Node Editing Tool ![Node Tool Icon](./img/NodeTool.png)
 
 [Video Tutorial #2: Node Editing](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m15s)
+
 * Allows you to move the vertices of a selected shape.
 * Pressing the S key when hovering over a node will convert it to a smooth node, and if required, creates tangent handles that can be manipulated from it.
 * Pressing S while hovering over a line will convert the line to a smooth curve, with tangent handles, but leaves the shape of the original line intact.
@@ -53,7 +54,7 @@ Note that in all of the above tools, when creating a new shape, you will occasio
 
 
 
-### Text Tool ![Text Tool Icon](/img/TextTool.PNG)
+### Text Tool ![Text Tool Icon](./img/TextTool.png)
 [Video Tutorial #2: Text Tool](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m45s)
 
 * Create text on the screen, or edit existing text by clicking within it.
