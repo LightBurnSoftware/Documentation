@@ -44,7 +44,7 @@ That's it! Locate the LightBurn icon to launch the program
 
 4. Open your terminal and `cd` to the directory you downloaded the file to.
 5. Run `bash ./LightBurn-Linux64-v*.run`
-6. It will not automatically install and great a program listing in your desktop environment.
+6. It will now automatically install and create a program listing in your desktop environment.
 
 #### `.7z` installer
 4. Extract the folder wherever you want Lightburn to exist
