@@ -25,5 +25,5 @@ https://lasergods.com/controller-dsp-identification/
 - Marlin 1.1.9 or later
 
 New controllers added regularly, if your controller is not listed, please
-contact the developers at lightburnsoftware@gmail.com
+contact the developers at support@lightburnsoftware.com
 
