@@ -16,11 +16,11 @@ Using the camera as a monitor is simple - enable the Camera Control window (righ
 
 You'll be presented with a window that looks like this:
 
-![](/img/Camera/CameraControl.png)
+![](./img/Camera/CameraControl.png)
 
 If your system has a compatible USB camera connected, it will appear in the Camera drop-down box. Select the camera, and the view from the camera will appear in the window, as shown:
 
-![](/img/Camera/CameraControl-Monitor.png)
+![](./img/Camera/CameraControl-Monitor.png)
 
 
 
