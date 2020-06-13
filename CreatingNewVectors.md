@@ -43,8 +43,10 @@ The Polygon tool allows you to draw an N-sided polygon. Select the polygon tool 
 * Pressing C while hovering over a node will convert it to a corner, allowing the two handles to be manipulated independently of each other.
 * Pressing D when hovering over a node will delete it and connect the lines on either side together.
 * Pressing D when hovering over a line will delete it and open or split the shape.
-* Pressing I when hovering over a line or curve will insert a new node at that point along the line
-* Pressing B when hovering over a point will break the curve at that point
+* Pressing I when hovering over a line or curve will insert a new node at that point along the line.
+* Pressing B when hovering over a point will break the curve at that point.
+* Pressing T when hovering over a line will trim the line under the mouse at the next intersection with another line.
+* Pressing E when hovering over a point will extend the line from the point under the mouse to the next intersection with another shape.
 
 <a name="Snapping"></a>
 
