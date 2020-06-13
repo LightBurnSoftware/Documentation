@@ -32,7 +32,7 @@ The Polygon tool allows you to draw an N-sided polygon. Select the polygon tool 
 
 
 
-### Node Editing Tool ![Node Tool Icon](./img/NodeTool.png)
+### Node Editing Tool ![Node Tool Icon](./img/NodeTool.PNG)
 
 [Video Tutorial #2: Node Editing](https://www.youtube.com/watch?v=uzFsrUwONbw#t=9m15s)
 
