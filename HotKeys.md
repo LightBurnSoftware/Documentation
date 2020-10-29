@@ -38,28 +38,33 @@ Most feature hot-keys can be found next to the action in the menus.
 * **Open**    Ctrl + O
 * **Import**  Ctrl + I
 * **Save**    Ctrl + S
+* **Save As** Ctrl + Shift + S
 * **Exit**    Ctrl + Q 
-
-
 
 ### Edit
 * **Undo**           Ctrl + Z
 * **Redo**           Ctrl + Shift + Z
 * **Select All**     Ctrl + A
+* **Invert Selection** Ctrl +Shift + I
 * **Cut**            Ctrl + X
 * **Copy**          Ctrl + C
 * **Duplicate**      Ctrl + D
 * **Paste**          Ctrl + V
+* **Paste in place** Alt + V
+* **Convert to Path** Ctrl + Shift + C
+* **Convert to Bitmap** Ctrl + Shift + B
 * **Close Path**     Alt + C
 * **Auto Join**      Alt + J
 * **Optimize**       Alt + O
+* **Delete Duplicates** Alt + D
 * **Convert to Cut** Ctrl + Shift + C
 
 ### Tools
 * **Draw Line**  Ctrl + L
 * **Rectangle** Ctrl +R
 * **Ellipse** Ctrl + E
-* **Edit Nodes** Ctrl + ?
+* **Edit Nodes** Ctrl + `
+* **Add Tabs** Ctrl + ⇥
 * **Edit Text** Ctrl + T
 * **Zoom In** Ctrl + =
 * **Zoom Out** Ctrl + -
@@ -71,6 +76,7 @@ Most feature hot-keys can be found next to the action in the menus.
 * **Ungroup** Ctrl + U
 * **Flip Horizontal** Ctrl + Shift + H  (or just 'H' in the edit window)
 * **Flip Vertical** Ctrl + Shift + V  (or just 'V' in the edit window)
+* **Mirror Across Line** Alt + M
 * **Rotate 90 clockwise** Press '.' (decimal) in the edit window
 * **Rotate 90 Counter-clockwise** Press ',' (comma) in the edit window
 * **Align Left** Ctrl + Shift + Left Arrow (or just 'L' in the edit window)
@@ -80,8 +86,21 @@ Most feature hot-keys can be found next to the action in the menus.
 * **Align Centers Vertically** Ctrl + Shift + PgUp (or 'C' in the edit window)
 * **Align Centers Horizontally** Ctrl + Shift + PgDn (or 'E' in the edit window)
 * **Move Selection to Page Center** ('P' in the edit window)
+* **Move H-Together** Alt + Shift + H
+* **Move V-Together** Alt + Shift + V
+* **Break Apart** Alt + B
+* **Push forward in draw order** PgUp
+* **Push backward in draw order** PgDn
+* **Push to front** Ctrl + PgUp
+* **Push to back** Ctrl + PgDn
 
+### Window
+- **Preview** Alt + P
+- **Zoom In** Ctrl + =
+- **Zoom Out** Ctrl + -
+- **Frame Selection** Shift + Ctrl + A
 
+## Tool In-use - Hot-Keys
 
 ### Node Edit
 
@@ -92,7 +111,10 @@ Most feature hot-keys can be found next to the action in the menus.
 - **Delete node**  D  (while hovering over a node)
 - **Delete line**  D  (while hovering over a line)
 - **Insert node point**  I  (while hovering over a line or curve)
+- **Insert node at midpoint** M  (while hovering over a line or curve)
 - **Break shape at point**  B  (while hovering over a point)
+- **Trim line** T (while hovering over a line, trim line under mouse at next intersection)
+- **Extend line** E (while hovering over a point, extend line from point under mouse to intersection with another shape)
 
 
 
