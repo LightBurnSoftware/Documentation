@@ -1,5 +1,7 @@
 ![LightBurn Banner](./img/LightBurn_SlimBanner.jpg)
 
+# Please use [our new documentation site](https://docs.lightburnsoftware.com/)
+
 ## Disclaimer
 By using this software, the user accepts complete responsibility for each and every
 aspect of safety associated with the use of the Laser machine, Laser system and
